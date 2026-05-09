@@ -5,6 +5,30 @@
     <link>https://halinskiy.github.io/corder-updates/appcast.xml</link>
     <description>Auto-update feed for Corder.app</description>
     <language>en</language>
-    <!-- First release item gets injected here by Scripts/release.sh -->
+    <item>
+      <title>0.7.0</title>
+      <pubDate>Sat, 09 May 2026 14:25:39 +0000</pubDate>
+      <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[
+        <h3>Dual-track Gemini transcription</h3>
+        <p>Mic and system audio go to Gemini as two parallel calls now, mic forced to a single speaker, system asked to diarise the remote side. Solves the "your words got merged with your friend's during a silent gap" failure mode.</p>
+        <h3>Floating recording HUD</h3>
+        <p>Granola-style pill that hovers over every Space while you record. Pulsing dot, live EQ-style waveform, elapsed timer, one-click stop.</p>
+        <h3>7-day archive bin</h3>
+        <p>Sessions you don't want to see go to a soft-archive bin instead of being deleted. Restore or purge per row, or let the 7-day timer clean them up automatically.</p>
+        <h3>Smart re-transcribe</h3>
+        <p>Raw Gemini turns are cached by audio MD5. Re-mapping speakers and re-transcribing after a Dropbox archive both reuse the cache — zero extra API calls.</p>
+        <h3>New app icon</h3>
+        <p>Two glossy 3D pause bars on a warm-white radial ground. Cleared the old green-on-white logo from the icon cache.</p>
+      ]]></description>
+      <enclosure
+        url="https://halinskiy.github.io/corder-updates/Corder-0.7.0.zip"
+        sparkle:version="7"
+        sparkle:shortVersionString="0.7.0"
+        sparkle:edSignature="XKAbzdJ8yQUb2dJjxMMEqJdtFgqLOW3SB4FtcBqIdl7IaoVz59Ai7DSaRQMMaaskt+iTrhO3u4XcfcYrzVWpBw=="
+        length="3652744"
+        type="application/octet-stream"
+      />
+    </item>
   </channel>
 </rss>
