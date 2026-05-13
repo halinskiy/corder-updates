@@ -6,6 +6,23 @@
     <description>Auto-update feed for Corder.app</description>
     <language>en</language>
     <item>
+      <title>0.8.2</title>
+      <pubDate>Wed, 13 May 2026 17:15:00 +0000</pubDate>
+      <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[
+        <h3>Update-pill</h3>
+        <p>Зелёная pill в тулбаре теперь показывает целевую версию апдейта и обновляется при возврате окна в фокус.</p>
+      ]]></description>
+      <enclosure
+        url="https://halinskiy.github.io/corder-updates/Corder-0.8.2.zip"
+        sparkle:version="10"
+        sparkle:shortVersionString="0.8.2"
+        sparkle:edSignature="hOE0QzxBlAaYOLTg+IT5ELI8JVcGo6Son5rMz6JR0fWI5jA12R6tzKYvDvx+kA6VVgFfOZfB//Dzi51dh7maCg=="
+        length="3731965"
+        type="application/octet-stream"
+      />
+    </item>
+    <item>
       <title>0.8.1</title>
       <pubDate>Wed, 13 May 2026 17:07:00 +0000</pubDate>
       <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
