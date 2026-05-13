@@ -6,6 +6,23 @@
     <description>Auto-update feed for Corder.app</description>
     <language>en</language>
     <item>
+      <title>0.8.6</title>
+      <pubDate>Wed, 13 May 2026 17:55:00 +0000</pubDate>
+      <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[
+        <h3>Скрытие пустого видео</h3>
+        <p>Если видео встречи недоступно (нет файла, нет в Dropbox или это старая запись), плеер больше не рендерит чёрный прямоугольник. Карточка скрывается, аудио-контролы поднимаются на её место.</p>
+      ]]></description>
+      <enclosure
+        url="https://halinskiy.github.io/corder-updates/Corder-0.8.6.zip"
+        sparkle:version="14"
+        sparkle:shortVersionString="0.8.6"
+        sparkle:edSignature="Ia4OWPPvaEe4SJQ+gmcfTgFooCOprdsZ8ocLmwqtkZyHfGHMFdOLHmW9ZNqxIg47JAsuoyXHABDV+5P3fRMPAw=="
+        length="3733007"
+        type="application/octet-stream"
+      />
+    </item>
+    <item>
       <title>0.8.5</title>
       <pubDate>Wed, 13 May 2026 17:45:00 +0000</pubDate>
       <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
