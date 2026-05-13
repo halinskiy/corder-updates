@@ -6,6 +6,25 @@
     <description>Auto-update feed for Corder.app</description>
     <language>en</language>
     <item>
+      <title>0.8.3</title>
+      <pubDate>Wed, 13 May 2026 17:25:00 +0000</pubDate>
+      <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[
+        <h3>Pill реально появляется</h3>
+        <p>Sparkle делает silent background-check через 2 с после старта, не ждёт 24 ч. Update-pill «Доступен апдейт» теперь зажигается у свежей установки.</p>
+        <h3>Курсор-pointer на блобе</h3>
+        <p>Курсор на плавающем блобе наконец стабильно превращается в pointing hand — NSTrackingArea с mouseEntered/Exited push/pop.</p>
+      ]]></description>
+      <enclosure
+        url="https://halinskiy.github.io/corder-updates/Corder-0.8.3.zip"
+        sparkle:version="11"
+        sparkle:shortVersionString="0.8.3"
+        sparkle:edSignature="Ch3nQyKC9WuJUCSQW26toSFWMBAeEL+au3pSjGNzSSYj9WkDo4aMhWNaparLZUNIAZr3mPpBTW0gjm3Vo0XUDw=="
+        length="3733038"
+        type="application/octet-stream"
+      />
+    </item>
+    <item>
       <title>0.8.2</title>
       <pubDate>Wed, 13 May 2026 17:15:00 +0000</pubDate>
       <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
