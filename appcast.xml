@@ -6,6 +6,35 @@
     <description>Auto-update feed for Corder.app</description>
     <language>en</language>
     <item>
+      <title>0.8.0</title>
+      <pubDate>Wed, 13 May 2026 16:52:00 +0000</pubDate>
+      <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[
+        <h3>Auto-detect видео-звонков</h3>
+        <p>Когда стартует знакомое meeting-приложение (Zoom, Teams, Meet, Slack, браузеры с веб-звонками) и системный микрофон занят дольше трёх секунд — всплывает blurred-капсула с предложением начать запись. Тап — она морфает в плавающий блоб.</p>
+        <h3>Запись экрана</h3>
+        <p>Теперь действительно пишется <code>video.mov</code> — HEVC, 15 fps, ~1.5 Mbps. В Library показывается немое превью над аудио-плеером, аудио ведёт таймлайн.</p>
+        <h3>Блоб в окне Library</h3>
+        <p>Кнопка в правом нижнем углу — тот же морфящийся SwiftUI-блоб, что и плавающий HUD. Клик переключает запись, плавающий блоб уходит пока Library в фокусе.</p>
+        <h3>Skeleton UI</h3>
+        <p>Список встреч и панель деталей рендерят shimmer-плейсхолдеры на первой загрузке вместо пустоты или мгновенной вспышки контента.</p>
+        <h3>Меньше тормозов</h3>
+        <p>TimelineView блоба сброшен с 60 Hz на state-driven 6–30 Hz и паузится когда окно скрыто. React polling замедлен в idle (1 с → 5 с, 5 с → 15 с). MeetingDetector — 2 с → 4 с, CoreAudio-запрос пропускается если ни одного meeting-приложения не запущено. <code>/api/meetings</code> — N+1 → один SQL запрос. В сумме фоновый CPU стал в разы меньше.</p>
+        <h3>Чище плейбек</h3>
+        <p>Локально остаётся <code>audio.wav</code> (полный mic+system mix) и плеер берёт его вместо mic-only — голос собеседника теперь слышно. Auto-detected встречи стартуют с <code>expectedOtherSpeakers=1</code>, и dual-track маппер схлопывает все Gemini-лейблы в одного Speaker 2 — больше никаких 5 фантомных спикеров на длинном 1:1 звонке.</p>
+        <h3>Прочее</h3>
+        <p>Плавающий блоб упирается в края экрана. Удалена Donate-кнопка и обвязка, мёртвый Dropbox-метод, неиспользуемые i18n-ключи и CSS.</p>
+      ]]></description>
+      <enclosure
+        url="https://halinskiy.github.io/corder-updates/Corder-0.8.0.zip"
+        sparkle:version="8"
+        sparkle:shortVersionString="0.8.0"
+        sparkle:edSignature="FYWsMzfFSctbAkzkuPjcafLPvNU33pQiQtDHpXz9phEw1HqW7uUkJu9pEYmux5L+F5qs1lUrbE0nTaJBmxpKDg=="
+        length="3723401"
+        type="application/octet-stream"
+      />
+    </item>
+    <item>
       <title>0.7.0</title>
       <pubDate>Sat, 09 May 2026 14:25:39 +0000</pubDate>
       <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
