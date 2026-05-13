@@ -6,6 +6,23 @@
     <description>Auto-update feed for Corder.app</description>
     <language>en</language>
     <item>
+      <title>0.8.5</title>
+      <pubDate>Wed, 13 May 2026 17:45:00 +0000</pubDate>
+      <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[
+        <h3>0 % CPU в idle</h3>
+        <p>TimelineView блоба больше не тикает когда ничего не происходит. Было ~10 % CPU фоном, стало 0 %. Анимация снова оживает при ховере или во время записи.</p>
+      ]]></description>
+      <enclosure
+        url="https://halinskiy.github.io/corder-updates/Corder-0.8.5.zip"
+        sparkle:version="13"
+        sparkle:shortVersionString="0.8.5"
+        sparkle:edSignature="tr4hCRu5lVM7daGdSz1xyZG/Zdul3RLrmMWcjPWizsYT6ZCJZ415ny6cmdYWyiO3KgvLenPoMMkr5JGWlif6Bw=="
+        length="3732997"
+        type="application/octet-stream"
+      />
+    </item>
+    <item>
       <title>0.8.4</title>
       <pubDate>Wed, 13 May 2026 17:35:00 +0000</pubDate>
       <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
