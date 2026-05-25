@@ -6,6 +6,29 @@
     <description>Auto-update feed for Corder.app</description>
     <language>en</language>
     <item>
+      <title>0.9.0</title>
+      <pubDate>Sun, 25 May 2026 02:00:00 +0000</pubDate>
+      <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[
+        <h3>Notarized Developer ID build</h3>
+        <p>Corder теперь подписан Developer ID и нотарайзен Apple — Gatekeeper больше не показывает «can't be verified».</p>
+        <h3>Welcome wizard</h3>
+        <p>Onboarding-окно при первом запуске: микрофон, screen recording, и поле для email подписки.</p>
+        <h3>Paddle integration</h3>
+        <p>Покупка Pro теперь работает через checkout на getcorder.com.</p>
+        <h3>Mic device picker</h3>
+        <p>В Settings можно выбрать, с какого микрофона писать (по умолчанию системный).</p>
+      ]]></description>
+      <enclosure
+        url="https://halinskiy.github.io/corder-updates/Corder-0.9.0.zip"
+        sparkle:version="17"
+        sparkle:shortVersionString="0.9.0"
+        sparkle:edSignature="5FeZktp9ws/Z2fbzlDT5JxWUX94mfFL1tBiPKGlda0FphUFfuXJmC3My1MUWclVvTdZnGh0OZFRDoEJYupvFDA=="
+        length="8171076"
+        type="application/octet-stream"
+      />
+    </item>
+    <item>
       <title>0.8.6</title>
       <pubDate>Wed, 13 May 2026 17:55:00 +0000</pubDate>
       <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
