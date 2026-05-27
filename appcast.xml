@@ -6,6 +6,49 @@
     <description>Auto-update feed for Corder.app</description>
     <language>en</language>
     <item>
+      <title>0.10.0</title>
+      <pubDate>Wed, 27 May 2026 14:00:00 +0000</pubDate>
+      <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[
+        <h3>Три провайдера транскрипции</h3>
+        <p>Cloud Whisper (OpenAI whisper-1 + gpt-4o-mini polish) и локальный WhisperKit large-v3-turbo через Core ML добавлены к Gemini. Локальный путь стоит $0 после разовой загрузки ~1.5 ГБ модели — только Apple Silicon. На Intel прозрачный фолбэк на Gemini.</p>
+        <h3>Welcome wizard и Google OAuth</h3>
+        <p>Двухшаговый онбординг при первом запуске: микрофон + Screen Recording с deep-link в System Settings, потом sign-in (email/password или Continue with Google через системный браузер).</p>
+        <h3>Дашборд как landing</h3>
+        <p>Открытие Library без активной сессии показывает дашборд: статистика слева, сортируемый список Recent справа (по длительности, дате или числу спикеров), общий ResizeHandle с MeetingView.</p>
+        <h3>20 языков интерфейса</h3>
+        <p>Globe-кнопка в шапке открывает попап со флагами и поиском. Полные переводы: en, uk, ru, de, fr, es, pt, it, pl, cs, tr, nl, sv, id, vi, ja, ko, zh, hi, ar. Локали без полного словаря фолбэкаются на English.</p>
+        <h3>Auto-summary и Summary tab</h3>
+        <p>Опционально в Настройках: после транскрибации Gemini кладёт структурированное Granola-style саммари рядом с транскриптом. Отдельный таб с тулбаром Copy / Refresh / Search.</p>
+        <h3>Меню профиля + аватары</h3>
+        <p>Попап с 9 SVG-вариантами аватара (3×3 пикер), переход на Dashboard, кросс-сурфейс Settings, Sign out.</p>
+        <h3>Mark-as-viewed</h3>
+        <p>Непросмотренные записи в сайдбаре и Recent — золотистым заголовком. Снимается автоматически при первом открытии в статусе ready.</p>
+        <h3>Auto-archive безмолвных записей</h3>
+        <p>Запись короче 60 с без речи переезжает в Архив (7 дней удержания) с тостом и нотификацией.</p>
+        <h3>Глобальный шорткат записи</h3>
+        <p>По умолчанию ⌘⇧F — Carbon RegisterEventHotKey без Accessibility prompts. Переназначается в Настройках.</p>
+        <h3>Per-app фильтры записи</h3>
+        <p>Whitelist / blacklist для авто-предложения записи: пикер установленных приложений с настоящими иконками вместо ручного ввода bundle id.</p>
+        <h3>Полная потеря системного звука — починена</h3>
+        <p>Поздний буфер Core-Audio тапа после <code>CaptureEngine.stop()</code> пересоздавал и обнулял уже записанный <code>system.wav</code>. Добавлен <code>tearingDown</code> флаг — поздние буферы дропаются, а не truncate'ят файл.</p>
+        <h3>Эхо в dual-track — починено</h3>
+        <p>Одинаковые реплики «своими словами» больше не приписываются собеседнику — добавлен <code>echoFiltered</code> поверх мика.</p>
+        <h3>BT-аудио собеседника</h3>
+        <p>Выбор дорожки (Core-Audio tap vs SCStream backup) теперь по голосовой энергии, а не по факту Bluetooth-роута.</p>
+        <h3>Header drag через JS bridge</h3>
+        <p>WKWebView больше не глотает mousedown — окно тянется за любую пустую часть header'а.</p>
+      ]]></description>
+      <enclosure
+        url="https://halinskiy.github.io/corder-updates/Corder-0.10.0.zip"
+        sparkle:version="20"
+        sparkle:shortVersionString="0.10.0"
+        sparkle:edSignature="qDRZ2cPaNJ+Nt/MfJNk4By0rg6jlrkSRw6TuUJHcb6R6jjmXhRqAdaYwODY8V0sTZKkr4hfK5Gm/g8SpC8F8CQ=="
+        length="8615012"
+        type="application/octet-stream"
+      />
+    </item>
+    <item>
       <title>0.9.0</title>
       <pubDate>Sun, 25 May 2026 02:00:00 +0000</pubDate>
       <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
