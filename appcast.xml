@@ -6,6 +6,34 @@
     <description>Auto-update feed for Corder.app</description>
     <language>en</language>
     <item>
+      <title>0.11.0</title>
+      <pubDate>Wed, 27 May 2026 23:30:00 +0000</pubDate>
+      <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[
+        <h3>Выбор размера локальной модели Whisper</h3>
+        <p>В Настройках → Transcription model теперь четыре варианта: Turbo (1.5 GB), Small (480 MB), Base (150 MB), Tiny (75 MB). Под выпадающим списком — primary-кнопка «Download model» с заполняющимся progress bar внутри: можно заранее скачать любую модель и переключаться между ними без перезапуска.</p>
+        <h3>Language picker переехал в Settings</h3>
+        <p>Стал третьим блоком рядом с Microphone и Transcription model — единый паттерн «label + desc + dropdown». В шапке язык больше не дублируется.</p>
+        <h3>Свои выпадающие списки вместо системных</h3>
+        <p>Microphone и Transcription model перерисованы под тот же портальный popover, что и LangPicker. Авто-флип вверх, если снизу не помещается — больше нет обрезания за нижним краем настроек.</p>
+        <h3>Get help в профиле</h3>
+        <p>Новый пункт меню → mailto-handoff в поддержку. Меню сгруппировано: Dashboard / Language / Settings сверху, Get help / Sign out снизу.</p>
+        <h3>Rating banner под транскриптом</h3>
+        <p>После готового транскрипта внизу появляется компактный inline-промпт: 1–5 звёзд, опциональный комментарий при оценке ≤ 4 и опциональный email.</p>
+        <h3>Start recording — толще шрифт</h3>
+        <p>Primary-кнопка в menu-bar popover теперь рендерится <code>.regular</code> weight вместо <code>.light</code> — визуально совпадает по плотности с Open library под ней.</p>
+        <h3>DMG installer вместо ZIP</h3>
+        <p>Новый стилизованный DMG с дугой/стрелкой между иконками Corder и Applications. Подписан Developer ID и нотаризован.</p>
+      ]]></description>
+      <sparkle:version>21</sparkle:version>
+      <sparkle:shortVersionString>0.11.0</sparkle:shortVersionString>
+      <enclosure
+        url="https://github.com/halinskiy/corder-updates/releases/download/v0.11.0/Corder-0.11.0.dmg"
+        sparkle:edSignature="6M/JpvAVOHMQX4R30iPrQo+7DA4rmn2vTXuQmALHQ4uEk0mE+KOa5UP7ezJiUWd1HxNfxrxfGm8DkRGWFF9aBQ=="
+        length="8512041"
+        type="application/x-apple-diskimage"/>
+    </item>
+    <item>
       <title>0.10.0</title>
       <pubDate>Wed, 27 May 2026 14:00:00 +0000</pubDate>
       <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
