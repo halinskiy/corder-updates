@@ -6,6 +6,30 @@
     <description>Auto-update feed for Corder.app</description>
     <language>en</language>
     <item>
+      <title>0.13.0</title>
+      <pubDate>Thu, 28 May 2026 11:50:00 +0000</pubDate>
+      <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[
+        <h3>API доступ + MCP token в Settings</h3>
+        <p>Новая карточка «API access»: показывает персональный токен для интеграции Corder с Claude Desktop, Cursor, ChatGPT desktop или прямых вызовов REST API. Один клик — токен в буфере.</p>
+        <h3>MCP-сервер @corder/mcp</h3>
+        <p>Опубликован Node-пакет с MCP-инструментами: list_meetings, get_meeting, search_transcripts, get_summary, list_speakers. Любой MCP-клиент теперь видит твои встречи нативно. Row-level security в Supabase ограничивает доступ только тобой.</p>
+        <h3>Тултипы на тулбаре</h3>
+        <p>Settings, Archive, Theme switch, Copy, Refresh, Fullscreen — везде быстрые подсказки (350 мс), в стиле дизайн-системы.</p>
+        <h3>Archive отключается, если пуст</h3>
+        <p>Кнопка Archive в шапке disabled когда у тебя нет архивированных встреч — с подсказкой «Архив пуст» при наведении.</p>
+        <h3>Email/password — настоящий Supabase Auth</h3>
+        <p>Welcome wizard через email/password теперь создаёт реальный Supabase-аккаунт с первой же сессии (sign-in → fallback на sign-up при первом входе).</p>
+      ]]></description>
+      <sparkle:version>23</sparkle:version>
+      <sparkle:shortVersionString>0.13.0</sparkle:shortVersionString>
+      <enclosure
+        url="https://github.com/halinskiy/corder-updates/releases/download/v0.13.0/Corder-0.13.0.dmg"
+        sparkle:edSignature="GLE0G2ITmgVhJPeNadPc0uvqX6xg9NoUK4LxqCsM4/GM4UpuMVEaOQklw11a9FeTjecax1M1vrPcFaxrBXXZAQ=="
+        length="10016792"
+        type="application/x-apple-diskimage"/>
+    </item>
+    <item>
       <title>0.12.0</title>
       <pubDate>Thu, 28 May 2026 10:20:00 +0000</pubDate>
       <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
