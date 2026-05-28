@@ -6,6 +6,26 @@
     <description>Auto-update feed for Corder.app</description>
     <language>en</language>
     <item>
+      <title>0.13.4</title>
+      <pubDate>Thu, 28 May 2026 18:05:00 +0000</pubDate>
+      <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[
+        <h3>Local Whisper tokenizer fix</h3>
+        <p>WhisperKit init no longer dies with <code>Tokenizer configuration is missing</code> on the first transcribe. The pipe init now allows the SDK to fetch the tokenizer sidecar (it lives in a different HF repo from the Core ML packages); already-downloaded model files are reused.</p>
+        <h3>Sidebar status reads honest</h3>
+        <p>Rows whose backend status is <code>transcribing</code> no longer wear a pulsing gold dot — it falsely implied the pipeline was actively working even after it stopped (auto-transcribe off, post-launch stalls, etc.). They show a hollow circle now; the "transcribing" word is gone from the meta line.</p>
+        <h3>Profile menu: Check for updates</h3>
+        <p>New row in the avatar popover that forces Sparkle to re-fetch the appcast immediately, instead of waiting on its lazy ~24 h schedule.</p>
+      ]]></description>
+      <sparkle:version>27</sparkle:version>
+      <sparkle:shortVersionString>0.13.4</sparkle:shortVersionString>
+      <enclosure
+        url="https://github.com/halinskiy/corder-updates/releases/download/v0.13.4/Corder-0.13.4.dmg"
+        sparkle:edSignature="xhcpHsawLOGqVe/kKLnyvQa5AY/G9CB0tnGd4peV/tbV3kW7PCBcLY1LCo4icG4xBSSKg7hE0Dd5Op9e05BBAQ=="
+        length="10023161"
+        type="application/x-apple-diskimage"/>
+    </item>
+    <item>
       <title>0.13.3</title>
       <pubDate>Thu, 28 May 2026 15:25:00 +0000</pubDate>
       <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
