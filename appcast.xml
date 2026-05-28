@@ -6,6 +6,32 @@
     <description>Auto-update feed for Corder.app</description>
     <language>en</language>
     <item>
+      <title>0.13.3</title>
+      <pubDate>Thu, 28 May 2026 15:25:00 +0000</pubDate>
+      <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[
+        <h3>Whisper model auto-prefetch + Dashboard picker</h3>
+        <p>On-device Whisper Turbo (1.5 GB) now starts downloading silently on first launch — no more 3-5 min cold start when you record the first call. The first time you press Start, a progress pill appears under the Dashboard primary button; once the model is on disk it morphs into a permanent variant picker (Turbo / Small / Base / Tiny). Same control, single source of truth — the duplicate picker in Settings is gone.</p>
+        <h3>Google sign-in landing page</h3>
+        <p>The Welcome wizard's Continue with Google now redirects to a styled in-app success page (3mpq + Corder marks, ⌘W hint) instead of leaving the browser hanging on Google's account chooser. (Project owners: add <code>http://127.0.0.1:**</code> to Supabase → Authentication → URL Configuration → Redirect URLs so the loopback passes the allowlist.)</p>
+        <h3>Welcome sign-in: per-field errors</h3>
+        <p>"Sign in with email" is always brand-green active. Bad input lights up red borders + inline captions under the offending field, instead of greying out the CTA.</p>
+        <h3>Header drag — finally rock solid (recap from 0.13.1)</h3>
+        <p>If you missed the previous build: the whole header is a native drag region. Click-to-rename + every toolbar button keep working through a hit-test that pulls live bounding rects of the React buttons from the page. Drag works in every pixel — between buttons, over breadcrumb text, down to the bottom border.</p>
+        <h3>PopoverShell + settings cleanup</h3>
+        <p>Menu-bar popover geometry now lives on a single <code>PopoverShell</code> token set so the main popover and the meeting-invite surface stay byte-identical when one number moves. Settings reorganised: Auto-transcribe / Auto-title / Auto-summary moved above Microphone; the Transcription model card lives only under the Dashboard now. API access + Delete account descriptions trimmed. Settings toolbar gear is now a toggle.</p>
+        <h3>Misc</h3>
+        <p>Empty Library on first launch (the canned demo rows are gone). Idle subtitle shortened to "Start a recording in the background." Recording subtitle shortened to "Corder keeps recording in the background." Menu-bar popover layout tightened — 8 pt closer to the divider on both sides. <code>corder-mcp</code> published to npm.</p>
+      ]]></description>
+      <sparkle:version>26</sparkle:version>
+      <sparkle:shortVersionString>0.13.3</sparkle:shortVersionString>
+      <enclosure
+        url="https://github.com/halinskiy/corder-updates/releases/download/v0.13.3/Corder-0.13.3.dmg"
+        sparkle:edSignature="ly/DI5D3mPFN7nr22MEYnnCKA3ux+moH/Xrr5eR8YUbWbwx8y4PxmCWO2lftZDejzKxxGORqYUCwkJQ+TaE4Ag=="
+        length="10022035"
+        type="application/x-apple-diskimage"/>
+    </item>
+    <item>
       <title>0.13.2</title>
       <pubDate>Thu, 28 May 2026 12:50:00 +0000</pubDate>
       <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
