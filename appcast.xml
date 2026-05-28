@@ -6,6 +6,38 @@
     <description>Auto-update feed for Corder.app</description>
     <language>en</language>
     <item>
+      <title>0.12.0</title>
+      <pubDate>Thu, 28 May 2026 10:20:00 +0000</pubDate>
+      <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[
+        <h3>Облачная синхронизация</h3>
+        <p>Meetings, speakers, segments, summaries и аудио теперь зеркалятся в Supabase. Залогинься на втором Mac — твоя библиотека уже там.</p>
+        <h3>Локальное per-account хранилище</h3>
+        <p>Каждый Google account на одной машине получает свою папку — несколько аккаунтов не видят чужие записи на уровне файловой системы.</p>
+        <h3>Sign in через Supabase</h3>
+        <p>Welcome wizard: Google OAuth + email/password через Supabase Auth. Сессия восстанавливается при запуске, sign out / sign in переключают аккаунты с автоматическим перезапуском.</p>
+        <h3>Delete account</h3>
+        <p>Кнопка в Settings (внизу, красная, с подтверждением). Удаляет все meetings/speakers/segments/summaries и Storage-файлы пользователя в облаке + локальное состояние.</p>
+        <h3>Get help</h3>
+        <p>В профиль-меню — открывает <a href="https://getcorder.com/contact/">getcorder.com/contact</a> в системном браузере.</p>
+        <h3>Settings active state</h3>
+        <p>Иконка Settings в шапке подсвечивается, когда открыт Settings-пейн, так же как Archive.</p>
+        <h3>Уведомления больше не копятся</h3>
+        <p>Каждое следующее уведомление Corder заменяет предыдущее в Notification Center вместо стопки.</p>
+        <h3>Welcome email — только при первой регистрации</h3>
+        <p>Раньше письмо приходило при каждом Google-входе. Теперь — один раз. Лого в письме заменен на актуальный.</p>
+        <h3>Header drag фикс</h3>
+        <p>Клики на breadcrumb / toolbar-кнопки больше не глотаются drag-зоной. Title-bar strip вернулся к 28 pt.</p>
+      ]]></description>
+      <sparkle:version>22</sparkle:version>
+      <sparkle:shortVersionString>0.12.0</sparkle:shortVersionString>
+      <enclosure
+        url="https://github.com/halinskiy/corder-updates/releases/download/v0.12.0/Corder-0.12.0.dmg"
+        sparkle:edSignature="f+abhAMuXcBbLWWnLaCJVMbjWw0eIfqgWqIvLmfLVuyLUoeUtJzdr7YmseYsoWRnU9n/KxnR8bIz2/N8Gt5fAA=="
+        length="10014454"
+        type="application/x-apple-diskimage"/>
+    </item>
+    <item>
       <title>0.11.0</title>
       <pubDate>Wed, 27 May 2026 23:30:00 +0000</pubDate>
       <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
