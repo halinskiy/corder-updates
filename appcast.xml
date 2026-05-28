@@ -6,6 +6,24 @@
     <description>Auto-update feed for Corder.app</description>
     <language>en</language>
     <item>
+      <title>0.13.1</title>
+      <pubDate>Thu, 28 May 2026 12:35:00 +0000</pubDate>
+      <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[
+        <h3>Header drag — rock solid at last</h3>
+        <p>Replaced the old hybrid (28 pt native strip + async JS bridge for the rest) with a single full-coverage native overlay. The page reports the exact bounding rect of every interactive toolbar button via a <code>headerHits</code> bridge, and the overlay's hit-test passes events through only over those rects. Drag works in every other pixel — between buttons, over breadcrumb text, all the way down to the bottom border — while hover and click on the real buttons stay native.</p>
+        <h3>Tooltips stop lingering after click</h3>
+        <p>Clicking a toolbar button now hides the tooltip instantly and suppresses it until the cursor leaves and comes back. No more chip floating over the button while the theme or archive is already switching.</p>
+      ]]></description>
+      <sparkle:version>24</sparkle:version>
+      <sparkle:shortVersionString>0.13.1</sparkle:shortVersionString>
+      <enclosure
+        url="https://github.com/halinskiy/corder-updates/releases/download/v0.13.1/Corder-0.13.1.dmg"
+        sparkle:edSignature="xvv3npZItGGmFKViczkK485CULR4A81pk7itBcvrbKQkuAINjO4zc7G8da4+VXDhkrbOFnUGi/sjVwrUDNeaCA=="
+        length="10016618"
+        type="application/x-apple-diskimage"/>
+    </item>
+    <item>
       <title>0.13.0</title>
       <pubDate>Thu, 28 May 2026 11:50:00 +0000</pubDate>
       <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
