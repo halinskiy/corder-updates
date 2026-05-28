@@ -6,6 +6,24 @@
     <description>Auto-update feed for Corder.app</description>
     <language>en</language>
     <item>
+      <title>0.13.2</title>
+      <pubDate>Thu, 28 May 2026 12:50:00 +0000</pubDate>
+      <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[
+        <h3>Tooltips on more buttons</h3>
+        <p>Same 350 ms delay + design-system chip is now on the transcript-toolbar Clarify (Users) button, the Archive sidebar Restore action, the video fullscreen Close, and the Update pill — matches what the header toolbar already had.</p>
+        <h3>Tooltip click suppression — everywhere</h3>
+        <p>Clicking any Tooltip-wrapped trigger hides the chip instantly and suppresses re-show until the cursor leaves and comes back. No more chip floating over a button that's already mid-click.</p>
+      ]]></description>
+      <sparkle:version>25</sparkle:version>
+      <sparkle:shortVersionString>0.13.2</sparkle:shortVersionString>
+      <enclosure
+        url="https://github.com/halinskiy/corder-updates/releases/download/v0.13.2/Corder-0.13.2.dmg"
+        sparkle:edSignature="cfJlxUqDWpAcyuD9ip41bhuACDZxFifIuzB7Elb2lfUb8iANkFpvXTOUZHB7VwlzTqegw88YN8GPBSwGgSkBAg=="
+        length="10016328"
+        type="application/x-apple-diskimage"/>
+    </item>
+    <item>
       <title>0.13.1</title>
       <pubDate>Thu, 28 May 2026 12:35:00 +0000</pubDate>
       <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
