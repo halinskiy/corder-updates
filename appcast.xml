@@ -6,6 +6,24 @@
     <description>Auto-update feed for Corder.app</description>
     <language>en</language>
     <item>
+      <title>0.13.5</title>
+      <pubDate>Sat, 30 May 2026 12:35:00 +0000</pubDate>
+      <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[
+        <h3>Sign In / Sign Up auto-detect in the Welcome wizard</h3>
+        <p>The sign-in step now figures out whether your email belongs to an existing account before you submit and swaps the title between <strong>Sign In</strong> and <strong>Sign Up</strong> with a soft squeeze animation (same easing as the recording pill on the landing page). For new emails a <em>Confirm password</em> field slides in beneath Password — no more silent account creation when you mistype credentials.</p>
+        <h3>Google sign-in success page</h3>
+        <p>The "You're signed in" page in your browser now uses the dot-grid background from 3mpq.studio, and both header marks are clickable: 3mpq → studio, Corder → getcorder.com.</p>
+      ]]></description>
+      <sparkle:version>28</sparkle:version>
+      <sparkle:shortVersionString>0.13.5</sparkle:shortVersionString>
+      <enclosure
+        url="https://github.com/halinskiy/corder-updates/releases/download/v0.13.5/Corder-0.13.5.dmg"
+        sparkle:edSignature="lKnZs9QN6v95tJ4nZ+EitOAKEIwkAKTiZ5NAyltsxirBbYzl8dIXSUIY++u2UMVcdvTxsKM8aEonh5bdXayTCw=="
+        length="10025504"
+        type="application/x-apple-diskimage"/>
+    </item>
+    <item>
       <title>0.13.4</title>
       <pubDate>Thu, 28 May 2026 18:05:00 +0000</pubDate>
       <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
