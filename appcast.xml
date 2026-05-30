@@ -6,6 +6,28 @@
     <description>Auto-update feed for Corder.app</description>
     <language>en</language>
     <item>
+      <title>0.13.6</title>
+      <pubDate>Sat, 30 May 2026 22:05:00 +0000</pubDate>
+      <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[
+        <h3>Monthly usage card on the Dashboard</h3>
+        <p>Two new progress bars under your recording stats: <strong>Advanced transcription</strong> (cloud minutes, capped per plan) and <strong>Local Models</strong> (always unlimited). The bars start full and drain as you transcribe — the right side shows how much you have left.</p>
+        <h3>Cap + auto-fallback to on-device Whisper</h3>
+        <p>When the monthly cloud quota is exhausted, the next recording silently transcribes through the on-device model — no error, no manual switch. For this release the cap is a flat 60 minutes for every tier so the fallback path is testable; tier-specific caps come back with paid plans.</p>
+        <h3>Transcribing timer reads from the backend</h3>
+        <p>The elapsed counter under "Transcribing…" now reflects when the pipeline actually started, not when you happened to open the meeting view. No more "00:00" every time you switch to a session that's been running for a while.</p>
+        <h3>Smaller fixes</h3>
+        <p>Selecting a meeting then returning to the Dashboard now clears the sidebar's highlight (was sticking on the last opened row). The rating prompt drops the email field (we use your signed-in email automatically) and the Skip button (close via the X), leaving Send as the single primary CTA.</p>
+      ]]></description>
+      <sparkle:version>29</sparkle:version>
+      <sparkle:shortVersionString>0.13.6</sparkle:shortVersionString>
+      <enclosure
+        url="https://github.com/halinskiy/corder-updates/releases/download/v0.13.6/Corder-0.13.6.dmg"
+        sparkle:edSignature="mn8nLmB6s+aYTp5f2NPa6IdbA1cidIKGC4Tsrx1DV66lELoDkvBgd67j/dbLvuo6G5Wzd/gl2fwRofchGNj4BA=="
+        length="10039345"
+        type="application/x-apple-diskimage"/>
+    </item>
+    <item>
       <title>0.13.5</title>
       <pubDate>Sat, 30 May 2026 12:35:00 +0000</pubDate>
       <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
