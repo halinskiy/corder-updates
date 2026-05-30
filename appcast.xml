@@ -6,6 +6,24 @@
     <description>Auto-update feed for Corder.app</description>
     <language>en</language>
     <item>
+      <title>0.13.7</title>
+      <pubDate>Sat, 30 May 2026 23:14:00 +0000</pubDate>
+      <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[
+        <h3>Monthly usage card polish</h3>
+        <p>The two rows under "Monthly usage" now read as a continuation of the Stats card above — same typography, no progress pills. Layout: <strong>Advanced transcription</strong> on the left, "59 min left" / "unlimited" on the right. Cleaner at a glance, and easier to scan alongside Recordings / Total recorded / This week.</p>
+        <h3>Dashboard scrollbar</h3>
+        <p>The custom overlay thumb on the Dashboard left column now tracks the visible viewport height — previously it could extend past the column up to the window header when the column grew taller than its row. Right-column padding also matches the left now (was 22 px, now 20 px to align with everything else).</p>
+      ]]></description>
+      <sparkle:version>30</sparkle:version>
+      <sparkle:shortVersionString>0.13.7</sparkle:shortVersionString>
+      <enclosure
+        url="https://github.com/halinskiy/corder-updates/releases/download/v0.13.7/Corder-0.13.7.dmg"
+        sparkle:edSignature="SFNeyHrc51Z2xCtJTAht9RxXqUP630Y3YCSvcfkQWTCVTffy6RUe3OflT3ee/XC+lTRFfuQE4doi9234cUDLBA=="
+        length="10037682"
+        type="application/x-apple-diskimage"/>
+    </item>
+    <item>
       <title>0.13.6</title>
       <pubDate>Sat, 30 May 2026 22:05:00 +0000</pubDate>
       <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
