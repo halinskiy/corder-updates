@@ -6,6 +6,24 @@
     <description>Auto-update feed for Corder.app</description>
     <language>en</language>
     <item>
+      <title>0.13.9</title>
+      <pubDate>Sun, 31 May 2026 09:50:00 +0000</pubDate>
+      <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[
+        <h3>Dashboard cleanup</h3>
+        <p>Hid the Monthly usage card for now — re-enabled when paid plans go live and per-tier caps mean something again. The Bug-icon button still ships logs to the maintainer, the model picker still ships under Start; only the usage rollup is gone from the Dashboard for the moment.</p>
+        <h3>Bug reports now structured</h3>
+        <p>Submit-logs reports now also land as GitHub Issues in a private maintainer inbox (alongside the existing email), so triage isn't bottlenecked on inbox scrolling and long logs aren't lost mid-quote.</p>
+      ]]></description>
+      <sparkle:version>32</sparkle:version>
+      <sparkle:shortVersionString>0.13.9</sparkle:shortVersionString>
+      <enclosure
+        url="https://github.com/halinskiy/corder-updates/releases/download/v0.13.9/Corder-0.13.9.dmg"
+        sparkle:edSignature="eeybbnasj+HHSzjwxHNtCvheYGfURgU2d/qUXgdTQC4ugJlp1xJXN2REPMzvHXe+OrloQJVusHAswB2Zrg5MBg=="
+        length="10042106"
+        type="application/x-apple-diskimage"/>
+    </item>
+    <item>
       <title>0.13.8</title>
       <pubDate>Sun, 31 May 2026 09:30:00 +0000</pubDate>
       <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
