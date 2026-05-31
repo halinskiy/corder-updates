@@ -6,6 +6,22 @@
     <description>Auto-update feed for Corder.app</description>
     <language>en</language>
     <item>
+      <title>0.13.13</title>
+      <pubDate>Sun, 31 May 2026 10:42:00 +0000</pubDate>
+      <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[
+        <h3>Gemini cloud transcription works out of the box too</h3>
+        <p>Following 0.13.12 (which did the same for Whisper Cloud), Gemini Flash now runs through the Cloudflare Worker as well — full Files-API upload chain + <code>generateContent</code> proxied with a server-side Google key, gated by <code>app_metadata.tier</code>. Pro / Max users can pick either cloud provider in the Dashboard picker and have it just work, with no <code>~/.config/corder/</code> files to manage. Free-tier still transparently falls back to on-device Whisper when a cloud provider is selected without entitlement.</p>
+      ]]></description>
+      <sparkle:version>36</sparkle:version>
+      <sparkle:shortVersionString>0.13.13</sparkle:shortVersionString>
+      <enclosure
+        url="https://github.com/halinskiy/corder-updates/releases/download/v0.13.13/Corder-0.13.13.dmg"
+        sparkle:edSignature="feIH7ZZMjXv8OAQZd3aXOIqobMnMoDKw82FK+r5uuaNpZIPyGGPEELdTEMJJQ27HOhcmH7BNeXsmhUiasBImCQ=="
+        length="10048912"
+        type="application/x-apple-diskimage"/>
+    </item>
+    <item>
       <title>0.13.12</title>
       <pubDate>Sun, 31 May 2026 10:32:00 +0000</pubDate>
       <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
