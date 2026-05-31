@@ -6,6 +6,22 @@
     <description>Auto-update feed for Corder.app</description>
     <language>en</language>
     <item>
+      <title>0.13.14</title>
+      <pubDate>Sun, 31 May 2026 10:52:00 +0000</pubDate>
+      <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[
+        <h3>SupabaseSync foreign-key error — actually fixed</h3>
+        <p>0.13.8 reduced the noise but didn't eliminate the <code>segments_speaker_id_fkey</code> violation on every successful transcribe: speaker UUIDs were being resolved twice via <code>UUID(uuidString: s.id) ?? UUID()</code>, which yields a fresh random UUID each call when the local id isn't a valid UUID string. Speakers landed with one random, segments pointed at another, FK barfed. The two sides now agree.</p>
+      ]]></description>
+      <sparkle:version>37</sparkle:version>
+      <sparkle:shortVersionString>0.13.14</sparkle:shortVersionString>
+      <enclosure
+        url="https://github.com/halinskiy/corder-updates/releases/download/v0.13.14/Corder-0.13.14.dmg"
+        sparkle:edSignature="EALc9vQfRERUoRR9rZw6DNI8+hS+jjL8lAiHNQnmsZ1eYFJ0rX1bZ4hwjIxDyOn414wVNLmsv7P3l5BOyEN5CA=="
+        length="10049455"
+        type="application/x-apple-diskimage"/>
+    </item>
+    <item>
       <title>0.13.13</title>
       <pubDate>Sun, 31 May 2026 10:42:00 +0000</pubDate>
       <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
