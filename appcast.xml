@@ -6,6 +6,22 @@
     <description>Auto-update feed for Corder.app</description>
     <language>en</language>
     <item>
+      <title>0.13.22</title>
+      <pubDate>Sun, 31 May 2026 12:55:00 +0000</pubDate>
+      <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[
+        <h3>Help-improve-Corder telemetry (opt-in)</h3>
+        <p>New toggle in Settings, OFF by default. When on, Corder ships a tiny diagnostic envelope once per 24h: app version, macOS version, Mac model, RAM, tier, and aggregate counts (meetings transcribed, ready vs failed, cloud vs local). Email is SHA-256-hashed into an anonymous id before anything leaves the Mac. No transcripts, no audio, no raw email. Stored in a Cloudflare D1 database the maintainer can query for continuous health signal without having to ask every user to tap the Bug icon.</p>
+      ]]></description>
+      <sparkle:version>45</sparkle:version>
+      <sparkle:shortVersionString>0.13.22</sparkle:shortVersionString>
+      <enclosure
+        url="https://github.com/halinskiy/corder-updates/releases/download/v0.13.22/Corder-0.13.22.dmg"
+        sparkle:edSignature="kr2S81MSDxTrmtYCcACxWQFmLUVBZFJ8kF8wco5KrZOIDKJXMq5428Ac4ax3bgTrp6R0wTsuzhs7AgphCkR8DQ=="
+        length="10092820"
+        type="application/x-apple-diskimage"/>
+    </item>
+    <item>
       <title>0.13.21</title>
       <pubDate>Sun, 31 May 2026 12:35:00 +0000</pubDate>
       <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
