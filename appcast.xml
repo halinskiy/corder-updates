@@ -6,6 +6,22 @@
     <description>Auto-update feed for Corder.app</description>
     <language>en</language>
     <item>
+      <title>0.13.20</title>
+      <pubDate>Sun, 31 May 2026 12:30:00 +0000</pubDate>
+      <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[
+        <h3>Free avatar background — actually free now</h3>
+        <p>The toolbar and popover-header avatars hard-coded a CSS <code>background: var(--accent)</code>, which was winning against the 0.13.18 tier-aware SVG fill — so a Free user still saw a green chip with a black glyph. Background removed; the SVG paints its own (accent for Pro / Max, transparent + outline for Free).</p>
+      ]]></description>
+      <sparkle:version>43</sparkle:version>
+      <sparkle:shortVersionString>0.13.20</sparkle:shortVersionString>
+      <enclosure
+        url="https://github.com/halinskiy/corder-updates/releases/download/v0.13.20/Corder-0.13.20.dmg"
+        sparkle:edSignature="IqEGPb9K3lSPLjrTFdqJu0wZACFMsW9af09EO0D9m8u0UtfB3PFPv33XO7BjGTfPGtekZ8/pv2tG+ssK70kPAg=="
+        length="10081932"
+        type="application/x-apple-diskimage"/>
+    </item>
+    <item>
       <title>0.13.19</title>
       <pubDate>Sun, 31 May 2026 12:05:00 +0000</pubDate>
       <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
