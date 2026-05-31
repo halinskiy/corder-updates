@@ -6,6 +6,25 @@
     <description>Auto-update feed for Corder.app</description>
     <language>en</language>
     <item>
+      <title>0.13.24</title>
+      <pubDate>Sun, 31 May 2026 14:45:00 +0000</pubDate>
+      <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[
+        <h3>App icon + installer fixes</h3>
+        <p><strong>Icon</strong> — on macOS Sonoma / Sequoia the Dock used to render only two black bars on transparency, because the iconset had no white squircle plate baked in (Tahoe drew its own; older macOS did not). Regenerated from the canonical brand SVG, looks identical on every macOS now.</p>
+        <p><strong>Installer DMG</strong> — the 0.13.23 DMG itself was unsigned, so a fresh download from the website triggered Gatekeeper's "Move to Trash" prompt. The DMG container is now signed, notarized, and stapled alongside the app inside it.</p>
+        <p><strong>Polish</strong> — body text nudged from #0E0E0D to #212121 (softer black on white panels); profile-avatar outline no longer breaks behind the half-moon / diagonal glyph variants.</p>
+        <p><strong>Also includes 0.13.23</strong> — Help-improve-Corder telemetry is now ON by default during the test period. Toggle in Settings, off = nothing leaves your Mac.</p>
+      ]]></description>
+      <sparkle:version>47</sparkle:version>
+      <sparkle:shortVersionString>0.13.24</sparkle:shortVersionString>
+      <enclosure
+        url="https://github.com/halinskiy/corder-updates/releases/download/v0.13.24/Corder-0.13.24.dmg"
+        sparkle:edSignature="Eem5f6VXXrEoL7GP6qG2ru4Q/MzPnA7OzTkXHLe6w7wbr0BYdgsg/tPPgFW27mul2EPvZPN5dzuAfVyg/5HBAw=="
+        length="10104179"
+        type="application/x-apple-diskimage"/>
+    </item>
+    <item>
       <title>0.13.22</title>
       <pubDate>Sun, 31 May 2026 12:55:00 +0000</pubDate>
       <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
