@@ -6,6 +6,28 @@
     <description>Auto-update feed for Corder.app</description>
     <language>en</language>
     <item>
+      <title>0.13.11</title>
+      <pubDate>Sun, 31 May 2026 10:20:00 +0000</pubDate>
+      <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[
+        <h3>Failed transcription with no API key — fixed</h3>
+        <p>If a cloud provider was picked but its API key wasn't on disk, the meeting failed with <code>noKey</code>. The pipeline now detects the missing key BEFORE the call and silently falls back to on-device Whisper for the run (same code path as the monthly-cap fallback).</p>
+        <h3>Pro / Max auto-default to cloud Whisper</h3>
+        <p>When the server applies the <code>pro</code> or <code>max</code> tier from <code>app_metadata</code>, Corder now switches the default transcription provider to cloud Whisper for that account — Pro users no longer sit on the on-device default by accident.</p>
+        <h3>Rating prompt stops pestering</h3>
+        <p>Shows at most ONCE per user, pinned to the first meeting it appeared on — closing the X or sending feedback dismisses it forever. Revisiting that meeting later or opening any other meeting never re-surfaces it. Threshold also moved back from 1 to 3 ready transcripts so the prompt doesn't fire on a test recording.</p>
+        <h3>App icon size</h3>
+        <p>Rolled back the dark-mode icon Asset Catalog from 0.13.10 — Tahoe was applying its own squircle mask on top and the icon rendered inset. Reverted to the canonical <code>.icns</code> at full size; we'll bring dark-mode polish back when we migrate the icon to Apple's new <code>.icon</code> manifest format.</p>
+      ]]></description>
+      <sparkle:version>34</sparkle:version>
+      <sparkle:shortVersionString>0.13.11</sparkle:shortVersionString>
+      <enclosure
+        url="https://github.com/halinskiy/corder-updates/releases/download/v0.13.11/Corder-0.13.11.dmg"
+        sparkle:edSignature="rJpYKp7XY5d867wbRupLQjlOhdyRJY/p2almY/k2glS3xG+SXdIxaGQ87suunBrLObwRf6HSJC12R+5ijZF5Cg=="
+        length="10042582"
+        type="application/x-apple-diskimage"/>
+    </item>
+    <item>
       <title>0.13.10</title>
       <pubDate>Sun, 31 May 2026 10:10:00 +0000</pubDate>
       <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
