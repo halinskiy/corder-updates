@@ -6,6 +6,22 @@
     <description>Auto-update feed for Corder.app</description>
     <language>en</language>
     <item>
+      <title>0.13.10</title>
+      <pubDate>Sun, 31 May 2026 10:10:00 +0000</pubDate>
+      <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[
+        <h3>App icon stays canonical in dark mode</h3>
+        <p>macOS Tahoe (26+) auto-tints legacy <code>.icns</code> icons to near-black on dark backgrounds — the Corder squircle was disappearing into the menu bar / Dock. We now ship an Asset Catalog with explicit dark + light variants pointing at the same canonical white squircle, so the system uses our copy instead of the auto-tinted one. Logo stays white in every appearance.</p>
+      ]]></description>
+      <sparkle:version>33</sparkle:version>
+      <sparkle:shortVersionString>0.13.10</sparkle:shortVersionString>
+      <enclosure
+        url="https://github.com/halinskiy/corder-updates/releases/download/v0.13.10/Corder-0.13.10.dmg"
+        sparkle:edSignature="4mQLNA2/PnchHCjpyXTc5FDwWxFlUy0iklj2AhNgtVd0naC4DBJ7KKTKjGGhRQOTX6tFBx03wu+1agWWL/IHBw=="
+        length="9994806"
+        type="application/x-apple-diskimage"/>
+    </item>
+    <item>
       <title>0.13.9</title>
       <pubDate>Sun, 31 May 2026 09:50:00 +0000</pubDate>
       <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
