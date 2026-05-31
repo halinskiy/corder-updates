@@ -6,6 +6,30 @@
     <description>Auto-update feed for Corder.app</description>
     <language>en</language>
     <item>
+      <title>0.13.18</title>
+      <pubDate>Sun, 31 May 2026 11:58:00 +0000</pubDate>
+      <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[
+        <h3>Send-a-bug-report with Undo</h3>
+        <p>Click the Bug icon → a toast at the bottom counts down 10 seconds with an Undo button (same UX as Archive). The log is only sent when the countdown elapses, so an accidental click never leaves your Mac.</p>
+        <h3>Smarter default Whisper variant on small Macs</h3>
+        <p>Fresh installs on Macs with ≤ 8 GB RAM now default to the <strong>Base</strong> Whisper model (~150 MB, ~500 MB RAM at inference) instead of <strong>Turbo</strong> (1.5 GB on disk, ~3 GB RAM → swap-thrashes 8 GB M1s). The picker still lets you upgrade to Turbo.</p>
+        <h3>Sign-in CTA in the profile popover</h3>
+        <p>When the account is signed out the popover now reads "Not signed in" and offers a Sign-in button instead of pretending you're already logged in.</p>
+        <h3>Tier-aware avatar</h3>
+        <p>Pro / Max → canonical accent-green chip with a white glyph. Free → transparent surface with a dark glyph and a hairline outline (mirrors the secondary-button treatment).</p>
+        <h3>Update pill cleaner + more eager</h3>
+        <p>Label is now just "Update available" — no version number. The pill also surfaces faster: the React UI nudges Sparkle to do a silent appcast check whenever it doesn't yet have a verdict, so the pill no longer waits up to a day for Sparkle's 24h scheduled check.</p>
+      ]]></description>
+      <sparkle:version>41</sparkle:version>
+      <sparkle:shortVersionString>0.13.18</sparkle:shortVersionString>
+      <enclosure
+        url="https://github.com/halinskiy/corder-updates/releases/download/v0.13.18/Corder-0.13.18.dmg"
+        sparkle:edSignature="jU3q6PEZTtrjzQdl8CDDzVjAMalci+wlEZjeOX1sx9sjMVz9Zm0FkeuNUB/z1yAuGGEt18O+KDuctCAI/0AqCw=="
+        length="10073427"
+        type="application/x-apple-diskimage"/>
+    </item>
+    <item>
       <title>0.13.17</title>
       <pubDate>Sun, 31 May 2026 11:18:00 +0000</pubDate>
       <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
