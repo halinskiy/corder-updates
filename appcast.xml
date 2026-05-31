@@ -6,6 +6,24 @@
     <description>Auto-update feed for Corder.app</description>
     <language>en</language>
     <item>
+      <title>0.13.21</title>
+      <pubDate>Sun, 31 May 2026 12:35:00 +0000</pubDate>
+      <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[
+        <h3>Theme switch tooltip reads the action</h3>
+        <p>"Dark theme" when you're in light, "Light theme" when you're in dark — same pattern Apple uses across System Settings. No more abstract "Toggle light/dark theme" that didn't tell you what was about to happen.</p>
+        <h3>Bug-report rate limit</h3>
+        <p>The Bug icon now refuses to fire more than once per hour. A spammed click surfaces "You can send a new report in ~X min." instead of mailing the maintainer 50 copies of the same log.</p>
+      ]]></description>
+      <sparkle:version>44</sparkle:version>
+      <sparkle:shortVersionString>0.13.21</sparkle:shortVersionString>
+      <enclosure
+        url="https://github.com/halinskiy/corder-updates/releases/download/v0.13.21/Corder-0.13.21.dmg"
+        sparkle:edSignature="2jBGF3e86+Sb60QXXJZ59bdF+wUDMMM017POwlTufXrWQrG/79/rV2Dt58bOb9RXDf5VSq6f53eEtZ62KBwbDg=="
+        length="10082642"
+        type="application/x-apple-diskimage"/>
+    </item>
+    <item>
       <title>0.13.20</title>
       <pubDate>Sun, 31 May 2026 12:30:00 +0000</pubDate>
       <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
