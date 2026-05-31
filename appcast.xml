@@ -6,6 +6,24 @@
     <description>Auto-update feed for Corder.app</description>
     <language>en</language>
     <item>
+      <title>0.13.16</title>
+      <pubDate>Sun, 31 May 2026 11:08:00 +0000</pubDate>
+      <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[
+        <h3>Whisper Cloud polish for Pro / Max — fixed</h3>
+        <p><code>WhisperCleanup</code> (gpt-4o-mini second-pass polish on Whisper Cloud output) was silently returning unchanged turns whenever the local OpenAI key file was absent — same root cause as the Whisper transcribe path before 0.13.12. It now routes through the same Cloudflare Worker proxy with JWT auth and the server-side key, so the polish stage actually runs for signed-in Pro / Max users.</p>
+        <h3>Cloud audio backup temporarily off</h3>
+        <p>Supabase Storage Free rejects single-shot uploads over 50 MB, so every recording's <code>system.wav</code> (~80 MB on a 7-min call) was failing 413 each cycle. Recordings now stay local-only; transcripts still sync to Supabase. Will flip back on the moment we migrate the audio bucket to Cloudflare R2 (no per-file cap, ∞ egress, free 10 GB).</p>
+      ]]></description>
+      <sparkle:version>39</sparkle:version>
+      <sparkle:shortVersionString>0.13.16</sparkle:shortVersionString>
+      <enclosure
+        url="https://github.com/halinskiy/corder-updates/releases/download/v0.13.16/Corder-0.13.16.dmg"
+        sparkle:edSignature="QfQF+mrQ73hDi4HKU5HhqrTHsOQjx58JiqK38EipBRwm3qjdSHuynIgGtjVzOiw18rL05R/nOLWPLBNdwGtJCA=="
+        length="10056051"
+        type="application/x-apple-diskimage"/>
+    </item>
+    <item>
       <title>0.13.15</title>
       <pubDate>Sun, 31 May 2026 11:00:00 +0000</pubDate>
       <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
