@@ -6,6 +6,22 @@
     <description>Auto-update feed for Corder.app</description>
     <language>en</language>
     <item>
+      <title>0.13.12</title>
+      <pubDate>Sun, 31 May 2026 10:32:00 +0000</pubDate>
+      <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[
+        <h3>Cloud Whisper works out of the box for Pro / Max</h3>
+        <p>Corder no longer ships its own OpenAI key, and Pro / Max users no longer need to drop one into <code>~/.config/corder/openai_key</code>. The audio goes through <code>corder-api.empqwork.workers.dev/transcribe/whisper</code>, the Cloudflare Worker holds the OpenAI key server-side, and your subscription tier (read from <code>app_metadata.tier</code>) is the gate. Free-tier users transparently fall back to on-device Whisper as before.</p>
+      ]]></description>
+      <sparkle:version>35</sparkle:version>
+      <sparkle:shortVersionString>0.13.12</sparkle:shortVersionString>
+      <enclosure
+        url="https://github.com/halinskiy/corder-updates/releases/download/v0.13.12/Corder-0.13.12.dmg"
+        sparkle:edSignature="5r0OQ02WUI9278jY6OKWZgi9elxnG5h6+eJpuhWcoSVeA4wRF6SbzDW3+GwF/neQgmMCmCCokUsfjGwuYTAPAQ=="
+        length="10044173"
+        type="application/x-apple-diskimage"/>
+    </item>
+    <item>
       <title>0.13.11</title>
       <pubDate>Sun, 31 May 2026 10:20:00 +0000</pubDate>
       <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
