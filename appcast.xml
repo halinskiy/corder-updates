@@ -6,6 +6,22 @@
     <description>Auto-update feed for Corder.app</description>
     <language>en</language>
     <item>
+      <title>0.13.19</title>
+      <pubDate>Sun, 31 May 2026 12:05:00 +0000</pubDate>
+      <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[
+        <h3>Failed-transcription toast</h3>
+        <p>When the pipeline can't finish a transcription (model load failed, OOM, on-device WhisperKit ran out of memory), an in-app toast in the Library window now tells you what happened and what to do. If the cause was the on-device model not fitting, the toast points you at Settings → Transcription model to pick a lighter Whisper variant.</p>
+      ]]></description>
+      <sparkle:version>42</sparkle:version>
+      <sparkle:shortVersionString>0.13.19</sparkle:shortVersionString>
+      <enclosure
+        url="https://github.com/halinskiy/corder-updates/releases/download/v0.13.19/Corder-0.13.19.dmg"
+        sparkle:edSignature="dEQoa5HCRugodCTKmT6z5n7qYeYzh2d1wVaYxE1LtZ5Ue3NNH6pS8ONRRJl3GmbMEZJNRlNLjtQIr8VLa2NYAQ=="
+        length="10079831"
+        type="application/x-apple-diskimage"/>
+    </item>
+    <item>
       <title>0.13.18</title>
       <pubDate>Sun, 31 May 2026 11:58:00 +0000</pubDate>
       <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
