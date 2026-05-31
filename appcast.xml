@@ -6,6 +6,25 @@
     <description>Auto-update feed for Corder.app</description>
     <language>en</language>
     <item>
+      <title>0.13.26</title>
+      <pubDate>Sun, 31 May 2026 20:18:00 +0000</pubDate>
+      <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[
+        <h3>Chapters, theme switch in Settings, Whisper-only cloud, profile rename</h3>
+        <p><strong>Chapters tab</strong> now matches Summary 1:1 — h3 timestamp pill, body title, divider between chapters. New "Generate / Regenerate" buttons let you build chapters on demand for old recordings.</p>
+        <p><strong>Theme toggle</strong> moved out of the toolbar into General Settings as a real switch row. <strong>Profile rename</strong> — click your name in the popover to edit; new transcribes use it everywhere "you" used to appear (and existing transcripts substitute it on the fly).</p>
+        <p><strong>Gemini Flash removed</strong> from the picker. Free → local Whisper; Pro/Max → Whisper Cloud. Stale `gemini` overrides coerce back to the tier default.</p>
+        <p><strong>Download</strong> redesigned as a single bordered card (dropdown + green Download CTA). <strong>Active session in dark theme</strong> renders white text on the green fill (was unreadable). <strong>Breadcrumb</strong> updates instantly on session switch. <strong>Welcome wizard</strong> re-opens when mic/screen permission gets revoked.</p>
+      ]]></description>
+      <sparkle:version>49</sparkle:version>
+      <sparkle:shortVersionString>0.13.26</sparkle:shortVersionString>
+      <enclosure
+        url="https://github.com/halinskiy/corder-updates/releases/download/v0.13.26/Corder-0.13.26.dmg"
+        sparkle:edSignature="yIXRRlJZfibv6MUwtCAELBdhWWljHM4KGSMLnXyHGGx+lvLWlxHNi8/LRivoX9xCq8zhZsaqXGWC2xjwJxi/Ag=="
+        length="10167402"
+        type="application/x-apple-diskimage"/>
+    </item>
+    <item>
       <title>0.13.25</title>
       <pubDate>Sun, 31 May 2026 15:00:00 +0000</pubDate>
       <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
