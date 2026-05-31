@@ -6,6 +6,22 @@
     <description>Auto-update feed for Corder.app</description>
     <language>en</language>
     <item>
+      <title>0.13.25</title>
+      <pubDate>Sun, 31 May 2026 15:00:00 +0000</pubDate>
+      <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[
+        <h3>App icon with depth</h3>
+        <p>Previous icon read as a flat white sticker on dark Dock backgrounds — the squircle filled the entire 1024-px canvas with no margin for a shadow. Rebuilt against the Apple Icon Template (824-px squircle on a 1024 canvas, 100-px outer margin) and baked a soft drop-shadow into the alpha. The icon now sits on the Dock like a real macOS app on every theme.</p>
+      ]]></description>
+      <sparkle:version>48</sparkle:version>
+      <sparkle:shortVersionString>0.13.25</sparkle:shortVersionString>
+      <enclosure
+        url="https://github.com/halinskiy/corder-updates/releases/download/v0.13.25/Corder-0.13.25.dmg"
+        sparkle:edSignature="ycoq1Il3fsXcjFDctcBf68KRK+4ItFXoLL7YT/98PzdK0YPraiDVXqn84qwzWGNPe/eYvWMNCHBCxOChz46wCA=="
+        length="10163956"
+        type="application/x-apple-diskimage"/>
+    </item>
+    <item>
       <title>0.13.24</title>
       <pubDate>Sun, 31 May 2026 14:45:00 +0000</pubDate>
       <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
