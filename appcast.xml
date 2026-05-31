@@ -6,6 +6,24 @@
     <description>Auto-update feed for Corder.app</description>
     <language>en</language>
     <item>
+      <title>0.13.27</title>
+      <pubDate>Sun, 31 May 2026 22:42:00 +0000</pubDate>
+      <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[
+        <h3>Custom update window, news banner, theme picker</h3>
+        <p>The Sparkle update sheet is now a Corder-branded modal with a 3D entrance and a starfield backdrop, one big Update button.</p>
+        <p>Dashboard gets a dismissible News banner above "Ready when you are." — first item is the tester survey at 3mpq.studio/corder-survey.</p>
+        <p>Theme picker moved into General Settings as a three-option block (Follow system / Light / Dark) with the cursor-origin radial wipe. Profile name is editable inline in the popover and replaces "you" / "I" everywhere transcripts surface a speaker label. Test-mode Upgrade picks Pro or Max via a secondary dropdown. Gemini Flash is gone from the picker — Free is local-only, Pro/Max get Whisper Cloud.</p>
+      ]]></description>
+      <sparkle:version>50</sparkle:version>
+      <sparkle:shortVersionString>0.13.27</sparkle:shortVersionString>
+      <enclosure
+        url="https://github.com/halinskiy/corder-updates/releases/download/v0.13.27/Corder-0.13.27.dmg"
+        sparkle:edSignature="clowpTcR2J5Y6yY1zfvxhNdAk9myjeFpUP45cBAxG0vBlyutTiSZUxjgD/R5WczEL7kvo50Gq8rVUrf6fiYYDQ=="
+        length="10222907"
+        type="application/x-apple-diskimage"/>
+    </item>
+    <item>
       <title>0.13.26</title>
       <pubDate>Sun, 31 May 2026 20:18:00 +0000</pubDate>
       <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
