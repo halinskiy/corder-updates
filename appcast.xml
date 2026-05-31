@@ -6,6 +6,22 @@
     <description>Auto-update feed for Corder.app</description>
     <language>en</language>
     <item>
+      <title>0.13.17</title>
+      <pubDate>Sun, 31 May 2026 11:18:00 +0000</pubDate>
+      <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[
+        <h3>New: Chapters tab</h3>
+        <p>Every meeting view now has a third tab next to Transcript and Summary — <strong>Chapters</strong>. Gemini Flash Lite splits the finished transcript into 3–8 topical chapters with <code>[mm:ss]</code> timestamps; clicking a row seeks the audio scrubber. Generated server-side after each successful transcribe when <strong>Auto-chapters</strong> is on (new toggle in Settings, on by default). Routes through the same Cloudflare Worker proxy as transcribe / title / summary, so Pro / Max users don't need a local Google API key.</p>
+      ]]></description>
+      <sparkle:version>40</sparkle:version>
+      <sparkle:shortVersionString>0.13.17</sparkle:shortVersionString>
+      <enclosure
+        url="https://github.com/halinskiy/corder-updates/releases/download/v0.13.17/Corder-0.13.17.dmg"
+        sparkle:edSignature="BlePRgRxaEdOTwlH1ShXzHOlHw2NTb2fnkiidub0/dDnM9BDzaGEDFAsJsUFVnMcmRHjuoNayiiIsoXJXzYhAw=="
+        length="10071463"
+        type="application/x-apple-diskimage"/>
+    </item>
+    <item>
       <title>0.13.16</title>
       <pubDate>Sun, 31 May 2026 11:08:00 +0000</pubDate>
       <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
