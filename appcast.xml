@@ -6,6 +6,22 @@
     <description>Auto-update feed for Corder.app</description>
     <language>en</language>
     <item>
+      <title>0.13.28</title>
+      <pubDate>Sun, 31 May 2026 23:18:00 +0000</pubDate>
+      <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[
+        <h3>News pill + survey polish</h3>
+        <p>The Dashboard news banner now starts as a glossy green "New" pill — tap to expand into the full card. Skip + × dismiss it permanently. The tester-feedback page at halinskiy.github.io/3mpq-studio/#/corder-survey is rebuilt from Corder's own design tokens.</p>
+      ]]></description>
+      <sparkle:version>51</sparkle:version>
+      <sparkle:shortVersionString>0.13.28</sparkle:shortVersionString>
+      <enclosure
+        url="https://github.com/halinskiy/corder-updates/releases/download/v0.13.28/Corder-0.13.28.dmg"
+        sparkle:edSignature="8mWLJ/4VV4X1ZE3hT17s/uXLgmLQn2zzS+Ng68+64tRd2DHhlLsNmlqmNREvyXIdzTp+p/rwVpt4/jlSQXxzDg=="
+        length="10222753"
+        type="application/x-apple-diskimage"/>
+    </item>
+    <item>
       <title>0.13.27</title>
       <pubDate>Sun, 31 May 2026 22:42:00 +0000</pubDate>
       <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
