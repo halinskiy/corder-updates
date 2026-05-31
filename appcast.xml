@@ -6,6 +6,36 @@
     <description>Auto-update feed for Corder.app</description>
     <language>en</language>
     <item>
+      <title>0.13.8</title>
+      <pubDate>Sun, 31 May 2026 09:30:00 +0000</pubDate>
+      <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[
+        <h3>First-launch crash on tester Macs — fixed</h3>
+        <p>Off-dev installs were SIGTRAP'ing within ~1 second of launch ("could not load resource bundle"). SwiftPM's auto-generated <code>Bundle.module</code> accessor was looking for the resource bundle at the .app root instead of <code>Contents/Resources/</code> and fatal-erroring on the very first read. Routed through a custom resolver that checks all the realistic paths and gracefully returns nil instead of trapping.</p>
+        <h3>Remote subscription tier</h3>
+        <p>At sign-in Corder now reads <code>app_metadata.tier</code> from your Supabase user and applies it locally. Pro / Max can be granted server-side without running <code>defaults write</code> on the user's Mac.</p>
+        <h3>Dashboard cold start = Start + model picker</h3>
+        <p>A brand-new install shows only "Ready when you are." + the Start button + the new model picker. Stats and Monthly usage reveal themselves after 10 minutes of use, on first relaunch, or as soon as you have at least one recording — and stay revealed forever.</p>
+        <h3>Model picker always under Start</h3>
+        <p>One chevron pill lists every cloud provider (Gemini Flash / Whisper Cloud) AND every local Whisper size. Switch with a single click; if the local variant isn't on disk yet, the picker flips to the familiar download progress bar until it lands.</p>
+        <h3>Send a bug report button</h3>
+        <p>New Bug icon in the toolbar, left of the theme toggle. One click sends the tail of your log to the maintainer with your email + Corder version + macOS version attached — no Terminal required.</p>
+        <h3>Avatar shuffle</h3>
+        <p>The 3×3 avatar picker is gone; one click on the avatar in the profile popover rolls a fresh random glyph (with a Shuffle hover overlay). Choice persists across launches.</p>
+        <h3>SupabaseSync FK violation</h3>
+        <p>Fixed the recurring <code>segments_speaker_id_fkey</code> error on every successful transcribe. Speakers and segments now upsert in a single ordered task so segments can never land before their referenced speakers.</p>
+        <h3>Per-tier caps restored</h3>
+        <p>Free 1h / Pro 25h / Max unlimited per month. The 0.13.6 hard 60-min cap for every tier was a temporary test stub.</p>
+      ]]></description>
+      <sparkle:version>31</sparkle:version>
+      <sparkle:shortVersionString>0.13.8</sparkle:shortVersionString>
+      <enclosure
+        url="https://github.com/halinskiy/corder-updates/releases/download/v0.13.8/Corder-0.13.8.dmg"
+        sparkle:edSignature="TxmteJIKLWiJyLSIRO1juxWi2DRO+R+wXgtrQOUZILGkLTEbaL0KD0gNx+5gItnGcprW+0cjblBRBSGKHbinCg=="
+        length="10040549"
+        type="application/x-apple-diskimage"/>
+    </item>
+    <item>
       <title>0.13.7</title>
       <pubDate>Sat, 30 May 2026 23:14:00 +0000</pubDate>
       <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
