@@ -6,6 +6,22 @@
     <description>Auto-update feed for Corder.app</description>
     <language>en</language>
     <item>
+      <title>0.13.15</title>
+      <pubDate>Sun, 31 May 2026 11:00:00 +0000</pubDate>
+      <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[
+        <h3>Auto-title and auto-summary now work for Pro / Max</h3>
+        <p>Both helpers (<code>GeminiTitler</code> + <code>GeminiSummarizer</code>) used to require the local Google API key file in <code>~/.config/corder/gemini_key</code> and silently no-opped without it. They now route through the same Cloudflare Worker proxy as the transcribe path — server-side Google key, JWT auth, gated by <code>app_metadata.tier</code>. Pro / Max meetings will get titles + summaries automatically again.</p>
+      ]]></description>
+      <sparkle:version>38</sparkle:version>
+      <sparkle:shortVersionString>0.13.15</sparkle:shortVersionString>
+      <enclosure
+        url="https://github.com/halinskiy/corder-updates/releases/download/v0.13.15/Corder-0.13.15.dmg"
+        sparkle:edSignature="TZdjjr2lscLBUiK4cKg/0/GPwBMYu8Q3VQFuLjUbIpRVorM2ugoKfoC/G9TEBv40Boh2z8sz5jCTRsAKndWcBw=="
+        length="10054875"
+        type="application/x-apple-diskimage"/>
+    </item>
+    <item>
       <title>0.13.14</title>
       <pubDate>Sun, 31 May 2026 10:52:00 +0000</pubDate>
       <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
