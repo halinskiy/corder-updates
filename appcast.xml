@@ -6,6 +6,23 @@
     <description>Auto-update feed for Corder.app</description>
     <language>en</language>
     <item>
+      <title>0.13.30</title>
+      <pubDate>Mon, 01 Jun 2026 08:38:00 +0000</pubDate>
+      <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[
+        <h3>Diagnostics consent + SECURITY.md refresh</h3>
+        <p>News items can now carry a secondary action — the first one shipping is a one-shot Diagnostics consent: <b>Got it</b> dismisses, <b>Settings</b> opens the Help-improve-Corder toggle in General Settings. Stable id, so the prompt never returns after dismiss.</p>
+        <p>SECURITY.md rewritten for the post-0.13.29 architecture: no provider keys on user disk, OpenAI / Gemini live exclusively as Cloudflare Worker secrets, JWT-gated proxy.</p>
+      ]]></description>
+      <sparkle:version>53</sparkle:version>
+      <sparkle:shortVersionString>0.13.30</sparkle:shortVersionString>
+      <enclosure
+        url="https://github.com/halinskiy/corder-updates/releases/download/v0.13.30/Corder-0.13.30.dmg"
+        sparkle:edSignature="k3v6tPIMM304Ap2+BxliWfPR7XJuIc7cDh9w8QtJF37e2rYFeXeHFY8a2M/QMpEYpCEY10tyOvQIdyDJLBGVAQ=="
+        length="10235143"
+        type="application/x-apple-diskimage"/>
+    </item>
+    <item>
       <title>0.13.29</title>
       <pubDate>Mon, 01 Jun 2026 06:46:00 +0000</pubDate>
       <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
