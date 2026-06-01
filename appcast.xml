@@ -6,6 +6,24 @@
     <description>Auto-update feed for Corder.app</description>
     <language>en</language>
     <item>
+      <title>0.13.29</title>
+      <pubDate>Mon, 01 Jun 2026 06:46:00 +0000</pubDate>
+      <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[
+        <h3>News marquee, security hardening</h3>
+        <p>News in the Stats column is now a full-width running bar (shimmer + dismiss ×). macOS posts a system banner when a new news item ships; tap opens the CTA. Notifications card added to the Welcome wizard (optional).</p>
+        <p>Download moved off its own tab — the Download icon on the audio scrubber now toggles an inline block above the Timeline, with a filled active-state chip.</p>
+        <p>Security: local provider keys (`~/.config/corder/openai_key`, `gemini_key`) are no longer read from disk. Every cloud call goes through the Cloudflare Worker with the user's Supabase JWT — no API secret ever lives on a user's Mac.</p>
+      ]]></description>
+      <sparkle:version>52</sparkle:version>
+      <sparkle:shortVersionString>0.13.29</sparkle:shortVersionString>
+      <enclosure
+        url="https://github.com/halinskiy/corder-updates/releases/download/v0.13.29/Corder-0.13.29.dmg"
+        sparkle:edSignature="fGhgOGElvyLsT7fQpCdV0KwNcbVAYMETUMWQH8UEZCVqKBlEzlrK3cwaUS9e4u+Bvdt/F8ogUvVp4SFUqTdzCA=="
+        length="10234037"
+        type="application/x-apple-diskimage"/>
+    </item>
+    <item>
       <title>0.13.28</title>
       <pubDate>Sun, 31 May 2026 23:18:00 +0000</pubDate>
       <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
