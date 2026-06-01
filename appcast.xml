@@ -6,6 +6,23 @@
     <description>Auto-update feed for Corder.app</description>
     <language>en</language>
     <item>
+      <title>0.13.31</title>
+      <pubDate>Mon, 01 Jun 2026 09:30:00 +0000</pubDate>
+      <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[
+        <h3>In-app update modal + smarter bug-report</h3>
+        <p>The Sparkle update modal lives inside Corder itself now — full-viewport overlay, cursor-tilt 3D card with a radial light that tracks your pointer, animated entrance and exit. Click outside to close.</p>
+        <p>Bug icon only appears when the log actually has flagged events. Submitted logs ship only the matching lines + context.</p>
+      ]]></description>
+      <sparkle:version>54</sparkle:version>
+      <sparkle:shortVersionString>0.13.31</sparkle:shortVersionString>
+      <enclosure
+        url="https://github.com/halinskiy/corder-updates/releases/download/v0.13.31/Corder-0.13.31.dmg"
+        sparkle:edSignature="GBvqAPtkGtias4B1IAra/6N6sTQk2EefsBK7IUPD3hdriN3f17dZzheK68mQ3K6qTHw22HnoZDaS9Q8K2Tk4Bg=="
+        length="10201228"
+        type="application/x-apple-diskimage"/>
+    </item>
+    <item>
       <title>0.13.30</title>
       <pubDate>Mon, 01 Jun 2026 08:38:00 +0000</pubDate>
       <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
