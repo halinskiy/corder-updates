@@ -3,6 +3,15 @@
     <channel>
         <title>Corder</title>
         <item>
+            <title>0.14.0</title>
+            <pubDate>Wed, 10 Jun 2026 13:36:55 +0400</pubDate>
+            <sparkle:version>61</sparkle:version>
+            <sparkle:shortVersionString>0.14.0</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.2</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <enclosure url="https://github.com/halinskiy/corder-updates/releases/download/v0.14.0/Corder-0.14.0.zip" length="10355722" type="application/octet-stream" sparkle:edSignature="aAowX+tNOsfX0jYFUZrCoI/+43Mrtpy2FuH49Xv4/hWcqSjOm5bBFztIEXv0QiM3xicmREpqs61YIxVwzPRLCw=="/>
+        </item>
+        <item>
             <title>0.13.37</title>
             <pubDate>Mon, 08 Jun 2026 16:17:54 +0400</pubDate>
             <sparkle:version>60</sparkle:version>
@@ -19,15 +28,6 @@
             <sparkle:minimumSystemVersion>14.2</sparkle:minimumSystemVersion>
             <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
             <enclosure url="https://github.com/halinskiy/corder-updates/releases/download/v0.13.36/Corder-0.13.36.zip" length="10305920" type="application/octet-stream" sparkle:edSignature="weqYIN3WaCR6WOixT+6BpvZgcZC7tfzODcJMQ3R6FWKmAG3zU7HBOrps/ZePIYW4+H8OY+1LVkXpYfYV/Nd2Cw=="/>
-        </item>
-        <item>
-            <title>0.13.35</title>
-            <pubDate>Mon, 08 Jun 2026 11:36:46 +0400</pubDate>
-            <sparkle:version>58</sparkle:version>
-            <sparkle:shortVersionString>0.13.35</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>14.2</sparkle:minimumSystemVersion>
-            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <enclosure url="https://github.com/halinskiy/corder-updates/releases/download/v0.13.35/Corder-0.13.35.zip" length="10305010" type="application/octet-stream" sparkle:edSignature="f/FDUMOP0plR5NFiBigle0LpuH2rFo95VrIY48OSWtcSifPgGKvgBSePLZiSKVnCWzuAyBlO3DIGQfy1lUH4CQ=="/>
         </item>
     </channel>
 </rss>
