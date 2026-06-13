@@ -3,6 +3,15 @@
     <channel>
         <title>Corder</title>
         <item>
+            <title>0.14.1</title>
+            <pubDate>Sat, 13 Jun 2026 16:24:43 +0400</pubDate>
+            <sparkle:version>62</sparkle:version>
+            <sparkle:shortVersionString>0.14.1</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.2</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <enclosure url="https://github.com/halinskiy/corder-updates/releases/download/v0.14.1/Corder-0.14.1.zip" length="10359414" type="application/octet-stream" sparkle:edSignature="aiabi+yF4zR6gn6fjN2PNLXcIxq0Ylytr9zTX8tdbFYsSncoVvd3KOeKa/6gedEFCKaftQygRj4RdUQuxksTAg=="/>
+        </item>
+        <item>
             <title>0.14.0</title>
             <pubDate>Wed, 10 Jun 2026 13:36:55 +0400</pubDate>
             <sparkle:version>61</sparkle:version>
@@ -19,15 +28,6 @@
             <sparkle:minimumSystemVersion>14.2</sparkle:minimumSystemVersion>
             <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
             <enclosure url="https://github.com/halinskiy/corder-updates/releases/download/v0.13.37/Corder-0.13.37.zip" length="10309263" type="application/octet-stream" sparkle:edSignature="WR4gK3WmtO9bB5jAZaMCPy/zQ8d97L6XAv8kt/ZKvXcCe8iJ9FCMMXc2BWVvx5zJ1uS5se2H1dGpOaoJ+CrPAw=="/>
-        </item>
-        <item>
-            <title>0.13.36</title>
-            <pubDate>Mon, 08 Jun 2026 11:55:56 +0400</pubDate>
-            <sparkle:version>59</sparkle:version>
-            <sparkle:shortVersionString>0.13.36</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>14.2</sparkle:minimumSystemVersion>
-            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <enclosure url="https://github.com/halinskiy/corder-updates/releases/download/v0.13.36/Corder-0.13.36.zip" length="10305920" type="application/octet-stream" sparkle:edSignature="weqYIN3WaCR6WOixT+6BpvZgcZC7tfzODcJMQ3R6FWKmAG3zU7HBOrps/ZePIYW4+H8OY+1LVkXpYfYV/Nd2Cw=="/>
         </item>
     </channel>
 </rss>
