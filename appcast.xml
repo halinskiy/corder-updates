@@ -3,6 +3,20 @@
     <channel>
         <title>Corder</title>
         <item>
+            <title>0.14.7</title>
+            <pubDate>Sun, 14 Jun 2026 03:32:01 +0400</pubDate>
+            <sparkle:version>68</sparkle:version>
+            <sparkle:shortVersionString>0.14.7</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.2</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description><![CDATA[<h3>0.14.7</h3>
+<ul>
+  <li>Update dialog polish: the install button keeps a readable label and shows progress inside the button instead of freezing on "Installing…", and release notes render as clean plain text.</li>
+</ul>
+]]></description>
+            <enclosure url="https://github.com/halinskiy/corder-updates/releases/download/v0.14.7/Corder-0.14.7.zip" length="10361078" type="application/octet-stream" sparkle:edSignature="W/UleOuO5MJIsG4EKJoKqU06MrFcdwn6rWcBQv0yJX1cC5TyFwCC8xic7f94PuAUXi3QlgIl7DCcIbCxGW/WAg=="/>
+        </item>
+        <item>
             <title>0.14.5</title>
             <pubDate>Sun, 14 Jun 2026 02:55:04 +0400</pubDate>
             <sparkle:version>66</sparkle:version>
@@ -29,21 +43,6 @@
 </ul>
 ]]></description>
             <enclosure url="https://github.com/halinskiy/corder-updates/releases/download/v0.14.3/Corder-0.14.3.zip" length="10359922" type="application/octet-stream" sparkle:edSignature="CvB6WlmeqpKr2SgULoxoptN3yUJFPXTV6sxVHhglohFwNuiRL8niwVexJBIvvzjtQsViYi1fmx+o93oP7psCBA=="/>
-        </item>
-        <item>
-            <title>0.14.2</title>
-            <pubDate>Sat, 13 Jun 2026 16:57:39 +0400</pubDate>
-            <sparkle:version>63</sparkle:version>
-            <sparkle:shortVersionString>0.14.2</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>14.2</sparkle:minimumSystemVersion>
-            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <description><![CDATA[<h3>0.14.2</h3>
-<ul>
-  <li>In-app updates now finish on their own. The updater no longer gets stuck on "Installing...", it closes and relaunches into the new version automatically.</li>
-  <li>Update prompts show their release notes again.</li>
-</ul>
-]]></description>
-            <enclosure url="https://github.com/halinskiy/corder-updates/releases/download/v0.14.2/Corder-0.14.2.zip" length="10359809" type="application/octet-stream" sparkle:edSignature="A/b0Jyj5yPhyZBzJngm7AnOV6vyj6VjrROdlnJSX6dXOH/8K7DXIgQ9jqZQMGq+Of0ZhOCKfzG/n+QDBnI4yBg=="/>
         </item>
     </channel>
 </rss>
