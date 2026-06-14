@@ -3,6 +3,16 @@
     <channel>
         <title>Corder</title>
         <item>
+            <title>0.14.17</title>
+            <pubDate>Mon, 15 Jun 2026 03:31:45 +0400</pubDate>
+            <sparkle:version>78</sparkle:version>
+            <sparkle:shortVersionString>0.14.17</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.2</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description><![CDATA[The Update available button now shows immediately on every screen once an update is found, instead of disappearing and reappearing after a delay when you switch pages.]]></description>
+            <enclosure url="https://github.com/halinskiy/corder-updates/releases/download/v0.14.17/Corder-0.14.17.zip" length="10362699" type="application/octet-stream" sparkle:edSignature="ITUjKwb3E0OeTHbnwm0nxyqp7QOt9WwCCkbuS94QhS5cZGXSY/dCxwTebwVZ6F2RHqWM8qTMeaStz8ZWt8mdCg=="/>
+        </item>
+        <item>
             <title>0.14.16</title>
             <pubDate>Mon, 15 Jun 2026 03:25:12 +0400</pubDate>
             <sparkle:version>77</sparkle:version>
@@ -21,16 +31,6 @@
             <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
             <description><![CDATA[A re-transcribe that is interrupted, cancelled, or fails no longer wipes your existing transcript. The meeting still shows as failed, but the previous result stays readable instead of going blank. Also removed the green glow ring that pulsed after clicking the update pill.]]></description>
             <enclosure url="https://github.com/halinskiy/corder-updates/releases/download/v0.14.15/Corder-0.14.15.zip" length="10362687" type="application/octet-stream" sparkle:edSignature="jLVkxs4t6Laoszdw4PfaYqAPQ1MoMvrVTB1bSeUta02o0kYj/QFz+03J0mmk/HslpTM0etRy2C1yhzgswq7VDg=="/>
-        </item>
-        <item>
-            <title>0.14.14</title>
-            <pubDate>Mon, 15 Jun 2026 01:25:57 +0400</pubDate>
-            <sparkle:version>75</sparkle:version>
-            <sparkle:shortVersionString>0.14.14</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>14.2</sparkle:minimumSystemVersion>
-            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <description><![CDATA[An in-app upgrade screen with the Pro and Max plans. Statistics is now an optional setting, so the dashboard stays cleaner by default. Summary and Chapters show an upgrade option instead of an error when they are not on your plan. Cleaned up stray characters in transcripts and tidied a few labels.]]></description>
-            <enclosure url="https://github.com/halinskiy/corder-updates/releases/download/v0.14.14/Corder-0.14.14.zip" length="10363651" type="application/octet-stream" sparkle:edSignature="Mfpf11CjG53sGP1XridF/6B7AVwYzz0H7JTaKeXGO+cfDH+bp1O74VTKZ3vclDARlRsUD1nIHe1mFGBnrVXxAA=="/>
         </item>
     </channel>
 </rss>
