@@ -9,11 +9,7 @@
             <sparkle:shortVersionString>0.14.12</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>14.2</sparkle:minimumSystemVersion>
             <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <description><![CDATA[<h3>0.14.12</h3>
-<ul>
-  <li>The Install button stays still until you click it, then shows a centered loader (and a real download bar only when there is something to download), then relaunches.</li>
-</ul>
-]]></description>
+            <description><![CDATA[The Install button now stays still until you click it. It then shows a centered loader, with a real download bar only when there is something to download, before relaunching.]]></description>
             <enclosure url="https://github.com/halinskiy/corder-updates/releases/download/v0.14.12/Corder-0.14.12.zip" length="10360895" type="application/octet-stream" sparkle:edSignature="aULRGxtLYwM7yMxAOvcYNpe6C6emjYUaE184nBQ9MNI+weoklxt5j+pw/uNJhCIx9eqoOrJQEmEDHk1iqDO0Dg=="/>
         </item>
         <item>
