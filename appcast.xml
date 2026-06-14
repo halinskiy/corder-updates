@@ -10,7 +10,7 @@
             <sparkle:minimumSystemVersion>14.2</sparkle:minimumSystemVersion>
             <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
             <description><![CDATA[An in-app upgrade screen with the Pro and Max plans. Statistics is now an optional setting, so the dashboard stays cleaner by default. Summary and Chapters show an upgrade option instead of an error when they are not on your plan. Cleaned up stray characters in transcripts and tidied a few labels.]]></description>
-            <enclosure url="https://github.com/halinskiy/corder-updates/releases/download/v0.14.14/Corder-0.14.14.zip" length="10363686" type="application/octet-stream" sparkle:edSignature="C/dHjzLiXWU+q+lnBaV0tYIX61a1A1oYvSRub4f83mUuNwLGaiedSgJiQrpouVF6S4El5TSXA3FQ286e/7doAg=="/>
+            <enclosure url="https://github.com/halinskiy/corder-updates/releases/download/v0.14.14/Corder-0.14.14.zip" length="10363651" type="application/octet-stream" sparkle:edSignature="Mfpf11CjG53sGP1XridF/6B7AVwYzz0H7JTaKeXGO+cfDH+bp1O74VTKZ3vclDARlRsUD1nIHe1mFGBnrVXxAA=="/>
         </item>
         <item>
             <title>0.14.12</title>
