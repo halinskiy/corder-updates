@@ -3,6 +3,16 @@
     <channel>
         <title>Corder</title>
         <item>
+            <title>0.14.14</title>
+            <pubDate>Mon, 15 Jun 2026 01:25:57 +0400</pubDate>
+            <sparkle:version>75</sparkle:version>
+            <sparkle:shortVersionString>0.14.14</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.2</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description><![CDATA[An in-app upgrade screen with the Pro and Max plans. Statistics is now an optional setting, so the dashboard stays cleaner by default. Summary and Chapters show an upgrade option instead of an error when they are not on your plan. Cleaned up stray characters in transcripts and tidied a few labels.]]></description>
+            <enclosure url="https://github.com/halinskiy/corder-updates/releases/download/v0.14.14/Corder-0.14.14.zip" length="10363686" type="application/octet-stream" sparkle:edSignature="C/dHjzLiXWU+q+lnBaV0tYIX61a1A1oYvSRub4f83mUuNwLGaiedSgJiQrpouVF6S4El5TSXA3FQ286e/7doAg=="/>
+        </item>
+        <item>
             <title>0.14.12</title>
             <pubDate>Sun, 14 Jun 2026 18:32:09 +0400</pubDate>
             <sparkle:version>73</sparkle:version>
@@ -25,20 +35,6 @@
 </ul>
 ]]></description>
             <enclosure url="https://github.com/halinskiy/corder-updates/releases/download/v0.14.10/Corder-0.14.10.zip" length="10360811" type="application/octet-stream" sparkle:edSignature="jbVmnRg2Xs5lbH5hpcDZh9yybcIccJPZ61F/HbdcJ8/7FZc3JfDTSqwAVSI8Vn6ALxJJxWNdFVxMvUB0kbvaBA=="/>
-        </item>
-        <item>
-            <title>0.14.9</title>
-            <pubDate>Sun, 14 Jun 2026 05:05:03 +0400</pubDate>
-            <sparkle:version>70</sparkle:version>
-            <sparkle:shortVersionString>0.14.9</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>14.2</sparkle:minimumSystemVersion>
-            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <description><![CDATA[<h3>0.14.9</h3>
-<ul>
-  <li>The in-app updater installs and relaunches on its own without ever getting stuck on "Installing…".</li>
-</ul>
-]]></description>
-            <enclosure url="https://github.com/halinskiy/corder-updates/releases/download/v0.14.9/Corder-0.14.9.zip" length="10360815" type="application/octet-stream" sparkle:edSignature="V0S/Y05r0bG/v7QArM/hbIeYdrKU7ji65AVtKBPA1tVBJzOiUcipW0qI4lMBESvkj8RH5f6q3oaHNOmGkXfsBg=="/>
         </item>
     </channel>
 </rss>
