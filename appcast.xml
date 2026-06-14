@@ -3,6 +3,16 @@
     <channel>
         <title>Corder</title>
         <item>
+            <title>0.14.16</title>
+            <pubDate>Mon, 15 Jun 2026 03:25:12 +0400</pubDate>
+            <sparkle:version>77</sparkle:version>
+            <sparkle:shortVersionString>0.14.16</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.2</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description><![CDATA[Summary and Chapters now work on the free plan. The "Send a report" link in an AI error card confirms with a toast the moment you click it.]]></description>
+            <enclosure url="https://github.com/halinskiy/corder-updates/releases/download/v0.14.16/Corder-0.14.16.zip" length="10362679" type="application/octet-stream" sparkle:edSignature="8nyQNJbqK5QVINObayHPcZs/syae8T5UZuGtTxPVBfal9WIM9Ib9zLttlbdYdi/9v19mNMMmHWQ9QF/+pc1/DA=="/>
+        </item>
+        <item>
             <title>0.14.15</title>
             <pubDate>Mon, 15 Jun 2026 02:24:53 +0400</pubDate>
             <sparkle:version>76</sparkle:version>
@@ -21,16 +31,6 @@
             <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
             <description><![CDATA[An in-app upgrade screen with the Pro and Max plans. Statistics is now an optional setting, so the dashboard stays cleaner by default. Summary and Chapters show an upgrade option instead of an error when they are not on your plan. Cleaned up stray characters in transcripts and tidied a few labels.]]></description>
             <enclosure url="https://github.com/halinskiy/corder-updates/releases/download/v0.14.14/Corder-0.14.14.zip" length="10363651" type="application/octet-stream" sparkle:edSignature="Mfpf11CjG53sGP1XridF/6B7AVwYzz0H7JTaKeXGO+cfDH+bp1O74VTKZ3vclDARlRsUD1nIHe1mFGBnrVXxAA=="/>
-        </item>
-        <item>
-            <title>0.14.12</title>
-            <pubDate>Sun, 14 Jun 2026 18:32:09 +0400</pubDate>
-            <sparkle:version>73</sparkle:version>
-            <sparkle:shortVersionString>0.14.12</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>14.2</sparkle:minimumSystemVersion>
-            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <description><![CDATA[The Install button now stays still until you click it. It then shows a centered loader, with a real download bar only when there is something to download, before relaunching.]]></description>
-            <enclosure url="https://github.com/halinskiy/corder-updates/releases/download/v0.14.12/Corder-0.14.12.zip" length="10360895" type="application/octet-stream" sparkle:edSignature="aULRGxtLYwM7yMxAOvcYNpe6C6emjYUaE184nBQ9MNI+weoklxt5j+pw/uNJhCIx9eqoOrJQEmEDHk1iqDO0Dg=="/>
         </item>
     </channel>
 </rss>
