@@ -3,6 +3,20 @@
     <channel>
         <title>Corder</title>
         <item>
+            <title>0.14.9</title>
+            <pubDate>Sun, 14 Jun 2026 05:05:03 +0400</pubDate>
+            <sparkle:version>70</sparkle:version>
+            <sparkle:shortVersionString>0.14.9</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.2</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description><![CDATA[<h3>0.14.9</h3>
+<ul>
+  <li>The in-app updater installs and relaunches on its own without ever getting stuck on "Installing…".</li>
+</ul>
+]]></description>
+            <enclosure url="https://github.com/halinskiy/corder-updates/releases/download/v0.14.9/Corder-0.14.9.zip" length="10360815" type="application/octet-stream" sparkle:edSignature="V0S/Y05r0bG/v7QArM/hbIeYdrKU7ji65AVtKBPA1tVBJzOiUcipW0qI4lMBESvkj8RH5f6q3oaHNOmGkXfsBg=="/>
+        </item>
+        <item>
             <title>0.14.7</title>
             <pubDate>Sun, 14 Jun 2026 03:32:01 +0400</pubDate>
             <sparkle:version>68</sparkle:version>
@@ -29,20 +43,6 @@
 </ul>
 ]]></description>
             <enclosure url="https://github.com/halinskiy/corder-updates/releases/download/v0.14.5/Corder-0.14.5.zip" length="10361046" type="application/octet-stream" sparkle:edSignature="PTlR7ZPztgk1rtIHjEzPNJ2oTmO11zmkSC2WE3STGGWu0xImyEH4uXApkVC3YujtjG7FeXfXxfq8QolH0HMPCQ=="/>
-        </item>
-        <item>
-            <title>0.14.3</title>
-            <pubDate>Sun, 14 Jun 2026 02:28:25 +0400</pubDate>
-            <sparkle:version>64</sparkle:version>
-            <sparkle:shortVersionString>0.14.3</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>14.2</sparkle:minimumSystemVersion>
-            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <description><![CDATA[<h3>0.14.3</h3>
-<ul>
-  <li>More invented filler lines (English and Ukrainian YouTube-style sign-offs like "thanks for watching" or "дякую за перегляд") are now filtered out of transcripts.</li>
-</ul>
-]]></description>
-            <enclosure url="https://github.com/halinskiy/corder-updates/releases/download/v0.14.3/Corder-0.14.3.zip" length="10359922" type="application/octet-stream" sparkle:edSignature="CvB6WlmeqpKr2SgULoxoptN3yUJFPXTV6sxVHhglohFwNuiRL8niwVexJBIvvzjtQsViYi1fmx+o93oP7psCBA=="/>
         </item>
     </channel>
 </rss>
