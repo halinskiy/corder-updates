@@ -3,6 +3,20 @@
     <channel>
         <title>Corder</title>
         <item>
+            <title>0.14.10</title>
+            <pubDate>Sun, 14 Jun 2026 05:11:39 +0400</pubDate>
+            <sparkle:version>71</sparkle:version>
+            <sparkle:shortVersionString>0.14.10</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.2</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description><![CDATA[<h3>0.14.10</h3>
+<ul>
+  <li>The in-app updater installs and relaunches on its own, with a progress fill inside the Install button and no more getting stuck on "Installing…".</li>
+</ul>
+]]></description>
+            <enclosure url="https://github.com/halinskiy/corder-updates/releases/download/v0.14.10/Corder-0.14.10.zip" length="10360811" type="application/octet-stream" sparkle:edSignature="jbVmnRg2Xs5lbH5hpcDZh9yybcIccJPZ61F/HbdcJ8/7FZc3JfDTSqwAVSI8Vn6ALxJJxWNdFVxMvUB0kbvaBA=="/>
+        </item>
+        <item>
             <title>0.14.9</title>
             <pubDate>Sun, 14 Jun 2026 05:05:03 +0400</pubDate>
             <sparkle:version>70</sparkle:version>
@@ -29,20 +43,6 @@
 </ul>
 ]]></description>
             <enclosure url="https://github.com/halinskiy/corder-updates/releases/download/v0.14.7/Corder-0.14.7.zip" length="10361078" type="application/octet-stream" sparkle:edSignature="W/UleOuO5MJIsG4EKJoKqU06MrFcdwn6rWcBQv0yJX1cC5TyFwCC8xic7f94PuAUXi3QlgIl7DCcIbCxGW/WAg=="/>
-        </item>
-        <item>
-            <title>0.14.5</title>
-            <pubDate>Sun, 14 Jun 2026 02:55:04 +0400</pubDate>
-            <sparkle:version>66</sparkle:version>
-            <sparkle:shortVersionString>0.14.5</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>14.2</sparkle:minimumSystemVersion>
-            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <description><![CDATA[<h3>0.14.5</h3>
-<ul>
-  <li>In-app updates now install and relaunch on their own, no more getting stuck on "Installing...".</li>
-</ul>
-]]></description>
-            <enclosure url="https://github.com/halinskiy/corder-updates/releases/download/v0.14.5/Corder-0.14.5.zip" length="10361046" type="application/octet-stream" sparkle:edSignature="PTlR7ZPztgk1rtIHjEzPNJ2oTmO11zmkSC2WE3STGGWu0xImyEH4uXApkVC3YujtjG7FeXfXxfq8QolH0HMPCQ=="/>
         </item>
     </channel>
 </rss>
