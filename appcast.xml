@@ -3,6 +3,16 @@
     <channel>
         <title>Corder</title>
         <item>
+            <title>0.14.18</title>
+            <pubDate>Mon, 15 Jun 2026 04:20:18 +0400</pubDate>
+            <sparkle:version>79</sparkle:version>
+            <sparkle:shortVersionString>0.14.18</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.2</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description><![CDATA[New optional setting "Catch the start of calls" (Settings, Advanced, off by default): when a call is detected Corder can quietly buffer it from the start, so accepting the record offer keeps the beginning. Declining discards it. Also: the menu-bar popover now reliably closes when you click outside it.]]></description>
+            <enclosure url="https://github.com/halinskiy/corder-updates/releases/download/v0.14.18/Corder-0.14.18.zip" length="10375211" type="application/octet-stream" sparkle:edSignature="bPflfHIxd9OQKZJAxiEXn0KJpK6NgpoOq7nFPjmO2mF+7cG+ZRpPYinnW1cAj207VtlXoxKMJHfhyPtYP/UoBg=="/>
+        </item>
+        <item>
             <title>0.14.17</title>
             <pubDate>Mon, 15 Jun 2026 03:31:45 +0400</pubDate>
             <sparkle:version>78</sparkle:version>
@@ -21,16 +31,6 @@
             <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
             <description><![CDATA[Summary and Chapters now work on the free plan. The "Send a report" link in an AI error card confirms with a toast the moment you click it.]]></description>
             <enclosure url="https://github.com/halinskiy/corder-updates/releases/download/v0.14.16/Corder-0.14.16.zip" length="10362679" type="application/octet-stream" sparkle:edSignature="8nyQNJbqK5QVINObayHPcZs/syae8T5UZuGtTxPVBfal9WIM9Ib9zLttlbdYdi/9v19mNMMmHWQ9QF/+pc1/DA=="/>
-        </item>
-        <item>
-            <title>0.14.15</title>
-            <pubDate>Mon, 15 Jun 2026 02:24:53 +0400</pubDate>
-            <sparkle:version>76</sparkle:version>
-            <sparkle:shortVersionString>0.14.15</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>14.2</sparkle:minimumSystemVersion>
-            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <description><![CDATA[A re-transcribe that is interrupted, cancelled, or fails no longer wipes your existing transcript. The meeting still shows as failed, but the previous result stays readable instead of going blank. Also removed the green glow ring that pulsed after clicking the update pill.]]></description>
-            <enclosure url="https://github.com/halinskiy/corder-updates/releases/download/v0.14.15/Corder-0.14.15.zip" length="10362687" type="application/octet-stream" sparkle:edSignature="jLVkxs4t6Laoszdw4PfaYqAPQ1MoMvrVTB1bSeUta02o0kYj/QFz+03J0mmk/HslpTM0etRy2C1yhzgswq7VDg=="/>
         </item>
     </channel>
 </rss>
