@@ -3,6 +3,18 @@
     <channel>
         <title>Corder</title>
         <item>
+            <title>0.14.20</title>
+            <pubDate>Thu, 18 Jun 2026 00:42:05 +0400</pubDate>
+            <sparkle:version>81</sparkle:version>
+            <sparkle:shortVersionString>0.14.20</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.2</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <enclosure url="https://github.com/halinskiy/corder-updates/releases/download/v0.14.20/Corder-0.14.20.zip" length="10376101" type="application/octet-stream" sparkle:edSignature="49VFOkeU4Fq1Frf8NocYwamcOqBPm/irXY+rwjz7Y25YAFh0IrcPBxAo949Yvh5s5XslXAetEgS6XGIS2SEEDQ=="/>
+            <sparkle:deltas>
+                <enclosure url="https://github.com/halinskiy/corder-updates/releases/download/v0.14.20/Corder81-79.delta" sparkle:deltaFrom="79" length="627886" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="2Cd9b9d04oSCS0+bNcJibgNCw6BuzUVz4rI2i2VQM/KBSOvm80+urcAkl3e+O71uTtzxpbQBtLi4HbpyFkgrDw=="/>
+            </sparkle:deltas>
+        </item>
+        <item>
             <title>0.14.18</title>
             <pubDate>Mon, 15 Jun 2026 04:20:18 +0400</pubDate>
             <sparkle:version>79</sparkle:version>
@@ -10,7 +22,7 @@
             <sparkle:minimumSystemVersion>14.2</sparkle:minimumSystemVersion>
             <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
             <description><![CDATA[New optional setting "Catch the start of calls" (Settings, Advanced, off by default): when a call is detected Corder can quietly buffer it from the start, so accepting the record offer keeps the beginning. Declining discards it. Also: the menu-bar popover now reliably closes when you click outside it.]]></description>
-            <enclosure url="https://github.com/halinskiy/corder-updates/releases/download/v0.14.18/Corder-0.14.18.zip" length="10375211" type="application/octet-stream" sparkle:edSignature="bPflfHIxd9OQKZJAxiEXn0KJpK6NgpoOq7nFPjmO2mF+7cG+ZRpPYinnW1cAj207VtlXoxKMJHfhyPtYP/UoBg=="/>
+            <enclosure url="https://github.com/halinskiy/corder-updates/releases/download/v0.14.20/Corder-0.14.18.zip" length="10375211" type="application/octet-stream" sparkle:edSignature="bPflfHIxd9OQKZJAxiEXn0KJpK6NgpoOq7nFPjmO2mF+7cG+ZRpPYinnW1cAj207VtlXoxKMJHfhyPtYP/UoBg=="/>
         </item>
         <item>
             <title>0.14.17</title>
@@ -21,16 +33,6 @@
             <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
             <description><![CDATA[The Update available button now shows immediately on every screen once an update is found, instead of disappearing and reappearing after a delay when you switch pages.]]></description>
             <enclosure url="https://github.com/halinskiy/corder-updates/releases/download/v0.14.17/Corder-0.14.17.zip" length="10362699" type="application/octet-stream" sparkle:edSignature="ITUjKwb3E0OeTHbnwm0nxyqp7QOt9WwCCkbuS94QhS5cZGXSY/dCxwTebwVZ6F2RHqWM8qTMeaStz8ZWt8mdCg=="/>
-        </item>
-        <item>
-            <title>0.14.16</title>
-            <pubDate>Mon, 15 Jun 2026 03:25:12 +0400</pubDate>
-            <sparkle:version>77</sparkle:version>
-            <sparkle:shortVersionString>0.14.16</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>14.2</sparkle:minimumSystemVersion>
-            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <description><![CDATA[Summary and Chapters now work on the free plan. The "Send a report" link in an AI error card confirms with a toast the moment you click it.]]></description>
-            <enclosure url="https://github.com/halinskiy/corder-updates/releases/download/v0.14.16/Corder-0.14.16.zip" length="10362679" type="application/octet-stream" sparkle:edSignature="8nyQNJbqK5QVINObayHPcZs/syae8T5UZuGtTxPVBfal9WIM9Ib9zLttlbdYdi/9v19mNMMmHWQ9QF/+pc1/DA=="/>
         </item>
     </channel>
 </rss>
