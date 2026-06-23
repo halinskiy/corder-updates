@@ -3,6 +3,27 @@
     <channel>
         <title>Corder</title>
         <item>
+            <title>0.14.45</title>
+            <pubDate>Tue, 23 Jun 2026 17:09:13 +0100</pubDate>
+            <sparkle:version>106</sparkle:version>
+            <sparkle:shortVersionString>0.14.45</sparkle:shortVersionString>
+            <description><![CDATA[<h2>0.14.45</h2>
+<ul>
+<li>On a fresh install the first transcription now shows a clear "Downloading model" progress while the on-device model fetches (about 1.5 GB), then switches to the normal transcription progress, instead of looking frozen.</li>
+<li>Fixed meetings failing to sync to the cloud while in the silent pre-roll state.</li>
+</ul>]]></description>
+            <sparkle:minimumSystemVersion>14.2</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <enclosure url="https://github.com/halinskiy/corder-updates/releases/download/v0.14.45/Corder-0.14.45.zip" length="10398834" type="application/octet-stream" sparkle:edSignature="e7G2FtkXN0o7S1OW3FqsmCfrp/LMfqXvCSBhdYiGLacYeZGpMcBErykmYQvTz3XOWfdgCK6fs5eMGju5M6ohAg=="/>
+            <sparkle:deltas>
+                <enclosure url="https://github.com/halinskiy/corder-updates/releases/download/v0.14.45/Corder106-105.delta" sparkle:deltaFrom="105" length="582906" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="1ycJemrlUK4/vi/QvQ+N4ZTouN50IkMomuYklXx8Unaf1A87C349Uomx/cXfA9YFT79hrQJaQUKvyhmEalBmCA=="/>
+                <enclosure url="https://github.com/halinskiy/corder-updates/releases/download/v0.14.45/Corder106-104.delta" sparkle:deltaFrom="104" length="831018" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="J/lxaA5UnJtvTkiXMTuCba5GzdWgiO5sl8HdqIK8hWQVQ5itCRzPBggheQ/h6D+ez/tptr/emvGsNYeQLI5HCw=="/>
+                <enclosure url="https://github.com/halinskiy/corder-updates/releases/download/v0.14.45/Corder106-103.delta" sparkle:deltaFrom="103" length="1007634" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="leX7FUOvbszaLhSzv0hqOox1/PppMTCFt1f8BR3ZxkdaxqjIcIAMhamLXmlFwObHWmWYXgOpAW6CdTPFLpPECw=="/>
+                <enclosure url="https://github.com/halinskiy/corder-updates/releases/download/v0.14.45/Corder106-102.delta" sparkle:deltaFrom="102" length="1197046" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="zClX+dGhjsx5q0hicPzU8MJsQyGxey89Ik4DN0LxJbggvq4R6NUb4a28/Jeyl2wJnRZ10Zx0dUBub61wOGhbDg=="/>
+                <enclosure url="https://github.com/halinskiy/corder-updates/releases/download/v0.14.45/Corder106-101.delta" sparkle:deltaFrom="101" length="1194254" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="hBV110mfT2xiGQV6dkBqLDVpmUVZQ063FX9hN/WGQFTSQfVceW8byUo22hBiRt00FROr3YQhyO+FgSqbVdwWAw=="/>
+            </sparkle:deltas>
+        </item>
+        <item>
             <title>0.14.44</title>
             <pubDate>Tue, 23 Jun 2026 12:49:19 +0100</pubDate>
             <sparkle:version>105</sparkle:version>
