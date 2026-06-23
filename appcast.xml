@@ -3,6 +3,27 @@
     <channel>
         <title>Corder</title>
         <item>
+            <title>0.14.50</title>
+            <pubDate>Tue, 23 Jun 2026 20:51:18 +0100</pubDate>
+            <sparkle:version>111</sparkle:version>
+            <sparkle:shortVersionString>0.14.50</sparkle:shortVersionString>
+            <description><![CDATA[<h2>0.14.50</h2>
+<ul>
+<li>On-device transcription is fast again: the model runs on the Neural Engine (~2x faster, and ~2.5s to load once prepared instead of ~50s). The one-time preparation happens when you download the model; on machines where it would take too long it quietly falls back to the GPU path, so it never hangs.</li>
+<li>The on-device model picker is now just Whisper Turbo and Whisper Small. Base/Tiny were dropped — not accurate enough on real noisy multi-speaker meetings.</li>
+</ul>]]></description>
+            <sparkle:minimumSystemVersion>14.2</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <enclosure url="https://github.com/halinskiy/corder-updates/releases/download/v0.14.50/Corder-0.14.50.zip" length="10411708" type="application/octet-stream" sparkle:edSignature="r8Htu20aDUt6PxtVNz8h7kDn/oc0pkgX6JFmbc3ntYajk15sF9+KB/mBBrRIjG8ih+5sTfiQLWMq0/1t34hwAQ=="/>
+            <sparkle:deltas>
+                <enclosure url="https://github.com/halinskiy/corder-updates/releases/download/v0.14.50/Corder111-110.delta" sparkle:deltaFrom="110" length="537746" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="/1zZXK+O8TuhWjc4YIZa8145i3YJWPMhsmpuI/zQrTG3MQ4bn5LpLhYC7s5raUbGOlrgX04rAiSCKPKu03w/AA=="/>
+                <enclosure url="https://github.com/halinskiy/corder-updates/releases/download/v0.14.50/Corder111-109.delta" sparkle:deltaFrom="109" length="528022" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="8vyV/M8n/UwoeEam2oDCRzf+TeVri47z73btKpfytF3b7n/50iYlXPe1Ld2ohfPAYvBx2u6tWWlN/5cCEzDXCQ=="/>
+                <enclosure url="https://github.com/halinskiy/corder-updates/releases/download/v0.14.50/Corder111-108.delta" sparkle:deltaFrom="108" length="834646" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="qpKVCBTIBAQMpdyu5eCP5yg3kh4iNANk3DtnZQa1abBXaqOT0FUXmivaiQUd04EQ4bmOdZKuAS62BmYXyTOFCw=="/>
+                <enclosure url="https://github.com/halinskiy/corder-updates/releases/download/v0.14.50/Corder111-107.delta" sparkle:deltaFrom="107" length="866098" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="zCEDDh3v8XBDu1STh39ZTchiHQ15/qgsQKDPE/Y22cFniByxEdMDhmfvd1H8UmnU7gASDibH1Mk7+i/48ATiBw=="/>
+                <enclosure url="https://github.com/halinskiy/corder-updates/releases/download/v0.14.50/Corder111-106.delta" sparkle:deltaFrom="106" length="951110" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="NkCwE1GZPT5NxayV/9L5oDCe8E7uNiGRZ3r2Ne0PTqhOuUYfwh9Oi7hfDPO/mKpdateqsQfpJ7vzdtNHZ/K3DQ=="/>
+            </sparkle:deltas>
+        </item>
+        <item>
             <title>0.14.49</title>
             <pubDate>Tue, 23 Jun 2026 19:08:55 +0100</pubDate>
             <sparkle:version>110</sparkle:version>
