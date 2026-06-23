@@ -7,6 +7,15 @@
             <pubDate>Tue, 23 Jun 2026 12:49:19 +0100</pubDate>
             <sparkle:version>105</sparkle:version>
             <sparkle:shortVersionString>0.14.44</sparkle:shortVersionString>
+            <description><![CDATA[<h2>0.14.44</h2>
+<ul>
+<li>Speaker-bleed echo suppression: the other side no longer leaks into your own track when you record on speakers.</li>
+<li>A live spectrum equalizer in the recording pill shows that audio is being captured.</li>
+<li>Cloud transcription now shows real progress on the Stop button.</li>
+<li>Download a recording as video with audio, or as compact audio.</li>
+<li>Lighter screen recording (half resolution, 10 fps); dark mode is a simple on/off switch.</li>
+<li>Clearer bug reports and various fixes.</li>
+</ul>]]></description>
             <sparkle:minimumSystemVersion>14.2</sparkle:minimumSystemVersion>
             <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
             <enclosure url="https://github.com/halinskiy/corder-updates/releases/download/v0.14.44/Corder-0.14.44.zip" length="10398166" type="application/octet-stream" sparkle:edSignature="T9DcADhgImkq2gq/eKw6xeZT49ZoDOZxGWqbIUDlFeasHfJRLHP9XBbHT4ocjFtcF6kdEeLbUl5RNHQo5RJiDA=="/>
