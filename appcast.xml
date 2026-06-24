@@ -3,6 +3,29 @@
     <channel>
         <title>Corder</title>
         <item>
+            <title>0.14.54</title>
+            <pubDate>Wed, 24 Jun 2026 19:48:13 +0100</pubDate>
+            <sparkle:version>115</sparkle:version>
+            <sparkle:shortVersionString>0.14.54</sparkle:shortVersionString>
+            <description><![CDATA[<h2>0.14.54</h2>
+<ul>
+<li>Chapters no longer show a duplicate first entry at 0:00 with the same title.</li>
+<li>Chinese and Japanese meeting titles are no longer dropped.</li>
+<li>Connecting Google Calendar can no longer change which account you're signed in to.</li>
+<li>Internal hardening (segment edits, token endpoint, duplicate sign-in taps).</li>
+</ul>]]></description>
+            <sparkle:minimumSystemVersion>14.2</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <enclosure url="https://github.com/halinskiy/corder-updates/releases/download/v0.14.54/Corder-0.14.54.zip" length="10430100" type="application/octet-stream" sparkle:edSignature="2EC7amjOx4rMEYjHP0XZ2wNeiKYdFpQi7VhHhqDImmtjRot5FBCRT9RZKPP74E1gpOl2NoJp9M/wxio3kzS5Dg=="/>
+            <sparkle:deltas>
+                <enclosure url="https://github.com/halinskiy/corder-updates/releases/download/v0.14.54/Corder115-114.delta" sparkle:deltaFrom="114" length="654078" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="kA7oTj2e6JEsPlyy38Wn61ayHbxE+6p+SQogByvTstMMyGbWEi6S6T/YxIWz4K0cgMIunCBvkqHWCGF4sKyBDA=="/>
+                <enclosure url="https://github.com/halinskiy/corder-updates/releases/download/v0.14.54/Corder115-113.delta" sparkle:deltaFrom="113" length="801358" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="Bax+pRJdEDJtAUpJE1p4qX2oLaqAXrAXdyP+elHIKBIXbUIbR204lFb1rXXxds/xRU6qbWQSU8fFb7OwpOSnAw=="/>
+                <enclosure url="https://github.com/halinskiy/corder-updates/releases/download/v0.14.54/Corder115-112.delta" sparkle:deltaFrom="112" length="950066" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="o0qTgbaL3bBOlxBZkWjU0rVGfzyb+tPgbONeeZVFN26T03kMDQmOlf1vhlPOePDo0Qy83Q4M9oogwLTlHvjmCw=="/>
+                <enclosure url="https://github.com/halinskiy/corder-updates/releases/download/v0.14.54/Corder115-111.delta" sparkle:deltaFrom="111" length="967802" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="O4UrKFcRQXoLInw6af7efsLHwZgCOO3RBeN/p+/sB7zgK66WZHfB8+6wXo2HAk8YGw5G7g5M2jzAMWLA8E8VAA=="/>
+                <enclosure url="https://github.com/halinskiy/corder-updates/releases/download/v0.14.54/Corder115-110.delta" sparkle:deltaFrom="110" length="976126" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="4IYKDiSNpZGd9PZn1iZd5rFyS4w9MgWC1DeONQUYbzsNj0yNwsPeYs9rXT8OyDgH5fmAvpWrs81AeZtOsIeNAw=="/>
+            </sparkle:deltas>
+        </item>
+        <item>
             <title>0.14.53</title>
             <pubDate>Wed, 24 Jun 2026 01:57:59 +0100</pubDate>
             <sparkle:version>114</sparkle:version>
