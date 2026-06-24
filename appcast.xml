@@ -3,6 +3,26 @@
     <channel>
         <title>Corder</title>
         <item>
+            <title>0.14.55</title>
+            <pubDate>Wed, 24 Jun 2026 21:14:18 +0100</pubDate>
+            <sparkle:version>116</sparkle:version>
+            <sparkle:shortVersionString>0.14.55</sparkle:shortVersionString>
+            <description><![CDATA[<h2>0.14.55</h2>
+<ul>
+<li>Screen recording now puts far less load on your Mac — the heat was the screen compositor doing a per-frame color conversion, not the encoder. Recording now captures in the display's native format and encodes with H.264, cutting recording-time compositor load by roughly two thirds. Screen video is also capped at 1080p.</li>
+</ul>]]></description>
+            <sparkle:minimumSystemVersion>14.2</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <enclosure url="https://github.com/halinskiy/corder-updates/releases/download/v0.14.55/Corder-0.14.55.zip" length="10430057" type="application/octet-stream" sparkle:edSignature="qgihb9ZL1HGDDp38rmuyNPbzJDAtAyY14VBaME3kalxBNnR2turU5z8XuwPM9tbDO/OsHQTVCuhnAjroMIp7Ag=="/>
+            <sparkle:deltas>
+                <enclosure url="https://github.com/halinskiy/corder-updates/releases/download/v0.14.55/Corder116-115.delta" sparkle:deltaFrom="115" length="339086" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="yQYn9oQboLTIY31RaawYJ+C9/I1kMljQuPQmhSFJVJAVhfbv0OXN7p0YhHZUpZpefrjcRVUejVqE/u8GY4ygAg=="/>
+                <enclosure url="https://github.com/halinskiy/corder-updates/releases/download/v0.14.55/Corder116-114.delta" sparkle:deltaFrom="114" length="627030" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="v/GoGckfkKsHHfkvQJsMA8XfkKlSWeDJIsuU0xNkluhudkfCQxTEjZ8YBe7uKkgSeyJ9UlEh2994IKy/NHp1Bg=="/>
+                <enclosure url="https://github.com/halinskiy/corder-updates/releases/download/v0.14.55/Corder116-113.delta" sparkle:deltaFrom="113" length="775870" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="oWvS80NSuBfztT59VEnuN3W44LBWLvDE4+/31wdryWipUq25QOFJuBdVZZpemQl9q9uDUdWOdLulq5feZFA7Bw=="/>
+                <enclosure url="https://github.com/halinskiy/corder-updates/releases/download/v0.14.55/Corder116-112.delta" sparkle:deltaFrom="112" length="984134" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="4fYKZgIyz06ls2Kbp2FFYDKj/YtZysl14p11WJeqib3fDuO/6uGfS1cq2++AraQUmHEkSKz/X8LIhWN1/Ll7BQ=="/>
+                <enclosure url="https://github.com/halinskiy/corder-updates/releases/download/v0.14.55/Corder116-111.delta" sparkle:deltaFrom="111" length="980466" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="1+cRy/EqJkLrTJYQUy73ezqondblZpqpAeeeoR1mpa0MLPUc5grdoKkr4znB757sB34V+7oR9L3Xo7u2YVGIDw=="/>
+            </sparkle:deltas>
+        </item>
+        <item>
             <title>0.14.54</title>
             <pubDate>Wed, 24 Jun 2026 19:48:13 +0100</pubDate>
             <sparkle:version>115</sparkle:version>
