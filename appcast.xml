@@ -3,6 +3,28 @@
     <channel>
         <title>Corder</title>
         <item>
+            <title>0.14.53</title>
+            <pubDate>Wed, 24 Jun 2026 01:57:59 +0100</pubDate>
+            <sparkle:version>114</sparkle:version>
+            <sparkle:shortVersionString>0.14.53</sparkle:shortVersionString>
+            <description><![CDATA[<h2>0.14.53</h2>
+<ul>
+<li>Re-generating a transcript from cache no longer counts toward your monthly usage or moves an older meeting into the current month.</li>
+<li>On Intel Macs, hitting the monthly cloud limit shows an upgrade message instead of quietly continuing.</li>
+<li>The update dialog's buttons are now translated.</li>
+</ul>]]></description>
+            <sparkle:minimumSystemVersion>14.2</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <enclosure url="https://github.com/halinskiy/corder-updates/releases/download/v0.14.53/Corder-0.14.53.zip" length="10427637" type="application/octet-stream" sparkle:edSignature="YPLAGqiu4LczA5OZzmKfuAUV2a7U1ujpcfUHE5ZJX1kG7JPgHX9cERc48t5hzL+aQgzBnQUYnQ6Zmsd7ugFABQ=="/>
+            <sparkle:deltas>
+                <enclosure url="https://github.com/halinskiy/corder-updates/releases/download/v0.14.53/Corder114-113.delta" sparkle:deltaFrom="113" length="496934" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="m9rxrEAUdhO+0nd5nFdoaq9ifYfsoF9XYfie+z6nl5QvFcurjIBFHDzs4Q8qk93KSLPHcosFiwsZeT7uo28zBw=="/>
+                <enclosure url="https://github.com/halinskiy/corder-updates/releases/download/v0.14.53/Corder114-112.delta" sparkle:deltaFrom="112" length="902002" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="vWo/Ji7hkr17rOhbLCJb3kmDVMG+b4oDf6yaW3q0vr8k2dRx5XtT4LauApzu6aOMiYIe5Pyhr+THzQbBK1cADg=="/>
+                <enclosure url="https://github.com/halinskiy/corder-updates/releases/download/v0.14.53/Corder114-111.delta" sparkle:deltaFrom="111" length="930466" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="3h9Dd9Plh97JrjlpXfo+6f1zJpWbTdR/Qzk5UReCn+3ycQevgxV9Ru1AkpDTwGhqfIRE/x3lQIFX74VptD5pAA=="/>
+                <enclosure url="https://github.com/halinskiy/corder-updates/releases/download/v0.14.53/Corder114-110.delta" sparkle:deltaFrom="110" length="957254" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="EmJaZ4sraQa/UuCioAhcH0xBIDBpQWwhDNG01iM39Nx38zVVaTHelTPHNhMXhPPAL3/tLHAROuuZG7mXTWQiAQ=="/>
+                <enclosure url="https://github.com/halinskiy/corder-updates/releases/download/v0.14.53/Corder114-109.delta" sparkle:deltaFrom="109" length="949502" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="GUd/s/KWBa9ElwGhVAkESRA4O6HuJutGxoqtFT1MNW7i+N5RzS0z1O81xcLkFs8LGBQ24SOiBg8bJvy7Ot+ICw=="/>
+            </sparkle:deltas>
+        </item>
+        <item>
             <title>0.14.52</title>
             <pubDate>Tue, 23 Jun 2026 23:34:18 +0100</pubDate>
             <sparkle:version>113</sparkle:version>
