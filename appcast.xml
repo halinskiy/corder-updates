@@ -3,6 +3,27 @@
     <channel>
         <title>Corder</title>
         <item>
+            <title>0.14.56</title>
+            <pubDate>Wed, 24 Jun 2026 21:42:22 +0100</pubDate>
+            <sparkle:version>117</sparkle:version>
+            <sparkle:shortVersionString>0.14.56</sparkle:shortVersionString>
+            <description><![CDATA[<h2>0.14.56</h2>
+<ul>
+<li>Recording without screen video now uses much less power — the app was capturing the whole screen even when video was off (and throwing the frames away), which was the real reason recording heated the Mac. Audio-only recording now skips that on most setups.</li>
+<li>Unplugging or switching headphones right as recording starts no longer fails the recording — it retries and recovers.</li>
+</ul>]]></description>
+            <sparkle:minimumSystemVersion>14.2</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <enclosure url="https://github.com/halinskiy/corder-updates/releases/download/v0.14.56/Corder-0.14.56.zip" length="10440503" type="application/octet-stream" sparkle:edSignature="7XyhfnfS8OF2MImpFv1UytAuYAVsAg/ixRWyClTG2kEvlX4BW9zBlGST+Y1LEjoZas9tcUUo26CsCVDY9KeRDQ=="/>
+            <sparkle:deltas>
+                <enclosure url="https://github.com/halinskiy/corder-updates/releases/download/v0.14.56/Corder117-116.delta" sparkle:deltaFrom="116" length="585058" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="EM/BuqP75NDQ4zkXu5KqiNyZMl5i3elFwinRIqaU1XUbZzuzmvPmWST/Ulo2YjfN8lrZjfDJ75WSXvfeHPzMDw=="/>
+                <enclosure url="https://github.com/halinskiy/corder-updates/releases/download/v0.14.56/Corder117-115.delta" sparkle:deltaFrom="115" length="501678" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="/EdM/sbLxSGUMCKLH+1WriIj2W6mAUNKuhwWgUk2ZufbZl3z7Xp/1mCIm0rmj0YbT7gGWk8MS8fjer8cHs/zCw=="/>
+                <enclosure url="https://github.com/halinskiy/corder-updates/releases/download/v0.14.56/Corder117-114.delta" sparkle:deltaFrom="114" length="727882" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="IgKwlnJYuvI3LRgC5kqm8hR4CrQGQ/9rcxX0AHa1TqJpkCm0yr40i9TgR8JYPqQ+ZBMtspSLOQyiOOP5j1QsAA=="/>
+                <enclosure url="https://github.com/halinskiy/corder-updates/releases/download/v0.14.56/Corder117-113.delta" sparkle:deltaFrom="113" length="889218" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="7j42cFV+e4z1bMZYbcN5Ba2BQQlb/WD4rgJa7RyoVRAGA5qwCTlFzDSQo/tU5iThaoX83afdTuxuy9RH3oGyAA=="/>
+                <enclosure url="https://github.com/halinskiy/corder-updates/releases/download/v0.14.56/Corder117-112.delta" sparkle:deltaFrom="112" length="997594" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="c7fmMjBwX5FHrWaaAo2A2Oh4i5hSLPCeUMmiMDdXqe2HSUFfvR3u03J0hRL6b68a74PAlpv/zxbbfomlY8dxBg=="/>
+            </sparkle:deltas>
+        </item>
+        <item>
             <title>0.14.55</title>
             <pubDate>Wed, 24 Jun 2026 21:14:18 +0100</pubDate>
             <sparkle:version>116</sparkle:version>
