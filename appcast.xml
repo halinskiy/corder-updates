@@ -3,6 +3,29 @@
     <channel>
         <title>Corder</title>
         <item>
+            <title>0.14.68</title>
+            <pubDate>Thu, 25 Jun 2026 22:01:00 +0100</pubDate>
+            <sparkle:version>129</sparkle:version>
+            <sparkle:shortVersionString>0.14.68</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.2</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description><![CDATA[<ul>
+<li>On-device transcription uses a single model now, Whisper Turbo. The model chooser is gone from the home screen, which simply shows Start recording.</li>
+<li>The home screen is titled &quot;Welcome&quot;.</li>
+<li>The &quot;Delete account&quot; action was removed from Settings.</li>
+<li>Trimmed the dead empty space below the last card in Settings (both the General and Advanced tabs).</li>
+</ul>
+]]></description>
+            <enclosure url="https://github.com/halinskiy/corder-updates/releases/download/v0.14.68/Corder-0.14.68.zip" length="9090706" type="application/octet-stream" sparkle:edSignature="eBzFt/AQl1Ou5gDzQMvlXAeK+xi+LwqJ1K/NHIKuj4HJbq0hUm6A86B2mNq1fEyQOuXtIQJskX955sEBi+aFAQ=="/>
+            <sparkle:deltas>
+                <enclosure url="https://github.com/halinskiy/corder-updates/releases/download/v0.14.68/Corder129-128.delta" sparkle:deltaFrom="128" length="638078" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="E/EW1BI4g5cE0Ga9YTTm/LGXl4WdveWlmouR2ngdPyThB0vTCnKDoZDzvnro8NJBAuXA1uLj/c9tRCE7AfLMDQ=="/>
+                <enclosure url="https://github.com/halinskiy/corder-updates/releases/download/v0.14.68/Corder129-127.delta" sparkle:deltaFrom="127" length="639406" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="/gnmSt7xpMnwLktXGMlM3nSm1uBBisb/3wqHFEv3BVxRaErsV6mKLJXUfTLh+IQZs95Nk83cQvKjCMet/KRjBA=="/>
+                <enclosure url="https://github.com/halinskiy/corder-updates/releases/download/v0.14.68/Corder129-126.delta" sparkle:deltaFrom="126" length="697682" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="oUF281aGtuc//5zLSzMP/XTZGHnVKn5hB4WTtQBCVrSnzlGwRaMbnUwQPSgLgERb86JWgvMLiUmTFLhbWfapCQ=="/>
+                <enclosure url="https://github.com/halinskiy/corder-updates/releases/download/v0.14.68/Corder129-125.delta" sparkle:deltaFrom="125" length="880762" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="7GCFqjUEqhr+hy6kHpivSRbAFoNADV8IjevWnigRYIi55kH0gXufEHxjczdaSh8/YDGwXvwfdP+3WEm42LNwDQ=="/>
+                <enclosure url="https://github.com/halinskiy/corder-updates/releases/download/v0.14.68/Corder129-124.delta" sparkle:deltaFrom="124" length="936830" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="KuIqZ/XPMWWeTdPYeTjQ+7x8FQ9q1o6LMNQcy5G6zcZfcfP0D97tee8QFtys3KmQZIs9fwNKfMs5MZ0YjPPlCg=="/>
+            </sparkle:deltas>
+        </item>
+        <item>
             <title>0.14.67</title>
             <pubDate>Thu, 25 Jun 2026 21:02:52 +0100</pubDate>
             <sparkle:version>128</sparkle:version>
@@ -13,7 +36,7 @@
 <li>In the sign-in card, the link that switches between Sign in and Sign up now sits below the buttons instead of in the header, for a cleaner top.</li>
 </ul>
 ]]></description>
-            <enclosure url="https://github.com/halinskiy/corder-updates/releases/download/v0.14.67/Corder-0.14.67.zip" length="9092360" type="application/octet-stream" sparkle:edSignature="SiEDFgxdWj49yRhrIH8ISjRvUmyQxFmDFMAF6M9YWcdwSOjnpNblE29Ozps9k8gbflLhHU9/RbnErmNHQFWEDQ=="/>
+            <enclosure url="https://github.com/halinskiy/corder-updates/releases/download/v0.14.68/Corder-0.14.67.zip" length="9092360" type="application/octet-stream" sparkle:edSignature="SiEDFgxdWj49yRhrIH8ISjRvUmyQxFmDFMAF6M9YWcdwSOjnpNblE29Ozps9k8gbflLhHU9/RbnErmNHQFWEDQ=="/>
             <sparkle:deltas>
                 <enclosure url="https://github.com/halinskiy/corder-updates/releases/download/v0.14.67/Corder128-127.delta" sparkle:deltaFrom="127" length="109226" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="daKlcGP1T1MeLkKUWqX0wqXvoCcJ8WjGDYLXKsN9ZWljHJehVaXpHbla/Emre9u+z+By/f9FBHWUm80vwnF4CQ=="/>
                 <enclosure url="https://github.com/halinskiy/corder-updates/releases/download/v0.14.67/Corder128-126.delta" sparkle:deltaFrom="126" length="635570" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="iS3CBn/isUIzoerJCP857imJ5l+I+/WB2IL8jyHMa75c/zqTqa/HDYQxp43ODcuH9m9pnNJeC9j7fj4fuGCJBw=="/>
@@ -34,37 +57,13 @@
 <li>The global record shortcut is now unassigned by default, so a fresh install has no hotkey to trigger by accident or clash with another app. Set your own in Settings, and a Clear button removes it whenever you want.</li>
 </ul>
 ]]></description>
-            <enclosure url="https://github.com/halinskiy/corder-updates/releases/download/v0.14.67/Corder-0.14.66.zip" length="9092304" type="application/octet-stream" sparkle:edSignature="3YpxpxrK3lbZE2SG8LrRmXJBHGscYKYcd0yjp0ERFsi7jZjJ01lE7daPYLQQ0Ui/WmgfQvK6op5EhTek5WjvBQ=="/>
+            <enclosure url="https://github.com/halinskiy/corder-updates/releases/download/v0.14.68/Corder-0.14.66.zip" length="9092304" type="application/octet-stream" sparkle:edSignature="3YpxpxrK3lbZE2SG8LrRmXJBHGscYKYcd0yjp0ERFsi7jZjJ01lE7daPYLQQ0Ui/WmgfQvK6op5EhTek5WjvBQ=="/>
             <sparkle:deltas>
                 <enclosure url="https://github.com/halinskiy/corder-updates/releases/download/v0.14.66/Corder127-126.delta" sparkle:deltaFrom="126" length="636570" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="bX2nc2eWvGirx/dxQ1X39kFj35V9ME2cpZx+42FBbyDYiSABouxeYma+SOdAB0RflJr1MZa+XCV23HBP2nw8Cg=="/>
                 <enclosure url="https://github.com/halinskiy/corder-updates/releases/download/v0.14.66/Corder127-125.delta" sparkle:deltaFrom="125" length="876082" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="L6Wmi7DKvbHLxZCGsOfTnphJBY9lldMrZuRX1eCJWTM13X6kCaqLBQLz71e2QJ6Xl3IV9qV9G0zF5TZJnWp2Dg=="/>
                 <enclosure url="https://github.com/halinskiy/corder-updates/releases/download/v0.14.66/Corder127-124.delta" sparkle:deltaFrom="124" length="917446" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="7qDsZZJUayeUyzHW+QZvYLMgvyHYVyevSl5P2gmrty6K2BIig9S7/ZW/Ei9SMOdf1oSKas6ONJCsvR9mYVXZBg=="/>
                 <enclosure url="https://github.com/halinskiy/corder-updates/releases/download/v0.14.66/Corder127-123.delta" sparkle:deltaFrom="123" length="1000650" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="WoPb4qyOPU7taRzJLNJUKmHDsPEIhu7pPlFlbxVKDRvdl4uFgDD5qSNgSBOw5M0ar3luYkFsPFSnwqf5T6LGBw=="/>
                 <enclosure url="https://github.com/halinskiy/corder-updates/releases/download/v0.14.66/Corder127-122.delta" sparkle:deltaFrom="122" length="994982" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="xIBHi5YwtV/H9VtleVaBbiMjUD1tC4AApPIxMcR5Iji7yJlWkU5X/nKAfm9FQhenbDNU1mEAZ87TdT0G52+oBQ=="/>
-            </sparkle:deltas>
-        </item>
-        <item>
-            <title>0.14.65</title>
-            <pubDate>Thu, 25 Jun 2026 17:19:55 +0100</pubDate>
-            <sparkle:version>126</sparkle:version>
-            <sparkle:shortVersionString>0.14.65</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>14.2</sparkle:minimumSystemVersion>
-            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <description><![CDATA[<ul>
-<li>Corder now opens straight to your library. There is no upfront wall of permission requests and no forced sign-in. You can browse, play back, and use the app fully while signed out, with nothing granted yet.</li>
-<li>Permissions are asked only when you actually start a recording, and only the ones that recording needs. Audio recordings need no Screen Recording permission at all, so you can hit Start and capture audio the moment you open Corder.</li>
-<li>If you turn on screen video, Corder asks for Screen Recording with a clear prompt that opens the right Settings pane and reminds you to reopen Corder so the change takes effect. You can also choose &quot;Record audio only&quot; to start right away without it.</li>
-<li>Sign in now lives in a card inside the Corder window (the same look as the update card) instead of a separate window. Signing in stays optional, and you can switch between Sign in and Sign up with one tap.</li>
-<li>The sign-in window no longer appears stretched, and the profile avatar reflects your status (it stays neutral while you are signed out).</li>
-</ul>
-]]></description>
-            <enclosure url="https://github.com/halinskiy/corder-updates/releases/download/v0.14.67/Corder-0.14.65.zip" length="9091837" type="application/octet-stream" sparkle:edSignature="68aa1IJM7KkG9LQzFEKbgWXZd8QKzhhJNlF6E7pzceBmBqH4DSpSXjyd6Wjtybb5srfHjNwhAecAbmIG0vP7Bg=="/>
-            <sparkle:deltas>
-                <enclosure url="https://github.com/halinskiy/corder-updates/releases/download/v0.14.65/Corder126-125.delta" sparkle:deltaFrom="125" length="875226" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="uxn19E+v5j8u9HLuxh2oQqE4NjU3PM/6iu4V/atYOapHLQLVCQUulCEbsA9AR2o/Djn457QcuRADhc1BddidAw=="/>
-                <enclosure url="https://github.com/halinskiy/corder-updates/releases/download/v0.14.65/Corder126-124.delta" sparkle:deltaFrom="124" length="901270" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="X1LZueLlG99QlNr/koijV2UhBWj3hcF4dbvhid713nmMSuYCrJqA/JYgmGc4mSYgja5bXxZ7pbTKUvhSuTXHCw=="/>
-                <enclosure url="https://github.com/halinskiy/corder-updates/releases/download/v0.14.65/Corder126-123.delta" sparkle:deltaFrom="123" length="1018006" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="45RadSvcSkf9TvrU1qqZIdDDH9Krs7nWCTXVd1xfUO9p7kDD07in2+Jg6gMcC3Aaq4GSIVPnwaiXkGzKyek6Ag=="/>
-                <enclosure url="https://github.com/halinskiy/corder-updates/releases/download/v0.14.65/Corder126-122.delta" sparkle:deltaFrom="122" length="1013638" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="GTN6ZL42wjqDM4msYzEo81LdWZNa/5rWpwOhOmaonDil7GNkCw8710kLntJ478iHiAlNIte0rFTMztY3bXMdBg=="/>
-                <enclosure url="https://github.com/halinskiy/corder-updates/releases/download/v0.14.65/Corder126-121.delta" sparkle:deltaFrom="121" length="999258" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="HF+gV91DLy1DO2hJZcG0zlF1y/GhANCuz8EsNcpAXbVZvx+lfsZKfM1vXeWQMCZEnKYYNOhqVVpO0q7bvDEPCA=="/>
             </sparkle:deltas>
         </item>
     </channel>
