@@ -3,6 +3,27 @@
     <channel>
         <title>Corder</title>
         <item>
+            <title>0.14.87</title>
+            <pubDate>Sat, 27 Jun 2026 12:01:45 +0100</pubDate>
+            <sparkle:version>148</sparkle:version>
+            <sparkle:shortVersionString>0.14.87</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.2</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description><![CDATA[<ul>
+<li>Microphone is the first setting in General now.</li>
+<li>The &quot;Never offer to record&quot; app picker flips above the Add button when there isn&#x27;t room below, so its search box and results are no longer cut off at the bottom of the settings panel.</li>
+</ul>
+]]></description>
+            <enclosure url="https://github.com/halinskiy/corder-updates/releases/download/v0.14.87/Corder-0.14.87.zip" length="8949138" type="application/octet-stream" sparkle:edSignature="tNVLZP9wOyyXoJPGR0/nwzfbh/E4G0W57YksYHA9c7DBOaNeQXki6ucrJAZdQsBY9PP3OP2SbnAreaLe6uU9Cw=="/>
+            <sparkle:deltas>
+                <enclosure url="https://github.com/halinskiy/corder-updates/releases/download/v0.14.87/Corder148-147.delta" sparkle:deltaFrom="147" length="108862" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="MMC4CSmRCOQNWl8oW5/95Lp+wA934AOyqcYgx+w6Td5oCXhT5DQ1dtgQlGwaQtLvcYW4aN4ze1keCHiFuc7RDA=="/>
+                <enclosure url="https://github.com/halinskiy/corder-updates/releases/download/v0.14.87/Corder148-146.delta" sparkle:deltaFrom="146" length="411486" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="TTTwzRGWq6LCxZn7qBuNvkNbnrjYbxw3+GnH5KQ7/CdBeBsMb2kLsTi5RaCoB5uv4/HJCjfnz/qkiZ6CuxknDA=="/>
+                <enclosure url="https://github.com/halinskiy/corder-updates/releases/download/v0.14.87/Corder148-145.delta" sparkle:deltaFrom="145" length="555122" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="JQrJ2lMF6hbnhhPy1pwjjO59axamqKsFZd8tsIRE/7KxdLFuX7JLDMHZIi2Wg4PdsxWCZODhKzhK4ZCJrcOaAw=="/>
+                <enclosure url="https://github.com/halinskiy/corder-updates/releases/download/v0.14.87/Corder148-144.delta" sparkle:deltaFrom="144" length="672958" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="s149ZBw5GhilmMiZIiOW6lgq2EyyJJ7KeLBjIDwg1INMZkyVfAcIfcAuJHDMPtxLO5Fq48s5kw8VCa2YO45lAw=="/>
+                <enclosure url="https://github.com/halinskiy/corder-updates/releases/download/v0.14.87/Corder148-143.delta" sparkle:deltaFrom="143" length="673338" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="/jsxlE4i1ScQb/Szxq9pdzYFAIlOMqFmEESHFyuBqt1IOzQfoJza6ABhaLRjeeRLEpPcSuYJTUxrWlHDZN7CAg=="/>
+            </sparkle:deltas>
+        </item>
+        <item>
             <title>0.14.86</title>
             <pubDate>Sat, 27 Jun 2026 11:54:20 +0100</pubDate>
             <sparkle:version>147</sparkle:version>
@@ -14,7 +35,7 @@
 <li>The guest recording limit counts only your ACTIVE recordings now. Archiving a recording frees a slot (the cap is 5 held at once, not a lifetime count).</li>
 </ul>
 ]]></description>
-            <enclosure url="https://github.com/halinskiy/corder-updates/releases/download/v0.14.86/Corder-0.14.86.zip" length="8949078" type="application/octet-stream" sparkle:edSignature="L2iL+ahavxpQ4Lx5xyuoau9D77vvU+S/Rq7XZ5W3yVfHnNEhe3I+tLWrEQQbrM07jRy2Wf/3wjfviMxqQ/GUDA=="/>
+            <enclosure url="https://github.com/halinskiy/corder-updates/releases/download/v0.14.87/Corder-0.14.86.zip" length="8949078" type="application/octet-stream" sparkle:edSignature="L2iL+ahavxpQ4Lx5xyuoau9D77vvU+S/Rq7XZ5W3yVfHnNEhe3I+tLWrEQQbrM07jRy2Wf/3wjfviMxqQ/GUDA=="/>
             <sparkle:deltas>
                 <enclosure url="https://github.com/halinskiy/corder-updates/releases/download/v0.14.86/Corder147-146.delta" sparkle:deltaFrom="146" length="410862" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="uwZ9DpAy5RraF5pnxfJ3R1xTFgDqmDciisKcJFDzbrybn/pJr/oUvPAHX9QJUdjpnslk85V61ZAD4zuiJjG+AA=="/>
                 <enclosure url="https://github.com/halinskiy/corder-updates/releases/download/v0.14.86/Corder147-145.delta" sparkle:deltaFrom="145" length="556326" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="tNYJVeVijk1Z7Cb9ph7qGwK4BD4xqZc59cX+4Gg8huOnpbUez2Ouoks1FuSuVva6k39boj7/sf3Xk5eheLzaAA=="/>
@@ -34,34 +55,13 @@
 <li>Recorded screen video now shows in the in-app preview. The video was captured correctly, but it was written as a fragmented QuickTime file the embedded player couldn&#x27;t load, so the video card was hidden and it looked like nothing was recorded. New recordings are written faststart so the preview plays.</li>
 </ul>
 ]]></description>
-            <enclosure url="https://github.com/halinskiy/corder-updates/releases/download/v0.14.86/Corder-0.14.85.zip" length="8948413" type="application/octet-stream" sparkle:edSignature="U9ENpzIdzJoaUAuH+ezq5bwmDQSLbIxU5qZxh+N5F5jbqDPCb2o47IQHkYcJLztvitR0xXw67aDC/82FstwXBg=="/>
+            <enclosure url="https://github.com/halinskiy/corder-updates/releases/download/v0.14.87/Corder-0.14.85.zip" length="8948413" type="application/octet-stream" sparkle:edSignature="U9ENpzIdzJoaUAuH+ezq5bwmDQSLbIxU5qZxh+N5F5jbqDPCb2o47IQHkYcJLztvitR0xXw67aDC/82FstwXBg=="/>
             <sparkle:deltas>
                 <enclosure url="https://github.com/halinskiy/corder-updates/releases/download/v0.14.85/Corder146-145.delta" sparkle:deltaFrom="145" length="429894" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="JMy2JlqCcbKvbp9f55C3qghjIBsLhdaDsWsXC0XmUlkM72AnkKc4W34NOIDCSyqvJ5qgERrwgb2huUWQUwYRDw=="/>
                 <enclosure url="https://github.com/halinskiy/corder-updates/releases/download/v0.14.85/Corder146-144.delta" sparkle:deltaFrom="144" length="660334" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="eBlSVFxlwZR+3DlwAhv9k+YnZ/OF1AVLa7hSJc7Va7UE6EtxlItsrc3KBFsSxA6JvSzulBiVcvxg9Pjrf5K+Dg=="/>
                 <enclosure url="https://github.com/halinskiy/corder-updates/releases/download/v0.14.85/Corder146-143.delta" sparkle:deltaFrom="143" length="662946" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="Eookuzw5vWw4QYqXiHXHmwP2sF2ZLUCxho3tR1z3bpt2l9cH8zx8xQoO3J6Z7HbPT7/muozGEWNpK7bK50vLBA=="/>
                 <enclosure url="https://github.com/halinskiy/corder-updates/releases/download/v0.14.85/Corder146-142.delta" sparkle:deltaFrom="142" length="661206" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="8jGBKChC8CXnfMDjVZT+zeASTEmPEUkfS9F/a2KpwQuX5E9OVvYSUmOrIqbBTn+j6vSNEU0EoY/0ZJe4c69aAg=="/>
                 <enclosure url="https://github.com/halinskiy/corder-updates/releases/download/v0.14.85/Corder146-141.delta" sparkle:deltaFrom="141" length="660626" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="hCiUFdxCuS67UB1TFjj2mIa6uavT8M7QTK7gR89JFhVjA5NiR2FJlngAPhEEwIz/I4oJli+69FcDgwGngUIJBg=="/>
-            </sparkle:deltas>
-        </item>
-        <item>
-            <title>0.14.84</title>
-            <pubDate>Sat, 27 Jun 2026 11:19:24 +0100</pubDate>
-            <sparkle:version>145</sparkle:version>
-            <sparkle:shortVersionString>0.14.84</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>14.2</sparkle:minimumSystemVersion>
-            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <description><![CDATA[<ul>
-<li>Ghost screen-video card: bigger subtitle with tighter leading, the title and subtitle cling together with more room before the button, and the video icon is a real header-style button that also requests Screen Recording.</li>
-<li>Filtered out Whisper subtitle-watermark hallucinations on near-silent audio: &quot;Subtitles by the Amara.org community&quot; (and every language variant, via the amaraorg fragment) plus non-speech captions like [Music], [Applause], and ♪ no longer leak into transcripts.</li>
-</ul>
-]]></description>
-            <enclosure url="https://github.com/halinskiy/corder-updates/releases/download/v0.14.86/Corder-0.14.84.zip" length="8948207" type="application/octet-stream" sparkle:edSignature="HVFu5zQRq4YhadUvEcD7nk3PiR1giOJbg20t2aPPhzbYrULyn2Pk9HTEKC6JS4skHjStG9IoxBktY0XzmoeKBQ=="/>
-            <sparkle:deltas>
-                <enclosure url="https://github.com/halinskiy/corder-updates/releases/download/v0.14.84/Corder145-144.delta" sparkle:deltaFrom="144" length="557850" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="tNRIkhz23tKr7y3UdMgpfJTEetan09vl4mH957HL7Tf24sKm+05RpkMXUhbbjWToNXi07blpRqwgIQSXokHoBA=="/>
-                <enclosure url="https://github.com/halinskiy/corder-updates/releases/download/v0.14.84/Corder145-143.delta" sparkle:deltaFrom="143" length="557162" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="ug+ZaYea1VZPOmRRoZZia0N429YjFXXBJeWmrYGGlo5vSeyQ1uwc1QsO380a/ZZjr1rJVUrprhOIp+gXvofgDQ=="/>
-                <enclosure url="https://github.com/halinskiy/corder-updates/releases/download/v0.14.84/Corder145-142.delta" sparkle:deltaFrom="142" length="558474" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="T1JDJhDUWjz3EnbQUWCKDyZ20N9HwsyM8gtZ6cLiA6VcvawltBYfY+iv0b2d9AoUIgMANUEQE+BmuXxocI/jAw=="/>
-                <enclosure url="https://github.com/halinskiy/corder-updates/releases/download/v0.14.84/Corder145-141.delta" sparkle:deltaFrom="141" length="557798" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="Cpe0MDYuBE8BcxmobTnCnx+rITlFNkR5J4rB8vkaNviueKISppPKOZPdPpz72/IkDMgpeT4vgGmFzVF5T/61Dg=="/>
-                <enclosure url="https://github.com/halinskiy/corder-updates/releases/download/v0.14.84/Corder145-140.delta" sparkle:deltaFrom="140" length="557134" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="g8/xylTk/UD/4q9kp/QOuEk4PNyEbjn34JUu6BH3MHZDkJD7+iRKICmdrBiKY2OQL65wNdUw/ScRxjPa35ILCQ=="/>
             </sparkle:deltas>
         </item>
     </channel>
