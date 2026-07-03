@@ -3,6 +3,29 @@
     <channel>
         <title>Corder</title>
         <item>
+            <title>0.15.18</title>
+            <pubDate>Fri, 03 Jul 2026 10:01:11 +0100</pubDate>
+            <sparkle:version>179</sparkle:version>
+            <sparkle:shortVersionString>0.15.18</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.2</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description><![CDATA[<ul>
+<li>Settings → General has a new &quot;Recording equalizer&quot; switch (on by default). Turn it off to hide the floating equalizer pill that hovers over your screen while recording. Recording still starts and stops from the menu-bar icon and the in-app button.</li>
+<li>System notifications are now off by default. Turn them back on any time in Settings → General for banners on recording start, transcript ready, and network loss.</li>
+<li>Settings → General is reordered: the recording equalizer and screen-video switches sit at the top, and the Microphone picker now sits just above the Recordings folder.</li>
+<li>The update and sign-in cards no longer stutter as their 3D tilt follows the cursor. The tilt tracks smoothly now and eases back to flat when the pointer leaves.</li>
+</ul>
+]]></description>
+            <enclosure url="https://github.com/halinskiy/corder-updates/releases/download/v0.15.18/Corder-0.15.18.zip" length="8974367" type="application/octet-stream" sparkle:edSignature="EEDtZmkQKlQrpb8aaNtS+0CBArbG5G/l8GRgSr+iredEPoyXWVUcmcMoo84QozGazBG8owcUK3f9LLJv3EDyBw=="/>
+            <sparkle:deltas>
+                <enclosure url="https://github.com/halinskiy/corder-updates/releases/download/v0.15.18/Corder179-178.delta" sparkle:deltaFrom="178" length="638286" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="6ie5Eva/Fx5OIKutIo6a6QcCWa0GQtQhi8yA1G7Vmqv33Br7hM7kgNjH3VLq8gtznqB5hzKTf9pEN1E3G2x/BQ=="/>
+                <enclosure url="https://github.com/halinskiy/corder-updates/releases/download/v0.15.18/Corder179-177.delta" sparkle:deltaFrom="177" length="639502" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="JqbR/E8D2cDL4XhFwqu3SG1Fw7y/krpH48SA3oUerd7eb4f5Jel1/9uNjwUCAv2ix438YxyKDgSW7hWvltRuDA=="/>
+                <enclosure url="https://github.com/halinskiy/corder-updates/releases/download/v0.15.18/Corder179-176.delta" sparkle:deltaFrom="176" length="635878" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="X5EaoW0lHpTNbINdJ0+lLe4qPhC91/I9kNJALzrG1CD44diun5YEX9biydJeEu9ATKz4j4sXglHtkVY14E/jCA=="/>
+                <enclosure url="https://github.com/halinskiy/corder-updates/releases/download/v0.15.18/Corder179-175.delta" sparkle:deltaFrom="175" length="638002" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="Vf4nfVYtjDL4kY3eeGvUVCviMtoJCUZIJO0AsGPEuydkxpJ67VkaoF4zAUMxysYhdB+2IJASLOcitsGIwIN/Bw=="/>
+                <enclosure url="https://github.com/halinskiy/corder-updates/releases/download/v0.15.18/Corder179-174.delta" sparkle:deltaFrom="174" length="637322" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="mKPR4snaPOBT1enP3Fvt/D7v4m8SnS8EJTXVsx8FKZhAwZVZ/TI94d5ICugI0hx6TlBQyDpvzaPQW+Ejv/pkDw=="/>
+            </sparkle:deltas>
+        </item>
+        <item>
             <title>0.15.17</title>
             <pubDate>Thu, 02 Jul 2026 22:48:49 +0100</pubDate>
             <sparkle:version>178</sparkle:version>
@@ -13,7 +36,7 @@
 <li>The transcript search Clear (×) button hover is now a full circle. A global button padding had inflated the box to a rectangle, so the hover fill looked like a rounded rectangle instead of a round button.</li>
 </ul>
 ]]></description>
-            <enclosure url="https://github.com/halinskiy/corder-updates/releases/download/v0.15.17/Corder-0.15.17.zip" length="8972879" type="application/octet-stream" sparkle:edSignature="jbAwOX4mvhcXVhgkoDInckA+soesPGQ/q03w70gu1lCixi3Gg64xjhE6WGbWuhPMywF4tFXHmSDX5GFk3ULdAg=="/>
+            <enclosure url="https://github.com/halinskiy/corder-updates/releases/download/v0.15.18/Corder-0.15.17.zip" length="8972879" type="application/octet-stream" sparkle:edSignature="jbAwOX4mvhcXVhgkoDInckA+soesPGQ/q03w70gu1lCixi3Gg64xjhE6WGbWuhPMywF4tFXHmSDX5GFk3ULdAg=="/>
             <sparkle:deltas>
                 <enclosure url="https://github.com/halinskiy/corder-updates/releases/download/v0.15.17/Corder178-177.delta" sparkle:deltaFrom="177" length="29174" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="IQW0R0DMtoZZsJJWllkimb9hy0WusdpQsVACprUI/t0CQcRL57yVcTtcH2P67mp9kofbGw6KPRB24iE8uFFfAg=="/>
                 <enclosure url="https://github.com/halinskiy/corder-updates/releases/download/v0.15.17/Corder178-176.delta" sparkle:deltaFrom="176" length="28258" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="9T+vpy6LL6JAF3R2qgodsBGtAFWeQ5GpiZhRlumBrfqD7r7azbrMsNDOi+hkJzPb+tyAaHmGgYI0S7UdwT0dCg=="/>
@@ -33,33 +56,13 @@
 <li>The Clear (×) button in the transcript search is now actually visible. Its icon was collapsing to zero width as a flex child (the button was there but drew nothing), so searches looked like they had a stray empty gap on the right. The counter stays pinned right beside it.</li>
 </ul>
 ]]></description>
-            <enclosure url="https://github.com/halinskiy/corder-updates/releases/download/v0.15.17/Corder-0.15.16.zip" length="8972900" type="application/octet-stream" sparkle:edSignature="dlVo4HLVDi9patbGLC0Uc7mP9OlhDKj/G7dOTtlreRuh469zlGPlNahfOGNXtuV2++G3SzDu3P24tTJMi/L8CA=="/>
+            <enclosure url="https://github.com/halinskiy/corder-updates/releases/download/v0.15.18/Corder-0.15.16.zip" length="8972900" type="application/octet-stream" sparkle:edSignature="dlVo4HLVDi9patbGLC0Uc7mP9OlhDKj/G7dOTtlreRuh469zlGPlNahfOGNXtuV2++G3SzDu3P24tTJMi/L8CA=="/>
             <sparkle:deltas>
                 <enclosure url="https://github.com/halinskiy/corder-updates/releases/download/v0.15.16/Corder177-176.delta" sparkle:deltaFrom="176" length="28818" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="b5ZS0cSXurXUVgg2oMOMkYbAicuCf8bg3A4NdTF2nU8znMSz1N1BoRuKeXDybiSwBvnusk06wjQm2m31UxjtAA=="/>
                 <enclosure url="https://github.com/halinskiy/corder-updates/releases/download/v0.15.16/Corder177-175.delta" sparkle:deltaFrom="175" length="110402" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="MO/gAhfRV1N6PhrIDo/Wp+ewsv59BpI7ARvj2RwFIXMi39HDYwLDw3U4LbkVytNRCTz8CzatlJUdB6JVnW2CCw=="/>
                 <enclosure url="https://github.com/halinskiy/corder-updates/releases/download/v0.15.16/Corder177-174.delta" sparkle:deltaFrom="174" length="108698" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="UQjDN7SRjqIfGQg9da3u0RUyFS98jg0UYervVRfpuXpAaVNkPyKxqDE2IUxVlMShlMcbi1lwI6PWVzFIO/KvAQ=="/>
                 <enclosure url="https://github.com/halinskiy/corder-updates/releases/download/v0.15.16/Corder177-173.delta" sparkle:deltaFrom="173" length="737514" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="1V1VxWxPcld5fMe0Rf1+FxVafAmWLMDu3f2ajInyxeXPKxa9K0mVxcsqv0Nlu/hcUF+q7hbRfdVWH4vVvsL1Bw=="/>
                 <enclosure url="https://github.com/halinskiy/corder-updates/releases/download/v0.15.16/Corder177-172.delta" sparkle:deltaFrom="172" length="785158" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="dfhaephZqWsRZEPCpBkpCbviooCeBSDcIePoO1SGil7qYdkSlikOel4u4GL2vQ2V9IlAessMZynM5RyynUPHAQ=="/>
-            </sparkle:deltas>
-        </item>
-        <item>
-            <title>0.15.15</title>
-            <pubDate>Thu, 02 Jul 2026 14:15:04 +0100</pubDate>
-            <sparkle:version>176</sparkle:version>
-            <sparkle:shortVersionString>0.15.15</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>14.2</sparkle:minimumSystemVersion>
-            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <description><![CDATA[<ul>
-<li>The transcript search match counter no longer jumps around. It&#x27;s now pinned to the right of the field in a fixed-width, right-aligned box, so the digits stay put as the count changes (1/237 → 1/3 → 0/0). A Clear (×) button is back too — sits right beside the counter. Prev/next now happen with Enter and Shift+Enter (no more chevrons crowding the field).</li>
-</ul>
-]]></description>
-            <enclosure url="https://github.com/halinskiy/corder-updates/releases/download/v0.15.17/Corder-0.15.15.zip" length="8972851" type="application/octet-stream" sparkle:edSignature="Ih3ucX56ahlxwz9Glvs3pQlTst2Hhyr3fNg4VkM82/4tNbMqIjN7wkhDvC3QSVhQ8fQ+x5qPzJEEqAs/b+yCBw=="/>
-            <sparkle:deltas>
-                <enclosure url="https://github.com/halinskiy/corder-updates/releases/download/v0.15.15/Corder176-175.delta" sparkle:deltaFrom="175" length="109854" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="xtek/PbE/h6TOnQG2qOlWMEU4t3UHNuD1TNKKOvTKA3LO7o5YASewddHGehCgTpmsoMSWgPCmJgkvxZYDKF0Bw=="/>
-                <enclosure url="https://github.com/halinskiy/corder-updates/releases/download/v0.15.15/Corder176-174.delta" sparkle:deltaFrom="174" length="109322" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="MfsHRrVZLPDA11jWq4iOhhIyc66gq9EUH7Slq+Eyn6DUK9T80Hb3caqLgSNIAFi5NG43tqyRfkPS7FWSrmdPBw=="/>
-                <enclosure url="https://github.com/halinskiy/corder-updates/releases/download/v0.15.15/Corder176-173.delta" sparkle:deltaFrom="173" length="735946" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="Gp3gUO+V0Kq3zF5wxuHRVDMAx+sR0SS9Q01MO4eGg96jDnFabYfq0AHcoZw7OnlxfqEqcSKQHAwZe7HrINCcAA=="/>
-                <enclosure url="https://github.com/halinskiy/corder-updates/releases/download/v0.15.15/Corder176-172.delta" sparkle:deltaFrom="172" length="784330" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="2Oy3Oydl8ATCBb20LbjF5lzxc+TIKSJlwifMKS8kAWLTyyfP9LKpi+64R48uCogsLBwR59u8h8X1/zSkQyhaDQ=="/>
-                <enclosure url="https://github.com/halinskiy/corder-updates/releases/download/v0.15.15/Corder176-171.delta" sparkle:deltaFrom="171" length="779690" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="2sn9RJ564L09nFOpk/jTM7Y492K4uiqk5MOq0xu8RuNG/6C7nx3Sf5F5tUPlzd+kNZs6km45DO3GUeqk+KBFDQ=="/>
             </sparkle:deltas>
         </item>
     </channel>
