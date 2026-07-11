@@ -3,6 +3,27 @@
     <channel>
         <title>Corder</title>
         <item>
+            <title>0.15.40</title>
+            <pubDate>Sat, 11 Jul 2026 19:30:32 +0100</pubDate>
+            <sparkle:version>201</sparkle:version>
+            <sparkle:shortVersionString>0.15.40</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.2</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description><![CDATA[<ul>
+<li>Downloaded files (audio, transcript, bundle) are now named after the meeting title, e.g. &quot;Вакансия и процесс найма.m4a&quot;, instead of the internal recording ID. Titles with non-ASCII characters (Cyrillic and others) are preserved.</li>
+<li>The Library window could get stuck permanently blank (white) if its content failed to load at launch — e.g. when the Mac was briefly busy. Corder now retries longer, with backoff, and reloads automatically the moment you bring the window back into focus, so a one-off startup hiccup can no longer strand the window blank until a relaunch.</li>
+</ul>
+]]></description>
+            <enclosure url="https://github.com/halinskiy/corder-updates/releases/download/v0.15.40/Corder-0.15.40.zip" length="9012100" type="application/octet-stream" sparkle:edSignature="opaXbO0wW5a6GkwCM5rbyLnws5IiioCdD4XmDa/ePMW01mBWUpi/rF9hBjeDpMr0aV5f4qLdhWBRfdurtHU9CQ=="/>
+            <sparkle:deltas>
+                <enclosure url="https://github.com/halinskiy/corder-updates/releases/download/v0.15.40/Corder201-200.delta" sparkle:deltaFrom="200" length="717242" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="VXJlQey3SXgS8pHCRmSh4PMUvA3+wQ+YE4Xw0WYBdp6EehLIiP1iVeNoWUxDcb+O8YGVYOQkHZRpsOpLYVbTBA=="/>
+                <enclosure url="https://github.com/halinskiy/corder-updates/releases/download/v0.15.40/Corder201-199.delta" sparkle:deltaFrom="199" length="936974" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="RQersNH8j9yt0X5tgTm5YxOLO0Z+hAn97mBYYsbkP0oYTxuRLsEaqhlqs9QXrmS7l3ob/letpe/+WFLp05JIDg=="/>
+                <enclosure url="https://github.com/halinskiy/corder-updates/releases/download/v0.15.40/Corder201-198.delta" sparkle:deltaFrom="198" length="962262" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="yqg6l/ibvUAlunE/hhmeUw+CHGryVtYBaLf08yl+gIbaskDzjOXFbUNUuCoIlkRzvrsNecTjDIndCrwqEHFxCw=="/>
+                <enclosure url="https://github.com/halinskiy/corder-updates/releases/download/v0.15.40/Corder201-197.delta" sparkle:deltaFrom="197" length="956134" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="IRnppa0vcxLL+HEJpVvUpgGiXKV61U3rY7ltQkxMc6NZ91f7n+yDPu0i5F/KfmZ+RAFibfW809rY8ZNzpcdvBA=="/>
+                <enclosure url="https://github.com/halinskiy/corder-updates/releases/download/v0.15.40/Corder201-196.delta" sparkle:deltaFrom="196" length="970162" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="ZcP4QkbzJmNC7FtdsfGjlS5Rj2m/lmxjR2Kbd9GwZoGcG+0uv8noNG30j3bFN0nhZsf57WvfiqzFeago3dQlBQ=="/>
+            </sparkle:deltas>
+        </item>
+        <item>
             <title>0.15.39</title>
             <pubDate>Fri, 10 Jul 2026 21:03:41 +0100</pubDate>
             <sparkle:version>200</sparkle:version>
@@ -13,7 +34,7 @@
 <li>Calls no longer come back with half the transcript translated into English. Each track&#x27;s language is detected from the speech itself and pinned for the whole call, so a quiet or Bluetooth-routed other side stays in the language it was actually spoken in instead of being silently translated.</li>
 </ul>
 ]]></description>
-            <enclosure url="https://github.com/halinskiy/corder-updates/releases/download/v0.15.39/Corder-0.15.39.zip" length="9010109" type="application/octet-stream" sparkle:edSignature="Zc0k2WrnBJxbw2QS5GtZKMa4CbTQxHQkxET+Dscy8NI4+JMQyUN7U5OnLsOsnkc0SmdUbfhRcAll/3h8CxHJCg=="/>
+            <enclosure url="https://github.com/halinskiy/corder-updates/releases/download/v0.15.40/Corder-0.15.39.zip" length="9010109" type="application/octet-stream" sparkle:edSignature="Zc0k2WrnBJxbw2QS5GtZKMa4CbTQxHQkxET+Dscy8NI4+JMQyUN7U5OnLsOsnkc0SmdUbfhRcAll/3h8CxHJCg=="/>
             <sparkle:deltas>
                 <enclosure url="https://github.com/halinskiy/corder-updates/releases/download/v0.15.39/Corder200-199.delta" sparkle:deltaFrom="199" length="873778" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="7wDGfgGbRL8pD0MpfRiCmxNDxZI4wgAVMdmrE44RiHsWNf0QgdiCW1fYQ2rNAwyzY9xxYFyjYpcLplHP950jAA=="/>
                 <enclosure url="https://github.com/halinskiy/corder-updates/releases/download/v0.15.39/Corder200-198.delta" sparkle:deltaFrom="198" length="912510" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="rGDCdxxN7uCpAXoftacl0rP29FrgSjcIQcEVWMoufLqwfKxuZNi6B2NUzhLxZ6Y2oALJKqXKliurhaKxxj43Ag=="/>
@@ -33,33 +54,13 @@
 <li>**Critical: signing in no longer deletes the audio of recordings you made while signed out.** The sign-in migration moved recording folders by their old id-based name, so it missed the human-readable &quot;&lt;date&gt; &lt;title&gt;&quot; folders (added in 0.15.29), never moved them, and then cleared the guest bucket — deleting the audio. It now moves folders by their real name, re-bases the stored paths onto your account, and **never deletes a recording folder it did not successfully move**. Transcripts were unaffected; only already-lost audio can&#x27;t be recovered.</li>
 </ul>
 ]]></description>
-            <enclosure url="https://github.com/halinskiy/corder-updates/releases/download/v0.15.39/Corder-0.15.38.zip" length="8994595" type="application/octet-stream" sparkle:edSignature="OH90h6LwGwvvxTqRhR04KkV6jFG9Wzi3tE+L6UhXFVZlHsdxd2ErPBYgBI1zTXKKc+njBVHbNN+NQLUM5bOwCw=="/>
+            <enclosure url="https://github.com/halinskiy/corder-updates/releases/download/v0.15.40/Corder-0.15.38.zip" length="8994595" type="application/octet-stream" sparkle:edSignature="OH90h6LwGwvvxTqRhR04KkV6jFG9Wzi3tE+L6UhXFVZlHsdxd2ErPBYgBI1zTXKKc+njBVHbNN+NQLUM5bOwCw=="/>
             <sparkle:deltas>
                 <enclosure url="https://github.com/halinskiy/corder-updates/releases/download/v0.15.38/Corder199-198.delta" sparkle:deltaFrom="198" length="542606" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="LKU3pB2RFQYwb27wqD9YaFh7iRNm+1wqgzfVVN5Tw7HKPZuWAoog1gmhaOlp1o2ZvswY+wD1URuA+Y1uyPyXDw=="/>
                 <enclosure url="https://github.com/halinskiy/corder-updates/releases/download/v0.15.38/Corder199-197.delta" sparkle:deltaFrom="197" length="539810" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="3blr+Fxjq/Kh6q55jab0NcUqsUy+rWcmdV68CxaMjaC/Rx0Jtl6ZNiLXZ0ToBnDuP0pfcJuil/rCFMdHPCQ/AA=="/>
                 <enclosure url="https://github.com/halinskiy/corder-updates/releases/download/v0.15.38/Corder199-196.delta" sparkle:deltaFrom="196" length="557030" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="PinFll16Ol2q+YhAeIv2dkGcwFtFryeX5Z+8J5c7RX17vZ6fjGfaV7KWz1NCs1wAIByyzzRjDb/b7semv3+hBA=="/>
                 <enclosure url="https://github.com/halinskiy/corder-updates/releases/download/v0.15.38/Corder199-195.delta" sparkle:deltaFrom="195" length="640758" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="KbVatrrU1o/gYA136HRWplZy1gy7wenKWc6kaH9ynCXAV1ftkapOXGOnGg67Y1jIZxefzyWusVvIxKTmpo28DA=="/>
                 <enclosure url="https://github.com/halinskiy/corder-updates/releases/download/v0.15.38/Corder199-194.delta" sparkle:deltaFrom="194" length="640462" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="uWE7u+TzxSOxOPTBTC2jwBmcEdxwiggu6KxUhDaIxpqYnnTcxAsdJJjMlzBQJx4k/EHMIYpoDqO1EAQpbj8TAg=="/>
-            </sparkle:deltas>
-        </item>
-        <item>
-            <title>0.15.37</title>
-            <pubDate>Wed, 08 Jul 2026 13:04:22 +0100</pubDate>
-            <sparkle:version>198</sparkle:version>
-            <sparkle:shortVersionString>0.15.37</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>14.2</sparkle:minimumSystemVersion>
-            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <description><![CDATA[<ul>
-<li>Your own replies no longer go missing or land at the wrong time in the transcript. Corder re-derived the timing of your microphone track and could lay a real phrase onto a silent stretch, where an anti-bleed filter then deleted it. Your track now keeps the transcriber&#x27;s own (reliable) timing, so short replies stay put and stop disappearing. Verified on a real call: a dropped question came back at the right spot and ~40 more of the speaker&#x27;s turns were preserved.</li>
-</ul>
-]]></description>
-            <enclosure url="https://github.com/halinskiy/corder-updates/releases/download/v0.15.39/Corder-0.15.37.zip" length="8992591" type="application/octet-stream" sparkle:edSignature="BrIhpdaoHYGPvVaFWhD2lL7Wy9p2YmVPX8VpCB1fh2vGh4DDYsGMI0vGRq0SRuiSdukrHVtGt2FXl7Y3P3WmDg=="/>
-            <sparkle:deltas>
-                <enclosure url="https://github.com/halinskiy/corder-updates/releases/download/v0.15.37/Corder198-197.delta" sparkle:deltaFrom="197" length="326474" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="x2LrD5tkAeHEx7PvtMS2jjOMI0WsWAXuao4izIQ74314grAC5Bl/1Oe5fe16sOsqe9nuafdMcPTL4fJukyKDAw=="/>
-                <enclosure url="https://github.com/halinskiy/corder-updates/releases/download/v0.15.37/Corder198-196.delta" sparkle:deltaFrom="196" length="393066" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="dSgNN4jOqzhJZhISR+MK9d5RUj4brlBIZZozomUgog8xNCnpUJ3Gn7Oy6Z+XzO0i5LIWnYBblyxvfqH2kG8eDg=="/>
-                <enclosure url="https://github.com/halinskiy/corder-updates/releases/download/v0.15.37/Corder198-195.delta" sparkle:deltaFrom="195" length="476358" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="eNgiq2SkQj271sfHKioX3V0PtUXg8N+ukmB48El+q5aAuaJ163eGEkVGKvq/qv1uiif2+rsQThHvc92O9BUXDg=="/>
-                <enclosure url="https://github.com/halinskiy/corder-updates/releases/download/v0.15.37/Corder198-194.delta" sparkle:deltaFrom="194" length="474734" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="xHaQdeWNlDFKkm3wrIYcuFE43ajJ/Kx5pANcxRRP7BxohcbTwmkh4H5/IoHoF438exKLTZ20R5TzCyXRyxvcCw=="/>
-                <enclosure url="https://github.com/halinskiy/corder-updates/releases/download/v0.15.37/Corder198-193.delta" sparkle:deltaFrom="193" length="480622" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="qlXawQn/QbQCQe7dLVnm9CAwDPAqhKJMhwXFs+4qNN3ZYSeRKv51zA2eKjETFcoZqk3uVcRXVp7FEy02wgheBw=="/>
             </sparkle:deltas>
         </item>
     </channel>
