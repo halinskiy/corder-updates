@@ -3,6 +3,26 @@
     <channel>
         <title>Corder</title>
         <item>
+            <title>0.15.58</title>
+            <pubDate>Tue, 11 Aug 2026 12:26:55 +0100</pubDate>
+            <sparkle:version>219</sparkle:version>
+            <sparkle:shortVersionString>0.15.58</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.2</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description><![CDATA[<ul>
+<li>Meeting titles drifting into English. A Russian call could come back titled &quot;Interface issues and game setup&quot; while every other recording was named in its own language. Titles are now generated in the language the recording was actually spoken in, and a title that comes back in the wrong writing system is regenerated before it is saved. Rename a recording by hand, or clear its name to have a new one generated.</li>
+</ul>
+]]></description>
+            <enclosure url="https://github.com/halinskiy/corder-updates/releases/download/v0.15.58/Corder-0.15.58.zip" length="9001480" type="application/octet-stream" sparkle:edSignature="lPt3Q71rkMUFUJ+TZl62JlQqJmQDuRUtgvV2Sv4tTOGwrqlOhBZYXh8k7d2fSIo/vkoTZIccvNcoOV5yt1pPDg=="/>
+            <sparkle:deltas>
+                <enclosure url="https://github.com/halinskiy/corder-updates/releases/download/v0.15.58/Corder219-218.delta" sparkle:deltaFrom="218" length="728822" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="9ME2t4Vk7IteSgLWJzK1Co6pGuh5RB0MnuEw7BO0PN1F3XknKX2X2hXFiMwrBbTRWaJ9Ouw508YQAG9szc1qDQ=="/>
+                <enclosure url="https://github.com/halinskiy/corder-updates/releases/download/v0.15.58/Corder219-217.delta" sparkle:deltaFrom="217" length="761238" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="SRmR3pDaanZWV9Ujxl+/adCMWftsjtjnqPS8KAg/x2RtzwbGbvB2dNZqaLRmb8bZ/qQYcyI7KNYf7eBMY/r8CQ=="/>
+                <enclosure url="https://github.com/halinskiy/corder-updates/releases/download/v0.15.58/Corder219-216.delta" sparkle:deltaFrom="216" length="879850" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="hAq3R3N5w1sz4YkZpqUeNeLfszNalJLWc7n+fWZ6xi9Q6ZHVh12tgOagFdEmESOYsyqTcyyrYzVa1nm7yV62DQ=="/>
+                <enclosure url="https://github.com/halinskiy/corder-updates/releases/download/v0.15.58/Corder219-215.delta" sparkle:deltaFrom="215" length="871334" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="w8JOY06qQ55LW3d/l0tGd6/fPjB4yaDazkyr0KGiPz5ZCF4Gf/DDiJoebW3oIoFZ8YcHt9nMy+NlKZB+G1FOBA=="/>
+                <enclosure url="https://github.com/halinskiy/corder-updates/releases/download/v0.15.58/Corder219-214.delta" sparkle:deltaFrom="214" length="872806" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="oA+TlyqqFhml9EV48fpDl3YcJlkhtuEUIdcbkFNGQVY9kmCUw/sXhHxRlhuTS6pIYooYg2/1p+uWlSKi3Jm9AQ=="/>
+            </sparkle:deltas>
+        </item>
+        <item>
             <title>0.15.57</title>
             <pubDate>Wed, 05 Aug 2026 18:24:05 +0100</pubDate>
             <sparkle:version>218</sparkle:version>
@@ -13,7 +33,7 @@
 <li>Missing stretches of real speech in transcripts. The speech model occasionally skips a passage mid-recording (10+ seconds of audible talk coming back empty, more likely on fast or mumbled speech). Corder now detects stretches where your voice is clearly present but no text came back, and re-transcribes just those spots with a focused second pass. On the reported recording this restored 3 skipped passages, about 23 seconds of speech. Re-transcribe an affected recording to apply.</li>
 </ul>
 ]]></description>
-            <enclosure url="https://github.com/halinskiy/corder-updates/releases/download/v0.15.57/Corder-0.15.57.zip" length="8997478" type="application/octet-stream" sparkle:edSignature="JIbqKIpUxP7Ifzvan18LLwaPxvhqrjKi3dEc2UeY2TM98gDqI+9JV28ZW9ks4Gx03g001y/6zvyWJeAYIof8AQ=="/>
+            <enclosure url="https://github.com/halinskiy/corder-updates/releases/download/v0.15.58/Corder-0.15.57.zip" length="8997478" type="application/octet-stream" sparkle:edSignature="JIbqKIpUxP7Ifzvan18LLwaPxvhqrjKi3dEc2UeY2TM98gDqI+9JV28ZW9ks4Gx03g001y/6zvyWJeAYIof8AQ=="/>
             <sparkle:deltas>
                 <enclosure url="https://github.com/halinskiy/corder-updates/releases/download/v0.15.57/Corder218-217.delta" sparkle:deltaFrom="217" length="604082" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="Ebmrq1o2BhrOdq1v3yigk69ghCdCP7dWI/ls/YHmL3QdJpgSzkd4ss7dL9FqsaSW4rcch+8sHla7VRKniWSuBQ=="/>
                 <enclosure url="https://github.com/halinskiy/corder-updates/releases/download/v0.15.57/Corder218-216.delta" sparkle:deltaFrom="216" length="759050" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="q7wB7l7aiN/J4hgKRu7CHOHFBds40wc4B6/HTDphrx4z8FclLMxOM3k6DJ/FwvBwnQIIOu8QnBx+ig0XOiM4BA=="/>
@@ -34,33 +54,13 @@
 <li>Transcript chronology on quiet microphone tracks, properly this time. Your phrases are now verified against which channel actually carries the voice at that moment (your mic vs the other side), so a phrase can no longer appear before a question it answers or in the middle of the other person&#x27;s monologue. On the reported recording this corrected 38 of 72 placements, including the very first exchange. Re-transcribe an affected recording to apply.</li>
 </ul>
 ]]></description>
-            <enclosure url="https://github.com/halinskiy/corder-updates/releases/download/v0.15.57/Corder-0.15.56.zip" length="8986795" type="application/octet-stream" sparkle:edSignature="M1Cj7KBaeQY3pofktrbAvRBgbc7hIKIGRT0D/rOKsvDPqzoyNSY9XRnVKtlrV0mr41XOXUhWPsrvVflmH1SOBg=="/>
+            <enclosure url="https://github.com/halinskiy/corder-updates/releases/download/v0.15.58/Corder-0.15.56.zip" length="8986795" type="application/octet-stream" sparkle:edSignature="M1Cj7KBaeQY3pofktrbAvRBgbc7hIKIGRT0D/rOKsvDPqzoyNSY9XRnVKtlrV0mr41XOXUhWPsrvVflmH1SOBg=="/>
             <sparkle:deltas>
                 <enclosure url="https://github.com/halinskiy/corder-updates/releases/download/v0.15.56/Corder217-216.delta" sparkle:deltaFrom="216" length="645978" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="wE6p3Mphek0xpVpJhMJHgJq8gaqb57XPi2eMYfZUZqhGnUrwnvwyy4YUGoS9qfmzJ2RspepgrQTrdMiZYTYtDQ=="/>
                 <enclosure url="https://github.com/halinskiy/corder-updates/releases/download/v0.15.56/Corder217-215.delta" sparkle:deltaFrom="215" length="583094" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="O/OhHbJxBqes8hJKhdlNNl2iVGGLBVrkwROrYe2Upw5EoMjOW/lbXrZ6tevz2Pxb8xIlSnLDaL2plsZxx+pEDg=="/>
                 <enclosure url="https://github.com/halinskiy/corder-updates/releases/download/v0.15.56/Corder217-214.delta" sparkle:deltaFrom="214" length="590942" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="nC7xtmYr69QuiUBRGUi+jz4kcgHGfJwcEJzgGFwPcS6TVxk6NLVSvBH/PDQzXtFVrcIvQK8+oMPxeeV0ciTuAg=="/>
                 <enclosure url="https://github.com/halinskiy/corder-updates/releases/download/v0.15.56/Corder217-213.delta" sparkle:deltaFrom="213" length="592582" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="FH7wbpuszaJghyo0upn/2VU2z+QIyjoDfZm3VQcpCWDdvNe0yw3/N2jHa6jLXREHvRwY3FCJO1RHlakM5yotBg=="/>
                 <enclosure url="https://github.com/halinskiy/corder-updates/releases/download/v0.15.56/Corder217-212.delta" sparkle:deltaFrom="212" length="591506" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="xF/4UjYQV63Pntf7k5qCsXaRiVXznLKmWRSOuBH719EvU6zIotBxgQ48UNNMy7eicD4B7Gmz54lwwN5k91CrBA=="/>
-            </sparkle:deltas>
-        </item>
-        <item>
-            <title>0.15.55</title>
-            <pubDate>Wed, 05 Aug 2026 17:26:38 +0100</pubDate>
-            <sparkle:version>216</sparkle:version>
-            <sparkle:shortVersionString>0.15.55</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>14.2</sparkle:minimumSystemVersion>
-            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <description><![CDATA[<ul>
-<li>Transcript chronology on quiet microphone tracks. When your mic mostly listened, some of your phrases could land at the wrong point of the timeline and interleave incorrectly with the other speaker. Your turns are now anchored to the moments your mic actually picked up speech, so the merged transcript follows the real order of the conversation. Re-transcribe an affected recording to apply.</li>
-</ul>
-]]></description>
-            <enclosure url="https://github.com/halinskiy/corder-updates/releases/download/v0.15.57/Corder-0.15.55.zip" length="8984705" type="application/octet-stream" sparkle:edSignature="TMfxe/Qh+78/6AVPI1fZMB4yIyHAlJz09Vqdov9RYZX0xzfIFJV42dey0RHevI1EBNN3ON09KAHBEp8rIp1xCg=="/>
-            <sparkle:deltas>
-                <enclosure url="https://github.com/halinskiy/corder-updates/releases/download/v0.15.55/Corder216-215.delta" sparkle:deltaFrom="215" length="421690" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="h01+f1RDNEbPjrCKu4nr1qrcgRdMHwfMQaXBJahUO/48Nj5dwznUIzZKyg1v5KjjqK25udYmT/BSF2BS4mHqCg=="/>
-                <enclosure url="https://github.com/halinskiy/corder-updates/releases/download/v0.15.55/Corder216-214.delta" sparkle:deltaFrom="214" length="550582" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="/bYQQ0C1lF1Aa2/ywDSA9DqBlzdMtE5YCmEek17NzK12Rh93hOwu6nlQIkHTkrazZ+1Ig+HxfivK16xpUoCYDQ=="/>
-                <enclosure url="https://github.com/halinskiy/corder-updates/releases/download/v0.15.55/Corder216-213.delta" sparkle:deltaFrom="213" length="634174" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="AWiiyoAyeZjm6+9fMSSroJP8kZv+e0rHWZSAMfDIbAZKRX94XPJdkrml+GlbRxnta/FbgYvu3QM9LBZL5fGpBA=="/>
-                <enclosure url="https://github.com/halinskiy/corder-updates/releases/download/v0.15.55/Corder216-212.delta" sparkle:deltaFrom="212" length="634210" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="VD/F2d5KTIwYPpGdpkxiB9znFx7Qt9e0N+/NJ3vRj5IsB9RS4clN7XTY90oKSbd2BZn4kxk0Mv4rPW0JAYMgCg=="/>
-                <enclosure url="https://github.com/halinskiy/corder-updates/releases/download/v0.15.55/Corder216-211.delta" sparkle:deltaFrom="211" length="743962" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="lK+WTbVXH/3x+feb6szhipkTGtyu527oeNqP7lj+MfJL9c7sDJC6uUs236gHFOh3yd7JDWI6g9WkcsIzH54/BQ=="/>
             </sparkle:deltas>
         </item>
     </channel>
