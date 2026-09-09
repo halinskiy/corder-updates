@@ -3,6 +3,25 @@
     <channel>
         <title>Corder</title>
         <item>
+            <title>0.15.70</title>
+            <pubDate>Wed, 09 Sep 2026 16:52:27 +0100</pubDate>
+            <sparkle:version>231</sparkle:version>
+            <sparkle:shortVersionString>0.15.70</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.2</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description><![CDATA[<ul>
+<li>In-person recordings no longer come back half-translated into English. The language guard that catches Whisper mishearing a few chunks as English (and translating them instead of transcribing) only protected calls; a meeting recorded in one room on the microphone had no guard at all. The same majority-language check and forced re-pass now cover in-person recordings, and the text cleanup pass is told the detected language instead of assuming English.</li>
+</ul>
+]]></description>
+            <enclosure url="https://github.com/halinskiy/corder-updates/releases/download/v0.15.70/Corder-0.15.70.zip" length="9092142" type="application/octet-stream" sparkle:edSignature="mIeB96RN8cNRgOlkasvBZg2xoIQNSm/4LNZ1Ls9UiZjrGf6b3AjgCF6URnyzi29N0JVvnF52fWGICBvqw1vtDA=="/>
+            <sparkle:deltas>
+                <enclosure url="https://github.com/halinskiy/corder-updates/releases/download/v0.15.70/Corder231-230.delta" sparkle:deltaFrom="230" length="668258" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="k29JzON9qvqG6Zk068hLPf2KABm/xykBrqphEZBchqfOdp8NbkV0sc33mP3mVQBwybrLP26JnkBbNvnORLqODA=="/>
+                <enclosure url="https://github.com/halinskiy/corder-updates/releases/download/v0.15.70/Corder231-229.delta" sparkle:deltaFrom="229" length="653518" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="3db25LCqez9bj1dBU6E4OY64nDLvPrbDUnXYE61WPC1ihTmhSpD+GtFu32LyACbvn1lRq1e70jybb++S7FUADA=="/>
+                <enclosure url="https://github.com/halinskiy/corder-updates/releases/download/v0.15.70/Corder231-228.delta" sparkle:deltaFrom="228" length="646398" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="Voy4929mJB3F0mhjUiO8voqc1SaepT42a7xutyEqFHocTpClK4W6a/U64aNN4jfqYBzX53XsLtKBeps7tJr4Dw=="/>
+                <enclosure url="https://github.com/halinskiy/corder-updates/releases/download/v0.15.70/Corder231-227.delta" sparkle:deltaFrom="227" length="938678" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="9pa028yhnJboyYL5BmiuvqruVprXm24pI/wCFW4k3xr1THx4LE1WmG/sZcwBjbiEv5l0pxc679DwjmkiuVp+Dw=="/>
+            </sparkle:deltas>
+        </item>
+        <item>
             <title>0.15.69</title>
             <pubDate>Tue, 08 Sep 2026 12:34:47 +0100</pubDate>
             <sparkle:version>230</sparkle:version>
@@ -13,7 +32,7 @@
 <li>Recording an in-person meeting no longer shows the false &quot;Other side not recorded&quot; warning. That warning is about losing the other side of a call; it now appears only when a call is actually happening (Bluetooth route or a call app using the microphone), never when you are just recording the room.</li>
 </ul>
 ]]></description>
-            <enclosure url="https://github.com/halinskiy/corder-updates/releases/download/v0.15.69/Corder-0.15.69.zip" length="9090834" type="application/octet-stream" sparkle:edSignature="2L4nUfmaWaVW/IOKNy3HHgNXcxUyDsS8pS198mhYQ5jh87D5yOgIXtz88TVHAYOQ2fKjGfKVufTqFwXY8TOGCg=="/>
+            <enclosure url="https://github.com/halinskiy/corder-updates/releases/download/v0.15.70/Corder-0.15.69.zip" length="9090834" type="application/octet-stream" sparkle:edSignature="2L4nUfmaWaVW/IOKNy3HHgNXcxUyDsS8pS198mhYQ5jh87D5yOgIXtz88TVHAYOQ2fKjGfKVufTqFwXY8TOGCg=="/>
             <sparkle:deltas>
                 <enclosure url="https://github.com/halinskiy/corder-updates/releases/download/v0.15.69/Corder230-229.delta" sparkle:deltaFrom="229" length="393078" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="+asaeRjuP5Avl97tZ7BBglKTVRXYRAIgiXILjlffQih60AcxQTSNwZRvuI+ieXMxfOgU0JLsbqc87FWxZMpTCw=="/>
                 <enclosure url="https://github.com/halinskiy/corder-updates/releases/download/v0.15.69/Corder230-228.delta" sparkle:deltaFrom="228" length="584238" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="B2jV3p8UngOr1t3hw8HzFVQ+Q325XWNnBKxO6vYTi+jJ7afYh08B0GsXjTV2Z2hSIDXEPMtXx8uXbmo7zK7KBg=="/>
@@ -31,32 +50,11 @@
 <li>Sharing a link now works on the first try after the app has been open for a while. The sign-in token could quietly expire, the first Share attempt failed (or shared without audio), and only a retry went through. The token is refreshed before every share, cloud transcription and summary call now.</li>
 </ul>
 ]]></description>
-            <enclosure url="https://github.com/halinskiy/corder-updates/releases/download/v0.15.69/Corder-0.15.68.zip" length="9089839" type="application/octet-stream" sparkle:edSignature="R6SYndVaUrwc7L1D8HdU0/keARBPy9ovhPoVE22a47tLGYEYZ1DcNpTHXvQULVkpDKK4nrN5SZwl2iwFn12fCA=="/>
+            <enclosure url="https://github.com/halinskiy/corder-updates/releases/download/v0.15.70/Corder-0.15.68.zip" length="9089839" type="application/octet-stream" sparkle:edSignature="R6SYndVaUrwc7L1D8HdU0/keARBPy9ovhPoVE22a47tLGYEYZ1DcNpTHXvQULVkpDKK4nrN5SZwl2iwFn12fCA=="/>
             <sparkle:deltas>
                 <enclosure url="https://github.com/halinskiy/corder-updates/releases/download/v0.15.68/Corder229-228.delta" sparkle:deltaFrom="228" length="517142" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="4Ps7p/AoaV0kgMHMgZC6DDbZbGH3mlVT1t+yUD/Ilom/+iEhidCT6jLwcg0MIbq+ifffROQVGYiQKOyGOhRKBQ=="/>
                 <enclosure url="https://github.com/halinskiy/corder-updates/releases/download/v0.15.68/Corder229-227.delta" sparkle:deltaFrom="227" length="871970" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="BCHpubNgza9PsI2LbBT9hdOcobkCoYgUzHQcgKYzv3HitIYS9hl5qGQKBHMvSRMh1SWOM94v2eQqEdAbwg+ZCQ=="/>
                 <enclosure url="https://github.com/halinskiy/corder-updates/releases/download/v0.15.68/Corder229-226.delta" sparkle:deltaFrom="226" length="954722" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="2muvAaVD8G0Xx2C8fOPBJ1cfGAz0AdAPFpWI7Ym8AShsdMw3/cX7G2hLGE27+40KXW5zep/rtBntrzYjiU0UCg=="/>
-            </sparkle:deltas>
-        </item>
-        <item>
-            <title>0.15.67</title>
-            <pubDate>Mon, 31 Aug 2026 16:52:09 +0100</pubDate>
-            <sparkle:version>228</sparkle:version>
-            <sparkle:shortVersionString>0.15.67</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>14.2</sparkle:minimumSystemVersion>
-            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <description><![CDATA[<ul>
-<li>Playback no longer goes dead with Bluetooth headphones connected. The app was re-scanning audio devices on every settings poll, each scan could stall for seconds on the Bluetooth stack, and those stalls starved the player&#x27;s own connection: pressing Play did nothing. Device scans are now cached off the request path, so the app stays responsive.</li>
-<li>A stuck audio export can no longer hang its download forever: it is cancelled after a timeout instead of holding the connection.</li>
-<li>Pressing Play recovers itself: if the audio fails to load on the first try, the player reloads it and starts as soon as data arrives.</li>
-<li>The Copy button now shows that it worked: it flashes green with a drawn-in checkmark, alongside the usual toast. Same feedback on the Transcript, Summary and Chapters tabs.</li>
-</ul>
-]]></description>
-            <enclosure url="https://github.com/halinskiy/corder-updates/releases/download/v0.15.69/Corder-0.15.67.zip" length="9089972" type="application/octet-stream" sparkle:edSignature="cAojaN0Qg0gfGuoXSNgQlWh5ArwKYDWjKih/NXrrSdMBTVebsFqnelO53ZX4MgBwZYS6xiGV2epwZJSRgWu0Aw=="/>
-            <sparkle:deltas>
-                <enclosure url="https://github.com/halinskiy/corder-updates/releases/download/v0.15.67/Corder228-227.delta" sparkle:deltaFrom="227" length="777542" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="lPv0M3I93+vFZ3C5euiov1NcpxMdLhSv51VEPwHrvDyEe6CsKUjH+NOBpduj5FDo2UWece11umA/HA153V42CQ=="/>
-                <enclosure url="https://github.com/halinskiy/corder-updates/releases/download/v0.15.67/Corder228-226.delta" sparkle:deltaFrom="226" length="939046" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="TGemn/CjHNzMAwtsN2IVMYxRmrLqpUaofp7R66z+4tgeqmpZn78IeG6WFgWplDzPiAtFtjl4yUeyOveq+cxCCg=="/>
-                <enclosure url="https://github.com/halinskiy/corder-updates/releases/download/v0.15.67/Corder228-225.delta" sparkle:deltaFrom="225" length="1041914" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="GzWN4ReRb9pSXqXfYCOg3psh2DYavUKTrulRhv+GhB4+YiicJwryI1Mk/p664UTOAz0sZFjvZZfooqQ87t2QCw=="/>
             </sparkle:deltas>
         </item>
     </channel>
