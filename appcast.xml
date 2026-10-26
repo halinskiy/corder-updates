@@ -3,6 +3,29 @@
     <channel>
         <title>Corder</title>
         <item>
+            <title>0.15.102</title>
+            <pubDate>Mon, 26 Oct 2026 20:20:49 +0000</pubDate>
+            <sparkle:version>263</sparkle:version>
+            <sparkle:shortVersionString>0.15.102</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.2</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description><![CDATA[<ul>
+<li>The sidebar shows each recording&#x27;s date next to its length.</li>
+<li>Offline transcription shows only a download button and hides once the model is on this Mac.</li>
+<li>AI assistants keeps just the Copy command button.</li>
+<li>Removed the Summaries and diagnostics switches from Settings.</li>
+</ul>
+]]></description>
+            <enclosure url="https://github.com/halinskiy/corder-updates/releases/download/v0.15.102/Corder-0.15.102.zip" length="9419778" type="application/octet-stream" sparkle:edSignature="kQCydIYm+hxjXpsGRqezLaiUc0/qfVGnJKbJe26LiSVeAuz0a1+uN46v71Mas5G1LU+OxH1QA8RUsImJZ0mTBg=="/>
+            <sparkle:deltas>
+                <enclosure url="https://github.com/halinskiy/corder-updates/releases/download/v0.15.102/Corder263-262.delta" sparkle:deltaFrom="262" length="581670" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="IiDGH4rzTCY+ibpjFPuQqJFXdul70rqQQPQo8ISzMX1k3STq3vJmk6p58BYuRRykYHZgedFbw7IOlfklPmRoAw=="/>
+                <enclosure url="https://github.com/halinskiy/corder-updates/releases/download/v0.15.102/Corder263-261.delta" sparkle:deltaFrom="261" length="580226" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="8hNrO8dsmikUS5uiUk2rDRevemOiFkLCp9kBadQ9YboWQABQab90UMzLiyIC6CyqEs7/VLQ0P2NeFLX5ijj9BQ=="/>
+                <enclosure url="https://github.com/halinskiy/corder-updates/releases/download/v0.15.102/Corder263-260.delta" sparkle:deltaFrom="260" length="581514" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="TuVZssPylj/z0oHolYmsqbX/ix0qPytOA0LNq2PNShVzDBWML7ZpiWGC8IUKzBDgvBAl1xLybhSDBbSHu34VCw=="/>
+                <enclosure url="https://github.com/halinskiy/corder-updates/releases/download/v0.15.102/Corder263-259.delta" sparkle:deltaFrom="259" length="889838" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="23QKEpDhx4LdHCD2q0A5HJ2mxYNISJEK7+Nu0Z4kk2eqR/gsfa2CE4pZR0l93HEE1rtasjZlURKwX2YrQBhsBQ=="/>
+                <enclosure url="https://github.com/halinskiy/corder-updates/releases/download/v0.15.102/Corder263-258.delta" sparkle:deltaFrom="258" length="904754" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="RJwmxaOvF67CLcgyMuqBP379+ssQgJ75rf/WATMLcwxDNMiFGVS+DWDnO6tyMvBFaRzyMAz9TqtnbjIHQjqTDw=="/>
+            </sparkle:deltas>
+        </item>
+        <item>
             <title>0.15.101</title>
             <pubDate>Mon, 26 Oct 2026 19:58:52 +0000</pubDate>
             <sparkle:version>262</sparkle:version>
@@ -13,7 +36,7 @@
 <li>Settings descriptions rewritten in the same short style as the rest.</li>
 </ul>
 ]]></description>
-            <enclosure url="https://github.com/halinskiy/corder-updates/releases/download/v0.15.101/Corder-0.15.101.zip" length="9421114" type="application/octet-stream" sparkle:edSignature="QSYZgnBcq3GxYJRMqbidM4aFvD7EDS0iGCW5bfCUqjJwAdomsWVvSaff12GQ/YS5zIgWdXePcte8A98wZ5t0CQ=="/>
+            <enclosure url="https://github.com/halinskiy/corder-updates/releases/download/v0.15.102/Corder-0.15.101.zip" length="9421114" type="application/octet-stream" sparkle:edSignature="QSYZgnBcq3GxYJRMqbidM4aFvD7EDS0iGCW5bfCUqjJwAdomsWVvSaff12GQ/YS5zIgWdXePcte8A98wZ5t0CQ=="/>
             <sparkle:deltas>
                 <enclosure url="https://github.com/halinskiy/corder-updates/releases/download/v0.15.101/Corder262-261.delta" sparkle:deltaFrom="261" length="102582" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="yibOCNm2V7aMG46UD8QApiYVjXSteYhzI778vvSLriMzhkqJGm8bNob5s0FcIxqFm+1nw0Tz0hqdy7SLcSCYCw=="/>
                 <enclosure url="https://github.com/halinskiy/corder-updates/releases/download/v0.15.101/Corder262-260.delta" sparkle:deltaFrom="260" length="103122" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="0R1JA1DAmZ7sFTNulMHD4b4xHCqMaV1ky6w36OHGlFW3bOZOR5MaQJ/USCIUiMAvGpxhf0xRZ3ZCzZvQBhTfDw=="/>
@@ -33,35 +56,13 @@
 <li>Shorter descriptions in Settings.</li>
 </ul>
 ]]></description>
-            <enclosure url="https://github.com/halinskiy/corder-updates/releases/download/v0.15.101/Corder-0.15.100.zip" length="9421204" type="application/octet-stream" sparkle:edSignature="UUJRhw+siL0df4koYtf0lK9A/UX7aRt/NpuY7W1vzOR5htpB44sJIPweJzbDl+gFS6HleEVKqImJT0CgUlbRDg=="/>
+            <enclosure url="https://github.com/halinskiy/corder-updates/releases/download/v0.15.102/Corder-0.15.100.zip" length="9421204" type="application/octet-stream" sparkle:edSignature="UUJRhw+siL0df4koYtf0lK9A/UX7aRt/NpuY7W1vzOR5htpB44sJIPweJzbDl+gFS6HleEVKqImJT0CgUlbRDg=="/>
             <sparkle:deltas>
                 <enclosure url="https://github.com/halinskiy/corder-updates/releases/download/v0.15.100/Corder261-260.delta" sparkle:deltaFrom="260" length="103090" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="ylfBylfWbq3jJnLRnyGseEqMCYu96dyxbo9SpZ2BPLmotLR7bBi53RiL9wgjThefvQfmNPLJw7x+cu5RSiHKBg=="/>
                 <enclosure url="https://github.com/halinskiy/corder-updates/releases/download/v0.15.100/Corder261-259.delta" sparkle:deltaFrom="259" length="883262" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="MnAvzH1awPAWNMs8C2CslM8F0/FvFpVAQ8xkopnMai8dUISCPX/MNfTvvpU+UyNAKsfSMGIzFUGvxFQgnXZODQ=="/>
                 <enclosure url="https://github.com/halinskiy/corder-updates/releases/download/v0.15.100/Corder261-258.delta" sparkle:deltaFrom="258" length="897446" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="oMbsz063vVzsWepKvjaXFa8oas7nkCdjAbGA631tPVGbL0sIo3fxbqmroSP+uPy6462sg+74soTXqAU4yWwmDA=="/>
                 <enclosure url="https://github.com/halinskiy/corder-updates/releases/download/v0.15.100/Corder261-257.delta" sparkle:deltaFrom="257" length="894846" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="swJfjwEhZM9hRcH7XvBbeNyyVQhHQzX37937Z8U33w4phaYUcBlY/H/GjYYQoNP1sXmpqzlfLw/Zj/eyeufLDg=="/>
                 <enclosure url="https://github.com/halinskiy/corder-updates/releases/download/v0.15.100/Corder261-256.delta" sparkle:deltaFrom="256" length="1314354" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="frEYlfYGzNOvKnc1dAHH3MJ0lpVClQBxyoUz1VE5Re4gzAVTYw/sVkBvypiQZU8afH+zAWKLJBYNzeXxlpBRCA=="/>
-            </sparkle:deltas>
-        </item>
-        <item>
-            <title>0.15.99</title>
-            <pubDate>Mon, 26 Oct 2026 18:03:57 +0000</pubDate>
-            <sparkle:version>260</sparkle:version>
-            <sparkle:shortVersionString>0.15.99</sparkle:shortVersionString>
-            <sparkle:criticalUpdate/>
-            <sparkle:minimumSystemVersion>14.2</sparkle:minimumSystemVersion>
-            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <description><![CDATA[<ul>
-<li>Deleting a meeting now also deletes its copy in your account, even with Sync transcripts turned off. In Local only mode the deletion waits and runs when you turn Local only off.</li>
-<li>If news can&#x27;t be loaded, Corder waits longer between retries instead of trying every 30 minutes.</li>
-</ul>
-]]></description>
-            <enclosure url="https://github.com/halinskiy/corder-updates/releases/download/v0.15.101/Corder-0.15.99.zip" length="9421660" type="application/octet-stream" sparkle:edSignature="RbsQEVAqgsYJI1ySOQONnQNwJjsTX7biMn3/2ZcAcUuihCVCClhqStCbpwle7eFjzLPgaZ4vX1lKPPDjTGs4Bg=="/>
-            <sparkle:deltas>
-                <enclosure url="https://github.com/halinskiy/corder-updates/releases/download/v0.15.99/Corder260-259.delta" sparkle:deltaFrom="259" length="794802" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="gZMM3dCeadDgdgiT8/Rw+diNlo2urMCcbcz9EEYiO/yU6VJU6cOZAVIs8caTFoi4T0jrHAOn9EYyRg70W3CbCQ=="/>
-                <enclosure url="https://github.com/halinskiy/corder-updates/releases/download/v0.15.99/Corder260-258.delta" sparkle:deltaFrom="258" length="812922" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="gugwvFjYq7WCVWgTa5+ASuxOj8cTB4y/0o7M8sx2tVIKQW7bmd3ATSVMVBZmdC5j943AbeV/B8O61OaFgUQNDQ=="/>
-                <enclosure url="https://github.com/halinskiy/corder-updates/releases/download/v0.15.99/Corder260-257.delta" sparkle:deltaFrom="257" length="811786" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="BJifkdsIIVGTia5nk+ZTjsNVza9EtiixQ25ygnHy/vzp1F+OTxltCqddb6ibTXRaKyEQ7+f2FC2XiE6/Rk8bBg=="/>
-                <enclosure url="https://github.com/halinskiy/corder-updates/releases/download/v0.15.99/Corder260-256.delta" sparkle:deltaFrom="256" length="1315098" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="l5vVdqG+R4l8+B4Ogosc39JJiU35TRbNEAEn3mRt8YZTYyRKXcA1AptGwBHCuais5twV470eXQVjGlWBPkUDCA=="/>
-                <enclosure url="https://github.com/halinskiy/corder-updates/releases/download/v0.15.99/Corder260-255.delta" sparkle:deltaFrom="255" length="1370806" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="nWxQ/IYN66K241fPlyRAoNF86r94VXtGCx74VDUpsqlkwrfeFLpxYWcflZR0KbFBpqh63icC8DUeyZmYd9s5Dg=="/>
             </sparkle:deltas>
         </item>
     </channel>
